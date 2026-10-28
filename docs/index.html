@@ -70,11 +70,28 @@
       <p>Dapur itu menjadi gerakan saling jaga, diburu, terpecah, lalu menyebar sampai Sungai Barito. Seratus delapan orang yang dimasukkan rezim ke satu daftar buronan akhirnya bertemu pada 17 Agustus 2030, di IKN.</p>
       <p><a class="tautan-lanjut" href="dunia.html">Baca dunianya selengkapnya</a></p>
     </div>
-    <div>
-      <h3 style="margin-bottom:.4rem">Enam segmen, enam pintu masuk</h3>
-      <p class="redup" style="margin-bottom:0">Dari dapur umum sampai ruang rapat konglomerat.</p>
-      <ul class="chip-seg" id="chip-seg"></ul>
-    </div>
+    <figure class="segmen-api" style="margin:0">
+        <svg viewBox="0 0 900 640" role="img" aria-label="Enam segmen sebagai enam api di atas lantai bundar: Utama di tengah, dikelilingi Adat, Militer, Birokrat, Akademisi, dan Bisnis, saling terhubung.">
+          <defs>
+            <radialGradient id="g-api"><stop offset="0" stop-color="currentColor" stop-opacity=".45"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></radialGradient>
+            <radialGradient id="g-lantai" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3A2518"/><stop offset="1" stop-color="#17110D"/></radialGradient>
+            <g id="api">
+              <ellipse cx="0" cy="4" rx="26" ry="9" fill="#0E0907"/><ellipse cx="0" cy="2" rx="20" ry="6" fill="#2A1F18"/>
+              <path d="M0 0C-17 -8 -19 -36 0 -72C19 -36 17 -8 0 0Z" fill="currentColor"/>
+              <path d="M0 -2C-8 -8 -9 -24 0 -44C9 -24 8 -8 0 -2Z" fill="#FFF1C9" opacity=".85"/>
+            </g>
+          </defs>
+          <rect width="900" height="640" rx="14" fill="#120C09"/>
+          <ellipse cx="450" cy="350" rx="400" ry="262" fill="url(#g-lantai)"/>
+          <g fill="none" stroke="#ECE5D8" stroke-opacity=".16">
+            <ellipse cx="450" cy="350" rx="400" ry="262"/><ellipse cx="450" cy="330" rx="300" ry="190" stroke-dasharray="3 9"/>
+          </g>
+          <g stroke="#F0B43C" stroke-opacity=".28" stroke-width="1.5"><line x1="450" y1="140" x2="626" y2="484"/><line x1="735" y1="271" x2="274" y2="484"/><line x1="626" y1="484" x2="165" y2="271"/><line x1="274" y1="484" x2="450" y2="140"/><line x1="165" y1="271" x2="735" y2="271"/></g>
+          <g stroke="#F0B43C" stroke-opacity=".55" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"><line x1="450" y1="330" x2="450" y2="140"/><line x1="450" y1="330" x2="735" y2="271"/><line x1="450" y1="330" x2="626" y2="484"/><line x1="450" y1="330" x2="274" y2="484"/><line x1="450" y1="330" x2="165" y2="271"/></g>
+          <circle cx="450" cy="110" r="130" fill="url(#g-api)" style="color:#7DB678"/><g transform="translate(450 140) scale(1.45)" style="color:#7DB678"><use href="#api" class="kedip"/></g><text x="450" y="202" text-anchor="middle" fill="#7DB678" class="lbl">B Adat</text><circle cx="735" cy="241" r="130" fill="url(#g-api)" style="color:#B5B985"/><g transform="translate(735 271) scale(1.45)" style="color:#B5B985"><use href="#api" class="kedip"/></g><text x="735" y="333" text-anchor="middle" fill="#B5B985" class="lbl">C Militer</text><circle cx="626" cy="454" r="130" fill="url(#g-api)" style="color:#85A8DA"/><g transform="translate(626 484) scale(1.45)" style="color:#85A8DA"><use href="#api" class="kedip"/></g><text x="626" y="546" text-anchor="middle" fill="#85A8DA" class="lbl">D Birokrat</text><circle cx="274" cy="454" r="130" fill="url(#g-api)" style="color:#C79BD6"/><g transform="translate(274 484) scale(1.45)" style="color:#C79BD6"><use href="#api" class="kedip"/></g><text x="274" y="546" text-anchor="middle" fill="#C79BD6" class="lbl">E Akademisi</text><circle cx="165" cy="241" r="130" fill="url(#g-api)" style="color:#DB9668"/><g transform="translate(165 271) scale(1.45)" style="color:#DB9668"><use href="#api" class="kedip"/></g><text x="165" y="333" text-anchor="middle" fill="#DB9668" class="lbl">F Bisnis</text><circle cx="450" cy="285.0" r="200" fill="url(#g-api)" style="color:#F0B43C"/><g transform="translate(450 330) scale(1.6)" style="color:#F0B43C"><use href="#api" class="kedip"/></g><text x="450" y="413" text-anchor="middle" fill="#F0B43C" class="lbl">A Utama</text>
+        </svg>
+        <figcaption class="redup" style="margin-top:.75rem;font-size:.95rem">Utama, rumah dan dapur umum, ada di tengah. Lima segmen lain menyala di sekelilingnya dan saling terhubung. <a href="dunia.html#segmen">Kenali keenamnya</a></figcaption>
+      </figure>
   </div>
 </section>
 
@@ -297,8 +314,6 @@
   document.getElementById("t-tokoh").textContent = `Kerangka lengkap. ${inti} tokoh sudah ditulis penulis inti, ${terbuka} menunggu penulisnya.`;
   document.getElementById("t-simpul").textContent = `${T.S.length} tempat sudah dikerangkai. Belum ada yang menulis suasananya dari dekat.`;
 
-  document.getElementById("chip-seg").innerHTML = Object.entries(T.SEG)
-    .map(([k, v]) => `<li style="--warna:${T.warna(k)}">${k} ${v.nama}</li>`).join("");
 
   link("ya-game", "tree/" + T.cabang + "/game");
   T.kanal(document.getElementById("kanal"));

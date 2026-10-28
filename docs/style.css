@@ -239,3 +239,11 @@ footer p { margin: 0 0 .4rem; max-width: 80ch; }
 .kanon { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 1.5rem; }
 .kanon > div { border-top: 3px solid var(--pelita); padding-top: .9rem; }
 .kanon p { margin: .2rem 0 0; color: var(--teks-redup); font-size: .95rem; }
+
+/* Ilustrasi enam api */
+.segmen-api svg { display: block; width: 100%; height: auto; border-radius: 14px; }
+.segmen-api .lbl { font: 800 28px var(--font); }
+.segmen-api .kedip { transform-box: fill-box; transform-origin: 50% 100%; animation: kedip 2.6s ease-in-out infinite; }
+.segmen-api g:nth-of-type(n+4) .kedip { animation-delay: -.8s; }
+@keyframes kedip { 0%,100% { transform: scale(1,1); } 30% { transform: scale(.94,1.06); } 60% { transform: scale(1.04,.96); } }
+@media (prefers-reduced-motion: reduce) { .segmen-api .kedip { animation: none; } }
