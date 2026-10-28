@@ -1,0 +1,13 @@
+[
+ {"slug":"pabrik-cakung","nama":"Pabrik tekstil mangkrak, Cakung","wilayah":"Jakarta Timur","fungsi":"Dapur umum, klinik, pengungsian pertama. Aset keluarga Adiwangsa","babak":"1 sampai 2","segmen":["A"]},
+ {"slug":"kos-bu-endang","nama":"Kos Bu Endang","wilayah":"Jakarta Utara","fungsi":"Tempat menampung sementara","babak":"2 sampai 3","segmen":["A"]},
+ {"slug":"simpul-bekasi","nama":"Simpul Bekasi","wilayah":"Kawasan industri Bekasi","fungsi":"Pengungsian pasca penggerebekan, dilindungi wali kota","babak":"3 sampai 5","segmen":["A"]},
+ {"slug":"pesisir-indramayu","nama":"Simpul pesisir Indramayu","wilayah":"Pantai utara Jawa Barat","fungsi":"Jalur pelarian laut, koperasi nelayan. Dihancurkan di Babak 3","babak":"3","segmen":["B"]},
+ {"slug":"tolanggo","nama":"Kabupaten Tolanggo (fiktif)","wilayah":"Sulawesi Tenggara","fungsi":"Serikat buruh nikel, smelter","babak":"1 sampai 4","segmen":["B"]},
+ {"slug":"gudang-priok","nama":"Gudang pelabuhan Tanjung Priok","wilayah":"Jakarta Utara","fungsi":"Jalur logistik dan penyimpanan milik Adiwangsa Logistik","babak":"3 sampai 5","segmen":["F"]},
+ {"slug":"tongkang-barito","nama":"Tongkang Kapten Rusmadi","wilayah":"Sungai Barito","fungsi":"Markas bergerak, pusat data darurat. Diserang di Babak 4","babak":"3 sampai 4","segmen":["A","B"]},
+ {"slug":"kampung-mentaya","nama":"Kampung Damar, tepi Sungai Mentaya","wilayah":"Kotawaringin Timur, Kalimantan Tengah","fungsi":"Luka lama, pertemuan dengan Bue Ilai","babak":"4","segmen":["A","B"]},
+ {"slug":"pulang-pisau","nama":"Food estate Pulang Pisau","wilayah":"Kalimantan Tengah","fungsi":"Petani yang kehilangan lahan","babak":"4","segmen":["B"]},
+ {"slug":"fasilitas-ikn","nama":"Fasilitas penahanan dekat IKN","wilayah":"Kalimantan Timur","fungsi":"Tempat Ambun dan Dodi ditahan","babak":"4 sampai 5","segmen":["C","D"]},
+ {"slug":"ikn-teluk-balikpapan","nama":"IKN dan Teluk Balikpapan","wilayah":"Kalimantan Timur","fungsi":"Upacara 17 Agustus, Otorita, titik akhir","babak":"5","segmen":["A","B","C","D","E","F"]}
+]
