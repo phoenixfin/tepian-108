@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dunianya · Tepian 108</title>
+<meta name="description" content="Indonesia 2030 dalam Tepian 108: premis, enam segmen, simpul daerah, lapisan kanon, dan aturan main.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231C1410'/><circle cx='16' cy='13' r='4' fill='%23F0B43C'/><rect x='6' y='21' width='20' height='2' rx='1' fill='%23F0B43C' opacity='.5'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero kecil">
+  <div class="lebar">
+    <nav aria-label="Navigasi utama">
+      <a class="merek" href="index.html">Tepian 108</a>
+      <ul>
+        <li><a href="dunia.html" aria-current="page">Dunianya</a></li>
+        <li><a href="bintang.html">108 bintang</a></li>
+        <li><a href="index.html#ikut">Ikut membangun</a></li>
+      </ul>
+    </nav>
+    <div class="judul-halaman">
+      <h1>Indonesia, 2030</h1>
+      <p class="premis">Dunia tempat 108 orang masuk satu daftar buronan dan akhirnya saling menemukan.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="premis">
+  <div class="lebar dua-kolom">
+    <div class="sempit">
+      <h2>Premis</h2>
+      <p>Tiga bulan setelah pelantikan, negara dikendalikan empat keluarga konglomerat yang berebut dana investasi negara, sawit dan nikel, proyek ibu kota baru, dan narasi. Di antara mereka tumbuh satu badan koordinasi yang dibutuhkan semua pihak, dipimpin seorang birokrat yang tidak pernah meninggikan suara.</p>
+      <p>Damar, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dapur umum di pabrik mangkrak di Cakung. Dapur itu menjadi gerakan saling jaga, diburu, terpecah, lalu menyebar dari Bekasi sampai Sungai Barito. Di tempat lain, lima orang dari lingkaran yang berbeda menemukan potongan masalah yang sama.</p>
+      <p>Semuanya bertemu pada 17 Agustus 2030, di IKN.</p>
+      <p class="redup">Tempatnya nyata. Orang, partai, perusahaan, dan lembaganya rekaan. Strukturnya terinspirasi 108 pendekar dalam kisah klasik <i>Water Margin</i>, para buronan yang berkumpul di tepian air.</p>
+      <p><a class="tombol utama" id="g-bible" href="#">Baca bible lengkap di GitHub</a></p>
+    </div>
+    <div>
+      <h3 style="margin-bottom:1rem">Enam segmen, enam pintu masuk</h3>
+      <ul class="segmen-daftar" id="segmen-daftar"></ul>
+    </div>
+  </div>
+</section>
+
+<section id="simpul">
+  <div class="lebar">
+    <h2>Simpul daerah</h2>
+    <p class="redup sempit" style="margin:0">Simpul adalah tempat cerita berpijak. Kamu bisa memperkaya yang sudah ada, atau mengusulkan simpul baru dari daerahmu: suasana, bahasa, makanan, adat, dan konflik nyata.</p>
+    <div class="simpul-kisi" id="simpul-kisi"></div>
+    <p style="margin-top:1.5rem"><a class="tombol utama" id="g-simpul" href="#">Usulkan atau tulis simpul</a></p>
+  </div>
+</section>
+
+<section id="kanon">
+  <div class="lebar">
+    <h2>Lapisan kanon</h2>
+    <p class="redup sempit" style="margin:0">Kontribusimu punya tempat, apa pun tingkat keterlibatanmu.</p>
+    <div class="kanon">
+      <div><h3>Kanon inti</h3><p>Bible dan novel utama. Diputuskan pemrakarsa.</p></div>
+      <div><h3>Kanon luas</h3><p>Karya kontributor yang lolos kurasi. Tidak boleh bertentangan dengan kanon inti.</p></div>
+      <div><h3>Non-kanon</h3><p>Karya bebas, fan fiction, eksperimen. Boleh ke mana saja selama mematuhi kode etik.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="aturan">
+  <div class="lebar">
+    <h2>Aturan main</h2>
+    <ul class="aturan">
+      <li>Tidak ada nama orang, partai, perusahaan, ormas, atau lembaga nyata. Tempat boleh nyata.</li>
+      <li>Tidak ada ujaran kebencian atas dasar SARA, gender, disabilitas, atau orientasi.</li>
+      <li>Cerita perlawanan bukan ajakan kekerasan di dunia nyata.</li>
+      <li>Kekerasan ditulis untuk menunjukkan akibatnya, dengan peringatan konten.</li>
+      <li>Karya sendiri, dengan lisensi terbuka. Rinciannya di kode etik dan perjanjian kontributor.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lebar">
+    <p>Konten CC BY-SA 4.0, kode MIT. Kontribusi tunduk pada perjanjian kontributor.</p>
+    <p>Semua tokoh, partai, perusahaan, dan lembaga dalam Tepian 108 adalah rekaan. Kemiripan dengan orang atau organisasi nyata tidak disengaja.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="umum.js"></script>
+<script>
+(function () {
+  const T = window.TEPIAN;
+  const { B, S, SEG, warna, esc } = T;
+
+  const daftar = document.getElementById("segmen-daftar");
+  Object.entries(SEG).forEach(([k, v]) => {
+    const n = B.filter((b) => b.segmen === k).length;
+    daftar.insertAdjacentHTML("beforeend",
+      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi}</span></li>`);
+  });
+
+  document.getElementById("simpul-kisi").innerHTML = S.map((s) => `
+    <div><strong>${esc(s.nama)}</strong><span>${esc(s.wilayah)}</span><span>${esc(s.fungsi)}</span></div>`).join("");
+
+  const bible = document.getElementById("g-bible");
+  bible.href = T.gh("tree/" + T.cabang + "/bible"); bible.target = "_blank"; bible.rel = "noopener";
+  const simpul = document.getElementById("g-simpul");
+  simpul.href = T.gh("issues/new/choose"); simpul.target = "_blank"; simpul.rel = "noopener";
+})();
+</script>
+</body>
+</html>

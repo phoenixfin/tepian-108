@@ -4,274 +4,155 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tepian 108</title>
-<meta name="description" content="Proyek terbuka untuk membangun semesta cerita dan game bersama: 108 orang, satu daftar buronan, Indonesia 2030.">
+<meta name="description" content="Kamu fans Suikoden? Bagaimana kalau 108 bintang berkumpul di Indonesia, 2030. Kami sedang membangun ceritanya dan gamenya. Ikut membangun.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231C1410'/><circle cx='16' cy='13' r='4' fill='%23F0B43C'/><rect x='6' y='21' width='20' height='2' rx='1' fill='%23F0B43C' opacity='.5'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
-<style>
-:root {
-  color-scheme: light;
-  --latar: #E6E9E2;
-  --permukaan: #F5F6F2;
-  --teks: #1F1A16;
-  --teks-redup: #5E554C;
-  --garis: #CFD3C9;
-  --pelita: #9A6200;
-  --pelita-isi: #F0B43C;
-  --fokus: #1D5FA8;
-  --seg-a: #B07A00; --seg-b: #3F7A3B; --seg-c: #6F7444;
-  --seg-d: #3D6299; --seg-e: #7D4E8C; --seg-f: #A2582B;
-  --air: #1C1410; --air-2: #2A1F18; --kabut: #ECE5D8; --kabut-redup: #B3A797;
-  --font: "Plus Jakarta Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --latar: #17110D; --permukaan: #221A14; --teks: #ECE5D8; --teks-redup: #A99C8C;
-    --garis: #3A2E25; --pelita: #F0B43C; --fokus: #8EB8F0;
-    --seg-a: #F0B43C; --seg-b: #7DB678; --seg-c: #B5B985; --seg-d: #85A8DA; --seg-e: #C79BD6; --seg-f: #DB9668;
-  }
-}
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --latar: #17110D; --permukaan: #221A14; --teks: #ECE5D8; --teks-redup: #A99C8C;
-  --garis: #3A2E25; --pelita: #F0B43C; --fokus: #8EB8F0;
-  --seg-a: #F0B43C; --seg-b: #7DB678; --seg-c: #B5B985; --seg-d: #85A8DA; --seg-e: #C79BD6; --seg-f: #DB9668;
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: env(safe-area-inset-top, 0px); }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body {
-  margin: 0; background: var(--latar); color: var(--teks);
-  font-family: var(--font); font-size: 1.0625rem; line-height: 1.6;
-  padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-a { color: var(--pelita); text-underline-offset: 3px; }
-:focus-visible { outline: 3px solid var(--fokus); outline-offset: 3px; border-radius: 4px; }
-.lebar { width: min(1120px, 100% - 2.5rem); margin-inline: auto; }
-.sempit { max-width: 68ch; }
-h1, h2, h3 { line-height: 1.15; margin: 0; }
-h2 { font-size: clamp(1.75rem, 3.4vw, 2.5rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.75rem; }
-h3 { font-size: 1.15rem; font-weight: 600; }
-p { margin: 0 0 1rem; }
-section { padding-block: clamp(3.5rem, 8vw, 6rem); }
-section + section { border-top: 1px solid var(--garis); }
-.redup { color: var(--teks-redup); }
-
-/* Hero: malam di tepian sungai */
-.hero {
-  background: var(--air); color: var(--kabut);
-  padding: env(safe-area-inset-top, 0px) 0 0; border: 0; position: relative; overflow: hidden;
-}
-.hero nav { display: flex; justify-content: space-between; align-items: center; padding-block: 1.25rem; gap: 1rem; }
-.hero nav .merek { font-weight: 800; letter-spacing: -0.01em; color: var(--kabut); text-decoration: none; }
-.hero nav ul { display: flex; gap: 1.25rem; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
-.hero nav a { color: var(--kabut-redup); text-decoration: none; font-size: 0.95rem; }
-.hero nav a:hover { color: var(--kabut); }
-@media (max-width: 640px) { .hero nav ul { display: none; } .langit .label-seg { font-size: 16px; } }
-.langit { display: block; width: 100%; height: auto; }
-.langit .bintang { cursor: pointer; transition: transform .2s; transform-box: fill-box; transform-origin: center; }
-.langit .bintang:hover, .langit .bintang:focus-visible { transform: scale(1.8); outline: none; }
-.langit .label-seg { fill: var(--kabut-redup); font: 600 13px var(--font); }
-.hero-teks { position: relative; margin-top: clamp(-11rem, -16vw, -4rem); padding-bottom: clamp(2.5rem, 6vw, 4.5rem); }
-.hero h1 {
-  font-size: clamp(3.5rem, 13vw, 9.5rem); font-weight: 800; letter-spacing: -0.045em; line-height: 0.9;
-  color: var(--kabut); text-shadow: 0 2px 30px rgba(28,20,16,.9);
-}
-.hero h1 .angka { color: var(--pelita-isi); font-weight: 400; }
-.hero .premis { font-size: clamp(1.1rem, 2.2vw, 1.4rem); max-width: 38ch; margin: 1.25rem 0 1.75rem; color: var(--kabut); }
-.tombol-baris { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-.tombol {
-  display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.4rem; border-radius: 999px;
-  font: 600 1rem var(--font); text-decoration: none; cursor: pointer; border: 1.5px solid transparent;
-}
-.tombol.utama { background: var(--pelita-isi); color: #1C1410; }
-.tombol.utama:hover { background: #F7C766; }
-.tombol.kedua { border-color: rgba(236,229,216,.4); color: var(--kabut); background: transparent; }
-.tombol.kedua:hover { border-color: var(--kabut); }
-.tombol[aria-disabled="true"] { opacity: .55; cursor: default; }
-.legenda { display: flex; gap: .5rem 1.25rem; flex-wrap: wrap; font-size: 0.9rem; color: var(--kabut-redup); margin-top: 1.5rem; }
-.legenda span { display: inline-flex; align-items: center; gap: .45rem; }
-.titik { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
-
-/* Dunia */
-.dua-kolom { display: grid; gap: clamp(2rem, 5vw, 4rem); grid-template-columns: 1fr; }
-@media (min-width: 860px) { .dua-kolom { grid-template-columns: 1.1fr 1fr; } }
-.segmen-daftar { list-style: none; margin: 0; padding: 0; }
-.segmen-daftar li {
-  display: grid; grid-template-columns: 2.25rem 1fr auto; gap: 0 .9rem; align-items: baseline;
-  padding: .9rem 0; border-bottom: 1px solid var(--garis);
-}
-.segmen-daftar li:first-child { border-top: 1px solid var(--garis); }
-.segmen-daftar .kode { font-weight: 800; font-size: 1.35rem; }
-.segmen-daftar .nama { font-weight: 600; }
-.segmen-daftar .fungsi { grid-column: 2; color: var(--teks-redup); font-size: .95rem; }
-.segmen-daftar .jumlah { color: var(--teks-redup); font-variant-numeric: tabular-nums; }
-
-/* Papan bintang */
-.papan-kepala { display: flex; justify-content: space-between; align-items: end; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-.ringkas { font-variant-numeric: tabular-nums; color: var(--teks-redup); }
-.saring { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
-.saring button {
-  font: 600 .9rem var(--font); min-height: 40px; padding: 0 .95rem; border-radius: 999px; cursor: pointer;
-  background: transparent; color: var(--teks); border: 1.5px solid var(--garis);
-}
-.saring button[aria-pressed="true"] { background: var(--teks); color: var(--latar); border-color: var(--teks); }
-.saring .pemisah { width: 1px; background: var(--garis); margin-inline: .25rem; }
-.kisi { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .6rem; }
-.ubin {
-  text-align: left; font: inherit; color: inherit; cursor: pointer;
-  background: var(--permukaan); border: 1px solid var(--garis); border-left: 4px solid var(--warna, var(--garis));
-  border-radius: 6px; padding: .7rem .8rem .75rem; display: grid; gap: .1rem; min-height: 92px;
-}
-.ubin:hover { border-color: var(--warna); }
-.ubin .atas { display: flex; justify-content: space-between; font-size: .8rem; color: var(--teks-redup); font-variant-numeric: tabular-nums; }
-.ubin .nm { font-weight: 600; line-height: 1.25; }
-.ubin .pr { font-size: .85rem; color: var(--teks-redup); line-height: 1.35; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-.ubin .lencana { font-size: .75rem; font-weight: 600; }
-.ubin[data-status="terbuka"] .lencana { color: var(--pelita); }
-.ubin[data-status="inti"] .lencana { color: var(--teks-redup); }
-.kosong { padding: 2rem; text-align: center; color: var(--teks-redup); border: 1px dashed var(--garis); border-radius: 6px; }
-
-dialog {
-  border: 1px solid var(--garis); border-radius: 10px; padding: 0; width: min(520px, 100% - 2rem);
-  background: var(--permukaan); color: var(--teks);
-}
-dialog::backdrop { background: rgba(23,17,13,.6); }
-.dialog-isi { padding: 1.5rem 1.5rem 1.25rem; border-top: 6px solid var(--warna, var(--pelita)); border-radius: 10px; }
-.dialog-isi .kecil { font-size: .9rem; color: var(--teks-redup); }
-.dialog-isi h3 { font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; margin: .25rem 0 .5rem; }
-.dialog-isi dl { display: grid; grid-template-columns: auto 1fr; gap: .35rem 1rem; margin: 1rem 0 1.25rem; font-size: .95rem; }
-.dialog-isi dt { color: var(--teks-redup); }
-.dialog-isi dd { margin: 0; }
-.dialog-isi .tombol.utama { color: #1C1410; }
-.dialog-isi .tombol.kedua { color: var(--teks); border-color: var(--garis); }
-.tutup { position: absolute; top: .6rem; right: .6rem; width: 40px; height: 40px; border-radius: 50%; border: 0; background: transparent; color: var(--teks-redup); font-size: 1.5rem; cursor: pointer; }
-
-/* Cara ikut */
-.jalur { display: grid; gap: 1.5rem 2.5rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 2rem 0 3rem; }
-.jalur h3 { margin-bottom: .3rem; }
-.jalur p { color: var(--teks-redup); margin: 0; font-size: .97rem; }
-.langkah { list-style: none; counter-reset: l; margin: 0; padding: 0; display: grid; gap: 1rem; max-width: 62ch; }
-.langkah li { counter-increment: l; display: grid; grid-template-columns: 2.5rem 1fr; }
-.langkah li::before { content: counter(l); font-weight: 800; font-size: 1.4rem; color: var(--pelita); line-height: 1.3; }
-
-.aturan { margin: 0; padding-left: 1.2rem; max-width: 68ch; }
-.aturan li { margin-bottom: .6rem; }
-
-.kanal { display: grid; gap: 0; max-width: 760px; margin-top: 1.5rem; }
-.kanal > div { display: grid; grid-template-columns: 1fr auto; gap: .25rem 1.5rem; align-items: center; padding: 1.1rem 0; border-bottom: 1px solid var(--garis); }
-.kanal > div:first-child { border-top: 1px solid var(--garis); }
-.kanal p { margin: 0; color: var(--teks-redup); font-size: .95rem; }
-.kanal .tombol.kedua { color: var(--teks); border-color: var(--garis); }
-.kanal .belum { color: var(--teks-redup); font-size: .9rem; }
-@media (max-width: 560px) { .kanal > div { grid-template-columns: 1fr; } }
-
-footer { padding-block: 2.5rem; border-top: 1px solid var(--garis); font-size: .9rem; color: var(--teks-redup); }
-footer p { margin: 0 0 .4rem; max-width: 80ch; }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
   <div class="lebar">
     <nav aria-label="Navigasi utama">
-      <a class="merek" href="#">Tepian 108</a>
+      <a class="merek" href="index.html">Tepian 108</a>
       <ul>
-        <li><a href="#dunia">Dunianya</a></li>
-        <li><a href="#papan">Papan bintang</a></li>
-        <li><a href="#ikut">Cara ikut</a></li>
-        <li><a href="#komunitas">Komunitas</a></li>
+        <li><a href="dunia.html">Dunianya</a></li>
+        <li><a href="bintang.html">108 bintang</a></li>
+        <li><a href="#ikut">Ikut membangun</a></li>
       </ul>
     </nav>
   </div>
   <svg class="langit" id="langit" viewBox="0 0 1200 500" role="group" aria-label="Seratus delapan bintang dalam enam gugus, terpantul di permukaan sungai. Pilih bintang untuk melihat tokohnya."></svg>
   <div class="lebar hero-teks">
+    <p class="redup" style="color:var(--pelita-isi);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;margin-bottom:.75rem">Kamu fans Suikoden?</p>
     <h1>Tepian <span class="angka">108</span></h1>
-    <p class="premis">Seratus delapan orang masuk satu daftar buronan. Mereka belum saling kenal. Bantu kami menuliskan jalan mereka untuk saling menemukan.</p>
+    <p class="premis">Bagaimana kalau 108 bintang itu berkumpul di Indonesia, tahun 2030? Kami sedang menulis ceritanya dan membuat gamenya. Ikut membangun.</p>
     <div class="tombol-baris">
-      <a class="tombol utama" href="#papan">Pilih bintang</a>
-      <a class="tombol kedua" id="hero-grup" href="#komunitas">Gabung komunitas</a>
+      <a class="tombol utama" href="#ikut">Ikut membangun</a>
+      <a class="tombol kedua" href="bintang.html">Lihat 108 bintang</a>
     </div>
     <div class="legenda" aria-hidden="true">
-      <span><i class="titik" style="background:#F0B43C"></i>Tokoh inti</span>
-      <span><i class="titik" style="border:1.5px solid #ECE5D8"></i>Terbuka untuk diadopsi</span>
+      <span><i class="titik" style="background:#F0B43C"></i>Sudah ditulis</span>
+      <span><i class="titik" style="border:1.5px solid #ECE5D8"></i>Menunggu penulis</span>
       <span><i class="titik" style="background:#ECE5D8"></i>Sudah diadopsi</span>
     </div>
   </div>
 </header>
 
 <main>
+<section class="pita" aria-label="Kenangan">
+  <div class="lebar">
+    <p class="label">Kamu pasti pernah</p>
+    <ul class="kenangan">
+      <li>Menghafal 108 nama, lalu masih mencari satu yang terlewat.</li>
+      <li>Bolak-balik keliling markas hanya untuk ngobrol dengan semua orang.</li>
+      <li>Terdiam sebentar ketika satu nama tidak kembali.</li>
+      <li>Menunggu, bertahun-tahun, game yang rasanya seperti itu lagi.</li>
+    </ul>
+    <p class="penutup">Sekarang bayangkan semuanya terjadi di <strong>Cakung, Barito, Indramayu, dan IKN</strong>, dengan orang-orang yang mungkin kamu kenal.</p>
+    <p class="kanji-baris" id="kanji" aria-hidden="true"></p>
+  </div>
+</section>
+
 <section id="dunia">
   <div class="lebar dua-kolom">
     <div class="sempit">
-      <h2>Indonesia, 2030</h2>
-      <p>Tiga bulan setelah pelantikan, negara dikendalikan empat keluarga konglomerat yang berebut dana investasi negara, sawit dan nikel, proyek ibu kota baru, dan narasi. Di antara mereka tumbuh satu badan koordinasi yang dibutuhkan semua pihak, dipimpin seorang birokrat yang tidak pernah meninggikan suara.</p>
-      <p>Damar, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dapur umum di pabrik mangkrak di Cakung. Dapur itu menjadi gerakan saling jaga, diburu, terpecah, lalu menyebar dari Bekasi sampai Sungai Barito. Di tempat lain, lima orang dari lingkaran yang berbeda menemukan potongan masalah yang sama.</p>
-      <p>Semuanya bertemu pada 17 Agustus 2030, di IKN.</p>
-      <p class="redup">Tempatnya nyata. Orang, partai, perusahaan, dan lembaganya rekaan. Strukturnya terinspirasi 108 pendekar dalam kisah klasik <i>Water Margin</i>, para buronan yang berkumpul di tepian air.</p>
+      <h2>Ceritanya</h2>
+      <p>Indonesia, 2030. Negara dikendalikan empat keluarga konglomerat dan satu badan koordinasi yang tumbuh diam-diam di antara mereka. Damar, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dapur umum di pabrik mangkrak di Cakung.</p>
+      <p>Dapur itu menjadi gerakan saling jaga, diburu, terpecah, lalu menyebar sampai Sungai Barito. Seratus delapan orang yang dimasukkan rezim ke satu daftar buronan akhirnya bertemu pada 17 Agustus 2030, di IKN.</p>
+      <p><a class="tautan-lanjut" href="dunia.html">Baca dunianya selengkapnya</a></p>
     </div>
     <div>
-      <h3 style="margin-bottom:1rem">Enam segmen, enam pintu masuk</h3>
-      <ul class="segmen-daftar" id="segmen-daftar"></ul>
+      <h3 style="margin-bottom:.4rem">Enam segmen, enam pintu masuk</h3>
+      <p class="redup" style="margin-bottom:0">Dari dapur umum sampai ruang rapat konglomerat.</p>
+      <ul class="chip-seg" id="chip-seg"></ul>
     </div>
   </div>
 </section>
 
-<section id="papan">
+<section id="status">
   <div class="lebar">
-    <div class="papan-kepala">
-      <div class="sempit">
-        <h2>Papan bintang</h2>
-        <p class="redup" style="margin:0">Mengadopsi bintang berarti menjadi penanggung jawab kisah, suara, dan riset satu tokoh. Pilih tokoh untuk melihat detailnya.</p>
+    <h2>Yang sudah jadi</h2>
+    <p class="redup sempit" style="margin:0">Proyek ini masih dibangun. Ini keadaannya hari ini, dan di mana kamu bisa masuk.</p>
+    <div class="jendela" role="group" aria-label="Kemajuan proyek">
+      <div class="judul"><span>MARKAS · Kemajuan proyek</span><span id="hitung-inti"></span></div>
+      <div class="status-baris">
+        <div><h3>Bible dunia dan alur</h3><p>Dunia, tokoh, dan alur cerita per babak. Dipegang pemrakarsa sebagai kanon inti.</p></div>
+        <div class="kanan"><span class="lencana siap">SELESAI</span><a id="g-bible" href="#">Baca bible</a></div>
       </div>
-      <p class="ringkas" id="ringkas" aria-live="polite"></p>
+      <div class="status-baris">
+        <div><h3>108 tokoh</h3><p id="t-tokoh">Kerangka lengkap. Latar, suara, dan adegan tiap tokoh menunggu penulisnya.</p></div>
+        <div class="kanan"><span class="lencana sebagian">SEBAGIAN</span><a href="bintang.html">Pilih tokoh</a></div>
+      </div>
+      <div class="status-baris">
+        <div><h3>Simpul daerah</h3><p id="t-simpul">Kerangka tempat cerita berpijak. Belum ada yang menulis suasananya dari dekat.</p></div>
+        <div class="kanan"><span class="lencana sebagian">KERANGKA</span><a href="dunia.html#simpul">Tulis daerahmu</a></div>
+      </div>
+      <div class="status-baris">
+        <div><h3>Novel dan cerita pendek</h3><p>Folder kanon dan non-kanon sudah siap. Naskah pertama belum ada.</p></div>
+        <div class="kanan"><span class="lencana belum">BARU DIMULAI</span><a id="g-cerita" href="#">Mulai menulis</a></div>
+      </div>
+      <div class="status-baris">
+        <div><h3>Rancangan game</h3><p>Pilar desain, lingkar inti, dan sistem sudah tertulis. Terbuka untuk diskusi.</p></div>
+        <div class="kanan"><span class="lencana siap">DOKUMEN AWAL</span><a id="g-game" href="#">Baca rancangan</a></div>
+      </div>
+      <div class="status-baris">
+        <div><h3>Prototipe Babak 1</h3><p>Godot 4. Satu tokoh, satu lokasi, sekitar 10 bintang, tiga fasilitas.</p></div>
+        <div class="kanan"><span class="lencana belum">BELUM DIMULAI</span><a id="g-proto" href="#">Bangun bersama</a></div>
+      </div>
     </div>
-    <div class="saring" id="saring" role="group" aria-label="Saring bintang"></div>
-    <div class="kisi" id="kisi"></div>
   </div>
 </section>
 
 <section id="ikut">
   <div class="lebar">
-    <h2>Cara ikut</h2>
-    <p class="redup sempit">Tidak perlu pengalaman menulis atau memprogram. Nama samaran boleh.</p>
-    <div class="jalur">
-      <div><h3>Menulis</h3><p>Kisah satu bintang, cerita pendek di sebuah simpul, atau dokumen dalam dunia: berita, memo, pesan grup warga.</p></div>
-      <div><h3>Riset daerah</h3><p>Bahasa, makanan, adat, dan konflik nyata di daerah yang kamu kenal, sebagai bahan simpul.</p></div>
-      <div><h3>Seni</h3><p>Potret tokoh, peta simpul, ilustrasi adegan.</p></div>
-      <div><h3>Musik dan suara</h3><p>Tema tiap segmen, suara pasar, sungai, dan pelabuhan.</p></div>
-      <div><h3>Desain game</h3><p>Rekrutmen, markas pengungsian, aksi tanpa senjata.</p></div>
-      <div><h3>Kode</h3><p>Prototipe Godot, situs ini, dan alat bantu data.</p></div>
+    <h2>Ikut membangun</h2>
+    <p class="redup sempit" style="margin:0">Banyak cara untuk ikut, tapi dua tempat ini paling butuh tanganmu. Tidak perlu pengalaman, nama samaran boleh.</p>
+    <div class="dua-jalur">
+      <article class="kartu-jalur">
+        <h3>Cerita dan tokoh</h3>
+        <p class="seru">Ambil satu dari 108 tokoh dan jadikan miliknya.</p>
+        <p>Kerangkanya ada. Kamu menulis suaranya, lukanya, dan adegan yang membuatnya tidak terlupakan. Atau tulis tentang daerahmu, cerita pendek, atau dokumen dalam dunia.</p>
+        <ul>
+          <li>Adopsi tokoh, tulis latar dan adegan kunci</li>
+          <li>Tulis simpul dari daerah yang kamu kenal</li>
+          <li>Cerita pendek, bab novel, fan fiction</li>
+        </ul>
+        <div class="tombol-baris">
+          <a class="tombol utama" href="bintang.html">Pilih tokoh</a>
+        </div>
+      </article>
+      <article class="kartu-jalur">
+        <h3>Game</h3>
+        <p class="seru">Exit Fate dan Eiyuden Chronicle membuktikan RPG semacam ini masih lahir dari tangan kecil. Kenapa tidak dari sini?</p>
+        <p>Kami ingin game indie berlatar Nusantara dengan rasa yang sama: merekrut, membangun markas, memikul pilihan sulit. Prototipe pertama belum dimulai, jadi suaramu masih menentukan bentuknya.</p>
+        <ul>
+          <li>Desain sistem dan penulisan dialog</li>
+          <li>Kode Godot 4 (GDScript)</li>
+          <li>Ilustrasi, musik, dan suara</li>
+        </ul>
+        <div class="tombol-baris">
+          <a class="tombol utama" id="g-game2" href="#">Baca rancangan game</a>
+        </div>
+      </article>
     </div>
-    <h3 style="margin-bottom:1rem">Mengadopsi bintang</h3>
-    <ol class="langkah">
-      <li><span>Pilih bintang berstatus terbuka di papan di atas.</span></li>
-      <li><span>Ajukan adopsi lewat tombol di detail bintang. Formulir issue GitHub akan terbuka.</span></li>
-      <li><span>Setelah dikonfirmasi kurator, tulis latar, suara, adegan, dan riset tokohmu di file bintangnya.</span></li>
-      <li><span>Kurator meninjau kecocokan dengan kanon. Setelah lolos, tulisanmu menjadi bagian resmi semesta.</span></li>
-    </ol>
-  </div>
-</section>
-
-<section id="aturan">
-  <div class="lebar">
-    <h2>Aturan main</h2>
-    <ul class="aturan">
-      <li>Tidak ada nama orang, partai, perusahaan, ormas, atau lembaga nyata. Tempat boleh nyata.</li>
-      <li>Tidak ada ujaran kebencian atas dasar SARA, gender, disabilitas, atau orientasi.</li>
-      <li>Cerita perlawanan bukan ajakan kekerasan di dunia nyata.</li>
-      <li>Kekerasan ditulis untuk menunjukkan akibatnya, dengan peringatan konten.</li>
-      <li>Karya sendiri, dengan lisensi terbuka. Rinciannya di kode etik dan perjanjian kontributor.</li>
-    </ul>
+    <p class="lain">Punya keahlian lain? Riset daerah, seni, musik, atau kode situs ini juga disambut. Sebutkan saat memperkenalkan diri.</p>
   </div>
 </section>
 
 <section id="komunitas">
-  <div class="lebar">
-    <h2>Komunitas</h2>
-    <p class="redup sempit">Tempat berkenalan, bertanya, dan mencari teman berkarya. Saat bergabung, ceritakan daerahmu dan ingin ikut lewat jalur apa.</p>
+  <div class="lebar" style="max-width:760px">
+    <div class="kotak">
+      <div class="siapa">Damar</div>
+      <p>"Masih banyak tempat kosong di daftar ini. Mau ikut?"</p>
+      <div class="pilihan">
+        <a class="ya" id="ya" href="#"><span class="tanda" aria-hidden="true">▶</span>Ya, aku ikut</a>
+        <a class="nanti" id="nanti" href="#"><span class="tanda" aria-hidden="true">▶</span>Lihat-lihat dulu</a>
+      </div>
+    </div>
+    <h3 style="margin:2.5rem 0 0">Atau mampir dulu ke komunitas</h3>
     <div class="kanal" id="kanal"></div>
   </div>
 </section>
@@ -279,249 +160,39 @@ footer p { margin: 0 0 .4rem; max-width: 80ch; }
 
 <footer>
   <div class="lebar">
-    <p>Konten dilisensikan CC BY-SA 4.0. Kode dilisensikan MIT. Kontribusi tunduk pada perjanjian kontributor.</p>
+    <p><a href="dunia.html#aturan">Aturan main</a> · Konten CC BY-SA 4.0, kode MIT. Kontribusi tunduk pada perjanjian kontributor.</p>
     <p>Semua tokoh, partai, perusahaan, dan lembaga dalam Tepian 108 adalah rekaan. Kemiripan dengan orang atau organisasi nyata tidak disengaja.</p>
   </div>
 </footer>
 
-<dialog id="detail" aria-labelledby="detail-nama">
-  <div class="dialog-isi" id="detail-isi"></div>
-</dialog>
-
 <script src="config.js"></script>
 <script src="data.js"></script>
+<script src="umum.js"></script>
+<script src="langit.js"></script>
 <script>
 (function () {
-  const K = window.TEPIAN_KONFIG || {};
-  const B = window.TEPIAN_BINTANG || [];
-  const SEG = {
-    A: { nama: "Utama", fungsi: "Rumah. Dapur umum, pengungsian, orang-orang yang saling jaga." },
-    B: { nama: "Adat", fungsi: "Tanah dan sumpah. Buruh tambang, masyarakat adat, nelayan, petani." },
-    C: { nama: "Militer", fungsi: "Pelaksana. Aparat yang retak pelan-pelan dari dalam." },
-    D: { nama: "Birokrat", fungsi: "Dalam lingkaran. Keluarga pejabat, staf, pejabat daerah dan lembaga." },
-    E: { nama: "Akademisi", fungsi: "Pola. Analis, auditor, peneliti, pengacara kebijakan." },
-    F: { nama: "Bisnis", fungsi: "Modal dan jalur. Pelabuhan, kapal, truk, dan pewaris konglomerat." }
-  };
-  const warna = (s) => `var(--seg-${s.toLowerCase()})`;
-  const WARNA_LANGIT = { A: "#F0B43C", B: "#7DB678", C: "#B5B985", D: "#85A8DA", E: "#C79BD6", F: "#DB9668" };
-  const STATUS = { inti: "Tokoh inti", terbuka: "Terbuka untuk diadopsi", diadopsi: "Sudah diadopsi" };
-  const repo = (K.repo || "").replace(/\/$/, "");
-  const fileUrl = (b) => `${repo}/blob/${K.cabang || "main"}/bintang/${b.file}`;
-  const adopsiUrl = (b) => `${repo}/issues/new?template=adopsi-bintang.md&title=${encodeURIComponent(`Adopsi bintang ${b.no}: ${b.nama}`)}`;
-  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const T = window.TEPIAN;
+  const link = (id, jalur) => { const e = document.getElementById(id); if (e) { e.href = T.gh(jalur); e.target = "_blank"; e.rel = "noopener"; } };
+  link("g-bible", "tree/" + T.cabang + "/bible");
+  link("g-cerita", "tree/" + T.cabang + "/cerita");
+  link("g-game", "tree/" + T.cabang + "/game");
+  link("g-game2", "tree/" + T.cabang + "/game");
+  link("g-proto", "tree/" + T.cabang + "/game");
 
-  // Daftar segmen
-  const daftar = document.getElementById("segmen-daftar");
-  Object.entries(SEG).forEach(([k, v]) => {
-    const n = B.filter((b) => b.segmen === k).length;
-    daftar.insertAdjacentHTML("beforeend",
-      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi}</span></li>`);
-  });
+  const inti = T.B.filter((b) => b.status === "inti").length;
+  const terbuka = T.B.filter((b) => b.status === "terbuka").length;
+  document.getElementById("hitung-inti").textContent = `${inti} / ${T.B.length} tokoh sudah ditulis`;
+  document.getElementById("t-tokoh").textContent = `Kerangka lengkap. ${inti} tokoh sudah ditulis penulis inti, ${terbuka} menunggu penulisnya.`;
+  document.getElementById("t-simpul").textContent = `${T.S.length} tempat sudah dikerangkai. Belum ada yang menulis suasananya dari dekat.`;
 
-  // Langit: enam gugus bintang dan pantulannya
-  const svg = document.getElementById("langit");
-  const NS = "http://www.w3.org/2000/svg";
-  const sempit = window.innerWidth < 640;
-  const W = sempit ? 600 : 1200, H = sempit ? 560 : 500, horizon = sempit ? 420 : 345;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-  const pusat = sempit
-    ? { A: [105, 130], B: [300, 120], C: [495, 135], D: [105, 320], E: [300, 310], F: [495, 315] }
-    : { A: [150, 175], B: [345, 120], C: [545, 200], D: [740, 115], E: [930, 190], F: [1085, 120] };
-  const sudutEmas = Math.PI * (3 - Math.sqrt(5));
-  const posisi = {};
-  Object.keys(SEG).forEach((k) => {
-    const anggota = B.filter((b) => b.segmen === k).sort((a, b) => (b.langit - a.langit) || (a.no - b.no));
-    anggota.forEach((b, i) => {
-      const r = 13 * Math.sqrt(i + 0.6);
-      const t = i * sudutEmas + k.charCodeAt(0);
-      posisi[b.no] = [pusat[k][0] + r * Math.cos(t) * 1.25, pusat[k][1] + r * Math.sin(t) * 0.9];
-    });
-  });
+  document.getElementById("chip-seg").innerHTML = Object.entries(T.SEG)
+    .map(([k, v]) => `<li style="--warna:${T.warna(k)}">${k} ${v.nama}</li>`).join("");
+  document.getElementById("kanji").textContent = T.B.map((b) => b.kanji).join("");
 
-  const defs = document.createElementNS(NS, "defs");
-  defs.innerHTML = `
-    <linearGradient id="g-air" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#241A13"/><stop offset="1" stop-color="#1C1410"/>
-    </linearGradient>
-    <filter id="f-riak" x="-5%" y="-5%" width="110%" height="110%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.09" numOctaves="2" seed="7"/>
-      <feDisplacementMap in="SourceGraphic" scale="14"/>
-      <feGaussianBlur stdDeviation="0.8"/>
-    </filter>
-    <filter id="f-cahaya"><feGaussianBlur stdDeviation="3"/></filter>`;
-  svg.appendChild(defs);
-
-  const air = document.createElementNS(NS, "rect");
-  Object.entries({ x: 0, y: horizon, width: W, height: H - horizon, fill: "url(#g-air)" }).forEach(([a, v]) => air.setAttribute(a, v));
-  svg.appendChild(air);
-  const garis = document.createElementNS(NS, "line");
-  Object.entries({ x1: 0, x2: W, y1: horizon, y2: horizon, stroke: "#ECE5D8", "stroke-opacity": 0.18 }).forEach(([a, v]) => garis.setAttribute(a, v));
-  svg.appendChild(garis);
-
-  const pantulan = document.createElementNS(NS, "g");
-  pantulan.setAttribute("transform", `translate(0 ${horizon}) scale(1 -0.55) translate(0 ${-horizon})`);
-  pantulan.setAttribute("opacity", "0.32");
-  pantulan.setAttribute("filter", "url(#f-riak)");
-  pantulan.setAttribute("aria-hidden", "true");
-  const langit = document.createElementNS(NS, "g");
-
-  Object.entries(SEG).forEach(([k, v]) => {
-    const t = document.createElementNS(NS, "text");
-    t.setAttribute("x", pusat[k][0]); t.setAttribute("y", sempit ? pusat[k][1] - 88 : 40);
-    t.setAttribute("text-anchor", "middle"); t.setAttribute("class", "label-seg");
-    t.textContent = `${k}  ${v.nama}`;
-    langit.appendChild(t);
-  });
-
-  const urutanMuncul = [...B].sort((a, b) => (a.babak - b.babak) || (a.no - b.no));
-  const elemen = {};
-  B.forEach((b) => {
-    const [x, y] = posisi[b.no];
-    const r = b.langit ? 5 : 3.2;
-    const c = WARNA_LANGIT[b.segmen];
-    const isi = b.status === "inti" ? c : b.status === "diadopsi" ? "#ECE5D8" : "#1C1410";
-    const garisT = b.status === "terbuka" ? "#ECE5D8" : "none";
-    const buat = (induk, interaktif) => {
-      const g = document.createElementNS(NS, "g");
-      if (b.status !== "terbuka") {
-        const halo = document.createElementNS(NS, "circle");
-        Object.entries({ cx: x, cy: y, r: r * 2.2, fill: isi, opacity: 0.35, filter: "url(#f-cahaya)" }).forEach(([a, v]) => halo.setAttribute(a, v));
-        g.appendChild(halo);
-      }
-      const s = document.createElementNS(NS, "circle");
-      Object.entries({ cx: x, cy: y, r, fill: isi, stroke: garisT, "stroke-width": 1.3, "stroke-opacity": 0.75 }).forEach(([a, v]) => s.setAttribute(a, v));
-      g.appendChild(s);
-      if (interaktif) {
-        g.setAttribute("class", "bintang");
-        g.setAttribute("tabindex", "0");
-        g.setAttribute("role", "button");
-        g.setAttribute("aria-label", `${b.nama}, ${b.bintang}, segmen ${SEG[b.segmen].nama}, ${STATUS[b.status]}`);
-        const judul = document.createElementNS(NS, "title");
-        judul.textContent = `${b.nama} (${b.bintang})`;
-        g.appendChild(judul);
-        g.addEventListener("click", () => buka(b));
-        g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); buka(b); } });
-        elemen[b.no] = g;
-      }
-      induk.appendChild(g);
-    };
-    buat(pantulan, false);
-    buat(langit, true);
-  });
-  svg.appendChild(pantulan);
-  svg.appendChild(langit);
-
-  // Satu momen: bintang menyala sesuai babak kemunculan tokohnya
-  const tenang = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (!tenang) {
-    urutanMuncul.forEach((b, i) => {
-      const g = elemen[b.no];
-      g.style.opacity = 0;
-      g.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 500, delay: 300 + i * 22, fill: "forwards", easing: "ease-out" })
-        .onfinish = () => { g.style.opacity = 1; };
-    });
-  }
-
-  // Papan dan saringan
-  const kisi = document.getElementById("kisi");
-  const ringkas = document.getElementById("ringkas");
-  const saring = document.getElementById("saring");
-  const keadaan = { segmen: "semua", status: "semua" };
-  const tombolSaring = (grup, nilai, label) =>
-    `<button type="button" data-grup="${grup}" data-nilai="${nilai}" aria-pressed="${keadaan[grup] === nilai}">${label}</button>`;
-  function gambarSaring() {
-    saring.innerHTML =
-      tombolSaring("segmen", "semua", "Semua segmen") +
-      Object.entries(SEG).map(([k, v]) => tombolSaring("segmen", k, `${k} ${v.nama}`)).join("") +
-      `<span class="pemisah" aria-hidden="true"></span>` +
-      tombolSaring("status", "semua", "Semua status") +
-      tombolSaring("status", "terbuka", "Terbuka") +
-      tombolSaring("status", "inti", "Inti") +
-      tombolSaring("status", "diadopsi", "Diadopsi");
-  }
-  saring.addEventListener("click", (e) => {
-    const t = e.target.closest("button"); if (!t) return;
-    keadaan[t.dataset.grup] = t.dataset.nilai;
-    gambarSaring(); gambarKisi();
-  });
-  function gambarKisi() {
-    const tampil = B.filter((b) =>
-      (keadaan.segmen === "semua" || b.segmen === keadaan.segmen) &&
-      (keadaan.status === "semua" || b.status === keadaan.status));
-    const terbuka = B.filter((b) => b.status === "terbuka").length;
-    const diadopsi = B.filter((b) => b.status === "diadopsi").length;
-    ringkas.textContent = `${terbuka} terbuka, ${diadopsi} diadopsi, dari 108. Menampilkan ${tampil.length}.`;
-    if (!tampil.length) {
-      kisi.innerHTML = `<p class="kosong" style="grid-column:1/-1">Belum ada bintang dengan status ini. Pilih status lain.</p>`;
-      return;
-    }
-    kisi.innerHTML = tampil.map((b) => `
-      <button type="button" class="ubin" data-no="${b.no}" data-status="${b.status}" style="--warna:${warna(b.segmen)}">
-        <span class="atas"><span>${b.no}</span><span>${esc(b.bintang)} ${b.kanji}</span></span>
-        <span class="nm">${esc(b.nama)}</span>
-        <span class="pr">${esc(b.peran)}</span>
-        <span class="lencana">${b.status === "terbuka" ? "Terbuka" : b.status === "inti" ? "Inti" : "Diadopsi"}</span>
-      </button>`).join("");
-  }
-  kisi.addEventListener("click", (e) => {
-    const t = e.target.closest(".ubin"); if (!t) return;
-    buka(B.find((b) => b.no === Number(t.dataset.no)), t);
-  });
-
-  // Detail
-  const dialog = document.getElementById("detail");
-  const dialogIsi = document.getElementById("detail-isi");
-  let asal = null;
-  function buka(b, pemicu) {
-    asal = pemicu || document.activeElement;
-    dialogIsi.style.setProperty("--warna", warna(b.segmen));
-    const aksi = b.status === "terbuka"
-      ? `<a class="tombol utama" href="${adopsiUrl(b)}" target="_blank" rel="noopener">Ajukan adopsi</a>`
-      : "";
-    const pengadopsi = b.pengadopsi ? `<dt>Pengadopsi</dt><dd>${esc(b.pengadopsi)}</dd>` : "";
-    dialogIsi.innerHTML = `
-      <button type="button" class="tutup" aria-label="Tutup">&times;</button>
-      <p class="kecil" style="margin:0">Bintang ${b.no} dari 108, ${b.langit ? "bintang langit" : "bintang bumi"}</p>
-      <h3 id="detail-nama">${esc(b.nama)}</h3>
-      <p style="margin:0">${esc(b.peran)}</p>
-      <dl>
-        <dt>Bintang</dt><dd>${esc(b.bintang)} ${b.kanji}</dd>
-        <dt>Usia dan asal</dt><dd>${esc(b.usia_asal)}</dd>
-        <dt>Segmen</dt><dd>${b.segmen}, ${SEG[b.segmen].nama}</dd>
-        <dt>Masuk cerita</dt><dd>Babak ${b.babak}</dd>
-        <dt>Status</dt><dd>${STATUS[b.status]}</dd>
-        ${pengadopsi}
-      </dl>
-      <div class="tombol-baris">
-        ${aksi}
-        <a class="tombol kedua" href="${fileUrl(b)}" target="_blank" rel="noopener">Baca file tokoh</a>
-      </div>`;
-    dialogIsi.querySelector(".tutup").addEventListener("click", () => dialog.close());
-    dialog.showModal();
-  }
-  dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
-  dialog.addEventListener("close", () => { if (asal && asal.focus) asal.focus(); });
-
-  // Kanal komunitas
-  const kanal = document.getElementById("kanal");
-  const baris = [
-    { judul: K.grupNama || "Grup obrolan", ket: "Ngobrol, perkenalan, mencari kolaborator.", url: K.grup, label: "Gabung grup" },
-    { judul: "Diskusi GitHub", ket: "Diskusi dunia, usulan besar, tanya jawab.", url: K.diskusi, label: "Buka diskusi" },
-    { judul: "Repositori", ket: "Bible, file tokoh, cerita, dan game.", url: repo.includes("GANTI") ? "" : repo, label: "Buka GitHub" },
-    { judul: "Email", ket: "Kerja sama, hal pribadi, laporan pelanggaran kode etik.", url: K.email ? `mailto:${K.email}` : "", label: K.email || "Kirim email" }
-  ];
-  kanal.innerHTML = baris.map((r) => `
-    <div>
-      <div><h3>${esc(r.judul)}</h3><p>${esc(r.ket)}</p></div>
-      ${r.url ? `<a class="tombol kedua" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`
-              : `<span class="belum">Tautan segera diumumkan</span>`}
-    </div>`).join("");
-  if (K.grup) {
-    const h = document.getElementById("hero-grup");
-    h.href = K.grup; h.target = "_blank"; h.rel = "noopener"; h.textContent = "Gabung grup";
-  }
-
-  gambarSaring(); gambarKisi();
+  const ya = document.getElementById("ya"), nanti = document.getElementById("nanti");
+  ya.href = `${T.repo}/issues/new/choose`; ya.target = "_blank"; ya.rel = "noopener";
+  nanti.href = "bintang.html";
+  T.kanal(document.getElementById("kanal"));
 })();
 </script>
 </body>

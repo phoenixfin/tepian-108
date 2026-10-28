@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>108 Bintang · Tepian 108</title>
+<meta name="description" content="Daftar 108 tokoh Tepian 108. Pilih yang masih menunggu penulis dan adopsi.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231C1410'/><circle cx='16' cy='13' r='4' fill='%23F0B43C'/><rect x='6' y='21' width='20' height='2' rx='1' fill='%23F0B43C' opacity='.5'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero kecil">
+  <div class="lebar">
+    <nav aria-label="Navigasi utama">
+      <a class="merek" href="index.html">Tepian 108</a>
+      <ul>
+        <li><a href="dunia.html">Dunianya</a></li>
+        <li><a href="bintang.html" aria-current="page">108 bintang</a></li>
+        <li><a href="index.html#ikut">Ikut membangun</a></li>
+      </ul>
+    </nav>
+    <div class="judul-halaman">
+      <h1>108 bintang</h1>
+      <p class="premis">Tiga puluh enam bintang langit dan tujuh puluh dua bintang bumi. Setiap bintang adalah satu orang. Yang masih menunggu penulis bisa kamu adopsi.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="papan">
+  <div class="lebar">
+    <div class="papan-kepala">
+      <div class="sempit">
+        <p class="redup" style="margin:0">Mengadopsi bintang berarti menjadi penanggung jawab kisah, suara, dan riset satu tokoh. Pilih tokoh untuk melihat detailnya.</p>
+      </div>
+      <p class="ringkas" id="ringkas" aria-live="polite"></p>
+    </div>
+    <div class="saring" id="saring" role="group" aria-label="Saring bintang"></div>
+    <div class="kisi" id="kisi"></div>
+  </div>
+</section>
+
+<section id="adopsi">
+  <div class="lebar">
+    <h2>Cara mengadopsi</h2>
+    <ol class="langkah">
+      <li><span>Pilih bintang berstatus "Menunggu penulis" di atas.</span></li>
+      <li><span>Ajukan adopsi lewat tombol di detail bintang. Formulir issue GitHub akan terbuka.</span></li>
+      <li><span>Setelah dikonfirmasi kurator, tulis latar, suara, adegan, dan riset tokohmu di file bintangnya.</span></li>
+      <li><span>Kurator meninjau kecocokan dengan kanon. Setelah lolos, tulisanmu menjadi bagian resmi semesta.</span></li>
+    </ol>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lebar">
+    <p><a href="dunia.html#aturan">Aturan main</a> · Konten CC BY-SA 4.0, kode MIT.</p>
+    <p>Semua tokoh dalam Tepian 108 adalah rekaan. Kemiripan dengan orang nyata tidak disengaja.</p>
+  </div>
+</footer>
+
+<dialog id="detail" aria-labelledby="detail-nama">
+  <div class="dialog-isi" id="detail-isi"></div>
+</dialog>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="umum.js"></script>
+<script>
+(function () {
+  const T = window.TEPIAN;
+  const { B, SEG, STATUS, warna, esc } = T;
+
+  const kisi = document.getElementById("kisi");
+  const ringkas = document.getElementById("ringkas");
+  const saring = document.getElementById("saring");
+  const keadaan = { segmen: "semua", status: "semua" };
+  const tombolSaring = (grup, nilai, label) =>
+    `<button type="button" data-grup="${grup}" data-nilai="${nilai}" aria-pressed="${keadaan[grup] === nilai}">${label}</button>`;
+  function gambarSaring() {
+    saring.innerHTML =
+      tombolSaring("segmen", "semua", "Semua segmen") +
+      Object.entries(SEG).map(([k, v]) => tombolSaring("segmen", k, `${k} ${v.nama}`)).join("") +
+      `<span class="pemisah" aria-hidden="true"></span>` +
+      tombolSaring("status", "semua", "Semua status") +
+      tombolSaring("status", "terbuka", "Menunggu penulis") +
+      tombolSaring("status", "inti", "Inti") +
+      tombolSaring("status", "diadopsi", "Diadopsi");
+  }
+  saring.addEventListener("click", (e) => {
+    const t = e.target.closest("button"); if (!t) return;
+    keadaan[t.dataset.grup] = t.dataset.nilai;
+    gambarSaring(); gambarKisi();
+  });
+  function gambarKisi() {
+    const tampil = B.filter((b) =>
+      (keadaan.segmen === "semua" || b.segmen === keadaan.segmen) &&
+      (keadaan.status === "semua" || b.status === keadaan.status));
+    const terbuka = B.filter((b) => b.status === "terbuka").length;
+    const diadopsi = B.filter((b) => b.status === "diadopsi").length;
+    ringkas.textContent = `${terbuka} menunggu penulis, ${diadopsi} diadopsi, dari 108. Menampilkan ${tampil.length}.`;
+    if (!tampil.length) {
+      kisi.innerHTML = `<p class="kosong" style="grid-column:1/-1">Belum ada bintang dengan status ini. Pilih status lain.</p>`;
+      return;
+    }
+    kisi.innerHTML = tampil.map((b) => `
+      <button type="button" class="ubin" data-no="${b.no}" data-status="${b.status}" style="--warna:${warna(b.segmen)}">
+        <span class="atas"><span>${b.no}</span><span>${esc(b.bintang)} ${b.kanji}</span></span>
+        <span class="nm">${esc(b.nama)}</span>
+        <span class="pr">${esc(b.peran)}</span>
+        <span class="lencana">${b.status === "terbuka" ? "Menunggu penulis" : b.status === "inti" ? "Inti" : "Diadopsi"}</span>
+      </button>`).join("");
+  }
+  kisi.addEventListener("click", (e) => {
+    const t = e.target.closest(".ubin"); if (!t) return;
+    buka(B.find((b) => b.no === Number(t.dataset.no)), t);
+  });
+
+  const dialog = document.getElementById("detail");
+  const dialogIsi = document.getElementById("detail-isi");
+  let asal = null;
+  function buka(b, pemicu) {
+    asal = pemicu || document.activeElement;
+    dialogIsi.style.setProperty("--warna", warna(b.segmen));
+    const aksi = b.status === "terbuka"
+      ? `<a class="tombol utama" href="${T.adopsiUrl(b)}" target="_blank" rel="noopener">Ajukan adopsi</a>`
+      : "";
+    const pengadopsi = b.pengadopsi ? `<dt>Pengadopsi</dt><dd>${esc(b.pengadopsi)}</dd>` : "";
+    dialogIsi.innerHTML = `
+      <button type="button" class="tutup" aria-label="Tutup">&times;</button>
+      <p class="kecil" style="margin:0">Bintang ${b.no} dari 108, ${b.langit ? "bintang langit" : "bintang bumi"}</p>
+      <h3 id="detail-nama">${esc(b.nama)}</h3>
+      <p style="margin:0">${esc(b.peran)}</p>
+      <dl>
+        <dt>Bintang</dt><dd>${esc(b.bintang)} ${b.kanji}</dd>
+        <dt>Usia dan asal</dt><dd>${esc(b.usia_asal)}</dd>
+        <dt>Segmen</dt><dd>${b.segmen}, ${SEG[b.segmen].nama}</dd>
+        <dt>Masuk cerita</dt><dd>Babak ${b.babak}</dd>
+        <dt>Status</dt><dd>${STATUS[b.status]}</dd>
+        ${pengadopsi}
+      </dl>
+      <div class="tombol-baris">
+        ${aksi}
+        <a class="tombol kedua" href="${T.fileUrl(b)}" target="_blank" rel="noopener">Baca file tokoh</a>
+      </div>`;
+    dialogIsi.querySelector(".tutup").addEventListener("click", () => dialog.close());
+    dialog.showModal();
+  }
+  dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener("close", () => {
+    if (location.hash) history.replaceState(null, "", location.pathname);
+    if (asal && asal.focus) asal.focus();
+  });
+
+  gambarSaring(); gambarKisi();
+
+  // Tautan langsung dari beranda: bintang.html#12
+  const no = Number(location.hash.slice(1));
+  const target = no && B.find((b) => b.no === no);
+  if (target) buka(target);
+})();
+</script>
+</body>
+</html>
