@@ -35,7 +35,7 @@
   <div class="lebar hero-teks">
     <p class="redup" style="color:var(--pelita-isi);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;margin-bottom:.75rem">Kamu fans Suikoden?</p>
     <h1>Tepian <span class="angka">108</span></h1>
-    <p class="premis">Bagaimana kalau 108 bintang itu berkumpul di Indonesia, tahun 2030? Kami sedang menulis ceritanya dan membuat gamenya. Ikut membangun.</p>
+    <p class="premis">Bagaimana kalau 108 bintang itu berkumpul di Indonesia, 2030, setahun setelah pemilu 2029? Kami sedang menulis ceritanya dan membuat gamenya. Ikut membangun.</p>
     <div class="tombol-baris">
       <a class="tombol utama" href="#ikut">Ikut membangun</a>
       <a class="tombol kedua" href="bintang.html">Lihat 108 bintang</a>
@@ -59,15 +59,14 @@
       <li>Menunggu, bertahun-tahun, game yang rasanya seperti itu lagi.</li>
     </ul>
     <p class="penutup">Sekarang bayangkan semuanya terjadi di <strong>Cakung, Barito, Indramayu, dan IKN</strong>, dengan orang-orang yang mungkin kamu kenal.</p>
-    <p class="kanji-baris" id="kanji" aria-hidden="true"></p>
-  </div>
+      </div>
 </section>
 
 <section id="dunia">
   <div class="lebar dua-kolom">
     <div class="sempit">
       <h2>Ceritanya</h2>
-      <p>Indonesia, 2030. Negara dikendalikan empat keluarga konglomerat dan satu badan koordinasi yang tumbuh diam-diam di antara mereka. Damar, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dapur umum di pabrik mangkrak di Cakung.</p>
+      <p>Indonesia, 2030. Tiga bulan setelah pelantikan rezim lama yang memenangi pemilu 2029, negara dikendalikan empat keluarga konglomerat dan satu badan koordinasi yang tumbuh diam-diam di antara mereka. Damar, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dapur umum di pabrik mangkrak di Cakung.</p>
       <p>Dapur itu menjadi gerakan saling jaga, diburu, terpecah, lalu menyebar sampai Sungai Barito. Seratus delapan orang yang dimasukkan rezim ke satu daftar buronan akhirnya bertemu pada 17 Agustus 2030, di IKN.</p>
       <p><a class="tautan-lanjut" href="dunia.html">Baca dunianya selengkapnya</a></p>
     </div>
@@ -300,7 +299,6 @@
 
   document.getElementById("chip-seg").innerHTML = Object.entries(T.SEG)
     .map(([k, v]) => `<li style="--warna:${T.warna(k)}">${k} ${v.nama}</li>`).join("");
-  document.getElementById("kanji").textContent = T.B.map((b) => b.kanji).join("");
 
   link("ya-game", "tree/" + T.cabang + "/game");
   T.kanal(document.getElementById("kanal"));
