@@ -145,14 +145,15 @@
 <section id="komunitas">
   <div class="lebar" style="max-width:760px">
     <div class="kotak">
-      <div class="siapa">Damar</div>
-      <p>"Masih banyak tempat kosong di daftar ini. Mau ikut?"</p>
+      <div class="siapa">Tepian 108</div>
+      <p>Ceritanya masih ditulis dan gamenya masih dirancang. Ada tempat untukmu di dalamnya.</p>
       <div class="pilihan">
-        <a class="ya" id="ya" href="#"><span class="tanda" aria-hidden="true">▶</span>Ya, aku ikut</a>
-        <a class="nanti" id="nanti" href="#"><span class="tanda" aria-hidden="true">▶</span>Lihat-lihat dulu</a>
+        <a class="ya" id="ya-cerita" href="bintang.html"><span class="tanda" aria-hidden="true">▶</span>Ikut menulis cerita dan tokoh</a>
+        <a class="ya" id="ya-game" href="#"><span class="tanda" aria-hidden="true">▶</span>Ikut membuat game</a>
+        <a class="nanti" id="nanti" href="dunia.html"><span class="tanda" aria-hidden="true">▶</span>Baca dunianya dulu</a>
       </div>
     </div>
-    <h3 style="margin:2.5rem 0 0">Atau mampir dulu ke komunitas</h3>
+    <h3 style="margin:2.5rem 0 0">Atau ngobrol dulu dengan kami</h3>
     <div class="kanal" id="kanal"></div>
   </div>
 </section>
@@ -189,9 +190,7 @@
     .map(([k, v]) => `<li style="--warna:${T.warna(k)}">${k} ${v.nama}</li>`).join("");
   document.getElementById("kanji").textContent = T.B.map((b) => b.kanji).join("");
 
-  const ya = document.getElementById("ya"), nanti = document.getElementById("nanti");
-  ya.href = `${T.repo}/issues/new/choose`; ya.target = "_blank"; ya.rel = "noopener";
-  nanti.href = "bintang.html";
+  link("ya-game", "tree/" + T.cabang + "/game");
   T.kanal(document.getElementById("kanal"));
 })();
 </script>
