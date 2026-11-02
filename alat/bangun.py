@@ -140,7 +140,8 @@ def bangun_bintang(data):
     for b in data:
         seg_nama, seg_fungsi = SEGMEN[b["segmen"]]
         penggarap = ", ".join(b.get("penggarap") or []) or "Belum ada"
-        kunci = "Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama, asal, latar, suara, adegan, relasi" if b["nama_terbuka"] else "Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue"
+        karya = ", ".join(f"[{k['judul']}]({k['url']})" for k in b.get("karya") or []) or "Belum ada"
+        kunci = "Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama kerja (boleh diusulkan ganti), asal, latar, suara, adegan, relasi" if b["nama_terbuka"] else "Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue"
         blok = f"""
 | | |
 |---|---|
@@ -153,6 +154,7 @@ def bangun_bintang(data):
 | Masuk cerita | {masuk(b)} |
 | Status | {STATUS[b['status']]} |
 | Penggarap | {penggarap} |
+| Karya visual dan audio | {karya} |
 | Terkunci dan terbuka | {kunci} |
 """
         tulis_dengan_blok(folder / nama_file_bintang(b), f"{b['nama']}", blok, BADAN_BINTANG)
@@ -257,7 +259,7 @@ def bangun_segmen(bintang, simpul):
 
 def bangun_situs(bintang, simpul):
     publik = [
-        {k: b[k] for k in ("no", "bintang", "kanji", "langit", "segmen", "nama", "usia_asal", "peran", "babak", "status", "penggarap", "nama_terbuka")}
+        {k: b[k] for k in ("no", "bintang", "kanji", "langit", "segmen", "nama", "usia_asal", "peran", "babak", "status", "penggarap", "nama_terbuka", "karya")}
         | {"file": nama_file_bintang(b)}
         for b in bintang
     ]

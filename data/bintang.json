@@ -14,7 +14,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 2,
@@ -31,7 +32,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 3,
@@ -48,7 +50,8 @@
   "nasib": "†B4",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 4,
@@ -65,7 +68,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 5,
@@ -82,7 +86,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 6,
@@ -99,7 +104,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 7,
@@ -116,7 +122,8 @@
   "nasib": "†B5",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 8,
@@ -133,7 +140,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 9,
@@ -150,7 +158,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 10,
@@ -167,7 +176,8 @@
   "nasib": "Ikut transisi",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 11,
@@ -184,7 +194,8 @@
   "nasib": "Penebusan parsial",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 12,
@@ -201,7 +212,8 @@
   "nasib": "†B2",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 13,
@@ -218,7 +230,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 14,
@@ -235,7 +248,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 15,
@@ -252,7 +266,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 16,
@@ -269,7 +284,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 17,
@@ -286,7 +302,8 @@
   "nasib": "†B4",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 18,
@@ -303,7 +320,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 19,
@@ -320,7 +338,8 @@
   "nasib": "†B3",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 20,
@@ -337,7 +356,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 21,
@@ -354,7 +374,8 @@
   "nasib": "Terbuka",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 22,
@@ -371,7 +392,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 23,
@@ -388,7 +410,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 24,
@@ -405,7 +428,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 25,
@@ -422,7 +446,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 26,
@@ -439,7 +464,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 27,
@@ -456,7 +482,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 28,
@@ -473,7 +500,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 29,
@@ -490,7 +518,8 @@
   "nasib": "Bebas",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 30,
@@ -507,7 +536,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 31,
@@ -524,7 +554,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 32,
@@ -541,7 +572,8 @@
   "nasib": "Bebas",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 33,
@@ -558,7 +590,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 34,
@@ -575,7 +608,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 35,
@@ -592,7 +626,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 36,
@@ -609,7 +644,8 @@
   "nasib": "Imunitas",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 37,
@@ -626,7 +662,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 38,
@@ -643,7 +680,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 39,
@@ -660,7 +698,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 40,
@@ -677,7 +716,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 41,
@@ -694,7 +734,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 42,
@@ -711,7 +752,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 43,
@@ -728,7 +770,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 44,
@@ -745,7 +788,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 45,
@@ -762,7 +806,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 46,
@@ -779,7 +824,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 47,
@@ -796,7 +842,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 48,
@@ -813,7 +860,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 49,
@@ -830,7 +878,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 50,
@@ -847,7 +896,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 51,
@@ -864,7 +914,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 52,
@@ -881,7 +932,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 53,
@@ -898,7 +950,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 54,
@@ -915,7 +968,8 @@
   "nasib": "Ditangkap B3, bebas B5",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 55,
@@ -932,7 +986,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 56,
@@ -949,7 +1004,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 57,
@@ -966,7 +1022,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 58,
@@ -983,7 +1040,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 59,
@@ -1000,7 +1058,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 60,
@@ -1017,7 +1076,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 61,
@@ -1034,7 +1094,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 62,
@@ -1051,7 +1112,8 @@
   "nasib": "Berkhianat B4, terbuka",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 63,
@@ -1068,7 +1130,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 64,
@@ -1085,7 +1148,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 65,
@@ -1102,7 +1166,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 66,
@@ -1119,7 +1184,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 67,
@@ -1136,7 +1202,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 68,
@@ -1153,7 +1220,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 69,
@@ -1170,7 +1238,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 70,
@@ -1187,7 +1256,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 71,
@@ -1204,7 +1274,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 72,
@@ -1221,7 +1292,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 73,
@@ -1238,7 +1310,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 74,
@@ -1255,7 +1328,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 75,
@@ -1272,7 +1346,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 76,
@@ -1289,7 +1364,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 77,
@@ -1306,7 +1382,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 78,
@@ -1323,7 +1400,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 79,
@@ -1340,7 +1418,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 80,
@@ -1357,7 +1436,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 81,
@@ -1374,7 +1454,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 82,
@@ -1391,7 +1472,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 83,
@@ -1408,7 +1490,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 84,
@@ -1425,7 +1508,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 85,
@@ -1442,7 +1526,8 @@
   "nasib": "Selamat",
   "status": "inti",
   "penggarap": [],
-  "nama_terbuka": false
+  "nama_terbuka": false,
+  "karya": []
  },
  {
   "no": 86,
@@ -1459,7 +1544,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 87,
@@ -1476,7 +1562,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 88,
@@ -1493,7 +1580,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 89,
@@ -1510,7 +1598,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 90,
@@ -1527,7 +1616,8 @@
   "nasib": "Dicopot B4, selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 91,
@@ -1544,7 +1634,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 92,
@@ -1561,7 +1652,8 @@
   "nasib": "Berkhianat, †B4",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 93,
@@ -1578,7 +1670,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 94,
@@ -1595,7 +1688,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 95,
@@ -1612,7 +1706,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 96,
@@ -1629,7 +1724,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 97,
@@ -1646,7 +1742,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 98,
@@ -1663,7 +1760,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 99,
@@ -1680,7 +1778,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 100,
@@ -1697,7 +1796,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 101,
@@ -1714,7 +1814,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 102,
@@ -1731,7 +1832,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 103,
@@ -1748,7 +1850,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 104,
@@ -1765,7 +1868,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 105,
@@ -1782,7 +1886,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 106,
@@ -1799,7 +1904,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 107,
@@ -1816,7 +1922,8 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  },
  {
   "no": 108,
@@ -1833,6 +1940,7 @@
   "nasib": "Selamat",
   "status": "terbuka",
   "penggarap": [],
-  "nama_terbuka": true
+  "nama_terbuka": true,
+  "karya": []
  }
 ]

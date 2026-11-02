@@ -12,7 +12,8 @@
 | Masuk cerita | Babak 3, direkrut oleh Galih |
 | Status | Terbuka: nama dan latar masih bisa ditulis bersama |
 | Penggarap | Belum ada |
-| Terkunci dan terbuka | Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama, asal, latar, suara, adegan, relasi |
+| Karya visual dan audio | Belum ada |
+| Terkunci dan terbuka | Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama kerja (boleh diusulkan ganti), asal, latar, suara, adegan, relasi |
 <!-- data:selesai -->
 
 ## Kanon

@@ -12,6 +12,7 @@
 | Masuk cerita | Babak 4, direkrut oleh Rafael |
 | Status | Tokoh inti (kanon inti, detail bisa diusulkan lewat issue) |
 | Penggarap | Belum ada |
+| Karya visual dan audio | Belum ada |
 | Terkunci dan terbuka | Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue |
 <!-- data:selesai -->
 
