@@ -25,6 +25,10 @@ _Belum diisi._
 
 _Belum diisi._
 
+## Visual dan audio
+
+_Belum ada. Tautkan lanskap, peta, ambient, atau tema musik dari [`seni/`](../seni/) dan [`audio/`](../audio/)._
+
 ## Catatan riset
 
 _Sumber, foto rujukan (dengan izin), istilah lokal._

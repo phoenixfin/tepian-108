@@ -37,6 +37,10 @@ _Belum diisi._
 
 _Belum diisi._
 
+## Visual dan audio
+
+_Belum ada. Tautkan potret, sketsa, tema musik, atau aset lain dari [`seni/`](../seni/) dan [`audio/`](../audio/)._
+
 ## Catatan riset
 
 _Sumber, catatan bahasa daerah, atau detail lokal yang dipakai._

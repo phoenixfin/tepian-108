@@ -39,6 +39,7 @@ File ini mencatat status setiap keputusan kanon, sehingga bible lain cukup beris
 | Prinsip keadilan gerakan dan tangga keputusan terhadap pengkhianat | FINAL |
 | Persebaran daerah: asal 19 tokoh dipindah dari Jakarta, Jawa, dan Kalimantan ke daerah lain, dan 6 simpul baru (Belawan, Palembang, Kupang, Ambon, Makassar, Merauke). Plot inti tidak berubah | USULAN |
 | Model kontribusi bersama: pilih segmen, simpul, atau tokoh. Satu tokoh boleh digarap beberapa orang. Terkunci hanya plot utama dan peta simpul besar | USULAN |
+| Ruang kontribusi diperluas: ilustrasi, aset visual, musik, suara, game, riset, penerjemahan, dengan folder `seni/` dan `audio/` | USULAN |
 | Pusat daerah tiap segmen berbeda: A Jakarta, B Kalimantan Tengah, C Maluku dan Jawa Tengah, D IKN dan Jakarta, E Sumatera, F pelabuhan antarpulau | USULAN |
 
 ### Antagonis

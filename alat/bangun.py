@@ -98,6 +98,10 @@ _Belum diisi._
 
 _Belum diisi._
 
+## Visual dan audio
+
+_Belum ada. Tautkan potret, sketsa, tema musik, atau aset lain dari [`seni/`](../seni/) dan [`audio/`](../audio/)._
+
 ## Catatan riset
 
 _Sumber, catatan bahasa daerah, atau detail lokal yang dipakai._
@@ -119,6 +123,10 @@ _Belum diisi._
 ## Orang-orang di simpul ini
 
 _Belum diisi._
+
+## Visual dan audio
+
+_Belum ada. Tautkan lanskap, peta, ambient, atau tema musik dari [`seni/`](../seni/) dan [`audio/`](../audio/)._
 
 ## Catatan riset
 
@@ -206,6 +214,10 @@ _Belum diisi. Ringkasan kanon ada di [`bible/03-bible-tokoh.md`](../bible/03-bib
 - Suasana sehari-hari dan bahasa daerah di pusat segmen.
 - Hubungan antar tokoh di dalam segmen.
 - Cerita pendek yang melibatkan beberapa tokoh sekaligus.
+
+## Visual dan audio
+
+_Belum ada. Tema musik segmen, ilustrasi, dan aset lain bisa ditautkan di sini._
 
 ## Catatan koordinasi
 

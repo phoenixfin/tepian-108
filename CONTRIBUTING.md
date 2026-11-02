@@ -4,17 +4,24 @@ Siapa saja boleh ikut, tidak perlu pengalaman menulis atau memprogram. Yang perl
 
 ## Jalur kontribusi
 
-| Jalur | Contoh |
-|---|---|
-| Menulis | Kisah satu bintang, cerita pendek di satu simpul, dokumen dalam dunia (berita Cakra Media, memo BPSN, pesan grup warga) |
-| Riset daerah | Bahasa, makanan, adat, geografi, dan konflik nyata di sebuah daerah sebagai bahan simpul |
-| Seni | Potret tokoh, peta simpul, ilustrasi adegan |
-| Musik dan suara | Tema per segmen, suara lingkungan (pasar, sungai, pelabuhan) |
-| Desain game | Mekanik, keseimbangan, alur misi |
-| Kode | Prototipe game, situs, alat bantu |
-| Penyuntingan | Membaca ulang, memeriksa konsistensi dengan bible |
+Cerita bukan satu-satunya cara ikut. Setiap jalur punya tempat, dan semuanya bisa terkait ke segmen, simpul, atau tokoh tertentu.
 
-## Ikut menulis: pilih segmen, simpul, atau tokoh
+| Jalur | Contoh | Tempat |
+|---|---|---|
+| Menulis | Kisah satu tokoh, cerita pendek di satu simpul, dokumen dalam dunia (berita Cakra Media, memo BPSN, pesan grup warga) | [`bintang/`](bintang/), [`simpul/`](simpul/), [`cerita/`](cerita/) |
+| Ilustrasi | Potret tokoh, lanskap simpul, adegan penting | [`seni/`](seni/) |
+| Aset visual dan desain | Sprite, tileset, ikon, antarmuka, logo, poster, peta | [`seni/`](seni/) |
+| Musik | Aransemen soundtrack, BGM per simpul atau babak, tema segmen dan tokoh | [`audio/`](audio/) |
+| Suara | Suara lingkungan (pasar, sungai, pelabuhan), efek suara, pengisi suara | [`audio/`](audio/) |
+| Desain game | Mekanik, keseimbangan, alur misi, penulisan dialog | [`game/`](game/) |
+| Kode | Prototipe Godot, situs, alat bantu | [`game/`](game/), [`docs/`](docs/), [`alat/`](alat/) |
+| Riset daerah | Bahasa, makanan, adat, geografi, dan konflik nyata sebagai bahan simpul | [`simpul/`](simpul/) |
+| Penerjemahan | Menerjemahkan atau memeriksa dialog dan istilah dalam bahasa daerah | issue |
+| Penyuntingan dan uji main | Membaca ulang, memeriksa konsistensi dengan bible, mencoba prototipe | issue |
+
+Pedoman karya visual ada di [`seni/README.md`](seni/README.md), pedoman musik dan suara di [`audio/README.md`](audio/README.md).
+
+## Ikut berkarya: pilih segmen, simpul, atau tokoh
 
 Ada tiga pintu masuk, dan kamu boleh memilih yang mana saja:
 
@@ -26,7 +33,7 @@ Ada tiga pintu masuk, dan kamu boleh memilih yang mana saja:
 
 Tidak ada satu-satu. Satu tokoh, simpul, atau segmen boleh digarap beberapa orang selama saling berkoordinasi.
 
-1. Pilih pintu masukmu dan buka issue dengan templat "Ikut menulis". Sebutkan bagian yang ingin kamu garap (latar, suara, satu adegan, relasi, suasana simpul).
+1. Pilih pintu masukmu dan buka issue dengan templat "Ikut berkarya". Sebutkan bagian yang ingin kamu garap (latar, suara, satu adegan, relasi, suasana simpul).
 2. Issue itu menjadi tempat koordinasi. Penggarap lain di tokoh atau simpul yang sama akan melihatnya. Sepakati pembagian bagian di sana, lalu tulis nama samaranmu sebagai penggarap.
 3. Tulis di file tokoh, simpul, atau segmen, pada bagian yang kamu umumkan. Kirim pull request kecil dan sering, bukan satu besar di akhir.
 4. Kurator meninjau kecocokan dengan plot utama. Setelah lolos, isinya menjadi kanon luas, dan namamu tercatat sebagai penggarap di `data/bintang.json` atau file simpul.

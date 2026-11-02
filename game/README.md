@@ -74,6 +74,8 @@ game/
 4. Prototipe abu-abu (tanpa seni) untuk Babak 1.
 5. Uji main bersama komunitas.
 
+Seni dan audio untuk dunia pada umumnya dikumpulkan di [`seni/`](../seni/) dan [`audio/`](../audio/). Aset yang siap dipakai di game dipilih bersama kurator dan disalin ke `game/seni/` dan `game/audio/`.
+
 ## Cara ikut
 
 Buka issue berlabel `game`, atau perkenalkan diri di grup komunitas (lihat [`KOMUNITAS.md`](../KOMUNITAS.md)) dan sebutkan keahlianmu: desain, pemrograman Godot, seni, audio, atau penulisan dialog.

@@ -85,6 +85,7 @@
         <ul class="aturan">
           <li>Nama, asal, dan latar 85 tokoh yang masih terbuka.</li>
           <li>Suara, luka, adegan kunci, dan relasi antar tokoh.</li>
+          <li>Potret, lanskap, aset visual, musik, dan suara, dengan banyak versi.</li>
           <li>Suasana, bahasa, dan konflik lokal di dalam simpul.</li>
           <li>Simpul kecil, cerita pendek, dan dokumen dalam dunia.</li>
           <li>Detail tokoh inti, lewat usulan di issue.</li>
@@ -97,11 +98,11 @@
 
 <section id="langkah">
   <div class="lebar">
-    <h2>Empat langkah</h2>
+    <h2>Empat langkah, untuk jalur apa pun</h2>
     <ol class="langkah">
       <li><span><strong>Pilih</strong> segmen, simpul, atau tokoh yang menarik bagimu.</span></li>
-      <li><span><strong>Umumkan</strong> lewat tombol "Ikut menulis" di halaman tokoh atau simpul. Formulir issue GitHub akan terbuka. Sebutkan bagian yang ingin kamu garap, misalnya latar, suara, satu adegan, atau relasi.</span></li>
-      <li><span><strong>Tulis</strong> di file tokoh, simpul, atau segmen pada bagian yang kamu umumkan. Kirim lewat pull request kecil dan sering, bukan satu besar di akhir.</span></li>
+      <li><span><strong>Umumkan</strong> lewat tombol "Ikut berkarya" di halaman tokoh atau simpul, atau lewat kartu di bagian Ruang berkarya. Formulir issue GitHub akan terbuka. Sebutkan bagian yang ingin kamu garap, misalnya latar, suara, satu adegan, atau relasi.</span></li>
+      <li><span><strong>Berkarya</strong>: tulis di file tokoh, simpul, atau segmen pada bagian yang kamu umumkan, atau taruh karya visual dan audiomu di folder <code>seni/</code> atau <code>audio/</code> dan tautkan di bagian "Visual dan audio". Kirim lewat pull request kecil dan sering.</span></li>
       <li><span><strong>Tinjau.</strong> Kurator memeriksa kecocokan dengan plot utama. Setelah lolos, tulisanmu menjadi bagian resmi semesta, dan namamu tercatat sebagai penggarap.</span></li>
     </ol>
     <p class="redup sempit">Belum terbiasa dengan Git? Kirim tulisanmu lewat issue atau grup komunitas. Kurator akan membantu memasukkannya.</p>
@@ -147,17 +148,105 @@
   </div>
 </section>
 
-<section id="lain">
+<section id="berkarya">
   <div class="lebar">
-    <h2>Selain menulis</h2>
-    <div class="jalur">
-      <div><h3>Riset daerah</h3><p>Bahasa, makanan, adat, dan konflik nyata di daerah yang kamu kenal, sebagai bahan simpul.</p></div>
-      <div><h3>Seni</h3><p>Potret tokoh, peta simpul, ilustrasi adegan.</p></div>
-      <div><h3>Musik dan suara</h3><p>Tema tiap segmen, suara pasar, sungai, dan pelabuhan.</p></div>
-      <div><h3>Desain game</h3><p>Rekrutmen, markas pengungsian, aksi tanpa senjata.</p></div>
-      <div><h3>Kode</h3><p>Prototipe Godot, situs ini, dan alat bantu data.</p></div>
-      <div><h3>Penyuntingan</h3><p>Membaca ulang dan memeriksa konsistensi dengan bible.</p></div>
+    <h2>Ruang berkarya</h2>
+    <p class="redup sempit" style="margin:0">Cerita hanyalah satu pintu. Dunia ini juga butuh wajah, bunyi, dan tangan yang membangun gamenya. Setiap jalur bisa dikaitkan ke segmen, simpul, atau tokoh tertentu, dan setiap karya boleh punya banyak versi dari banyak orang.</p>
+    <div class="dua-jalur" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+
+      <article class="kartu-jalur" id="menulis">
+        <h3>Menulis</h3>
+        <p class="seru">Suara, luka, dan adegan yang membuat orang terasa hidup.</p>
+        <ul>
+          <li>Kisah tokoh, relasi antar tokoh, adegan kunci</li>
+          <li>Cerita pendek dan bab novel di sebuah simpul</li>
+          <li>Dokumen dalam dunia: berita, memo, pesan grup warga</li>
+        </ul>
+        <div class="tombol-baris"><a class="tombol utama" href="bintang.html">Pilih tokoh</a></div>
+      </article>
+
+      <article class="kartu-jalur" id="visual">
+        <h3>Ilustrasi dan visual</h3>
+        <p class="seru">Beri wajah pada 108 orang dan tempat-tempat mereka.</p>
+        <ul>
+          <li><strong>Potret tokoh</strong>: wajah, setengah badan, atau seluruh badan, beberapa gaya boleh</li>
+          <li><strong>Lanskap dan simpul</strong>: pabrik, tongkang, pelabuhan, kampung, tanah adat</li>
+          <li><strong>Adegan</strong>: satu momen dari plot atau dari cerita kontributor</li>
+          <li><strong>Aset game</strong>: sprite, tileset, latar, ikon, kotak dialog, antarmuka</li>
+          <li><strong>Identitas</strong>: logo, poster, sampul, peta simpul</li>
+        </ul>
+        <p class="redup" style="font-size:.9rem">PNG atau WebP, sisi terpanjang minimal 1600 px. Sertakan file sumber (PSD, KRA, SVG, Aseprite) bila bisa.</p>
+        <div class="tombol-baris">
+          <a class="tombol utama" data-jalur="Ilustrasi atau aset visual" href="#" target="_blank" rel="noopener">Daftar jalur visual</a>
+          <a class="tombol kedua" style="color:var(--teks);border-color:var(--garis)" data-folder="tree/main/seni" href="#" target="_blank" rel="noopener">Pedoman visual</a>
+        </div>
+      </article>
+
+      <article class="kartu-jalur" id="musik">
+        <h3>Musik</h3>
+        <p class="seru">Beri bunyi pada dapur umum, sungai, dan pelabuhan.</p>
+        <ul>
+          <li><strong>Aransemen soundtrack</strong> dari tema yang ada, atau tema baru</li>
+          <li><strong>BGM</strong> untuk simpul, adegan, atau babak</li>
+          <li><strong>Tema segmen dan tokoh</strong>, dengan bunyi dari daerah pusatnya</li>
+        </ul>
+        <p class="redup" style="font-size:.9rem">OGG atau FLAC untuk hasil akhir. Sertakan stem atau proyek bila bisa, supaya orang lain bisa mengaransemen ulang.</p>
+        <div class="tombol-baris">
+          <a class="tombol utama" data-jalur="Musik" href="#" target="_blank" rel="noopener">Daftar jalur musik</a>
+          <a class="tombol kedua" style="color:var(--teks);border-color:var(--garis)" data-folder="tree/main/audio" href="#" target="_blank" rel="noopener">Pedoman musik</a>
+        </div>
+      </article>
+
+      <article class="kartu-jalur" id="suara">
+        <h3>Suara</h3>
+        <p class="seru">Pasar pagi, hujan di atap seng, mesin tongkang.</p>
+        <ul>
+          <li><strong>Suara lingkungan</strong>: pasar, sungai, pelabuhan, hutan, dapur umum</li>
+          <li><strong>Efek suara</strong> untuk game dan antarmuka</li>
+          <li><strong>Pengisi suara</strong>: dialog tokoh dalam bahasa Indonesia atau bahasa daerah</li>
+        </ul>
+        <div class="tombol-baris">
+          <a class="tombol utama" data-jalur="Suara" href="#" target="_blank" rel="noopener">Daftar jalur suara</a>
+        </div>
+      </article>
+
+      <article class="kartu-jalur" id="game">
+        <h3>Game</h3>
+        <p class="seru">Prototipe Babak 1 belum dimulai, jadi bentuk akhirnya masih bisa kamu pengaruhi.</p>
+        <ul>
+          <li>Desain sistem: rekrutmen, markas, aksi tanpa senjata</li>
+          <li>Kode Godot 4 (GDScript)</li>
+          <li>Desain level, penulisan dialog, uji main</li>
+        </ul>
+        <div class="tombol-baris">
+          <a class="tombol utama" data-folder="tree/main/game" href="#" target="_blank" rel="noopener">Baca rancangan game</a>
+          <a class="tombol kedua" style="color:var(--teks);border-color:var(--garis)" data-jalur="Desain game atau kode" href="#" target="_blank" rel="noopener">Daftar jalur game</a>
+        </div>
+      </article>
+
+      <article class="kartu-jalur" id="dukungan">
+        <h3>Riset dan dukungan</h3>
+        <p class="seru">Dunia yang meyakinkan lahir dari orang yang mengenal tempatnya.</p>
+        <ul>
+          <li><strong>Riset daerah</strong>: bahasa, makanan, adat, konflik nyata</li>
+          <li><strong>Penerjemahan</strong>: dialog dan istilah dalam bahasa daerah</li>
+          <li><strong>Penyuntingan</strong> dan pemeriksaan konsistensi dengan bible</li>
+          <li><strong>Dokumentasi, komunitas, video, dan promosi</strong></li>
+        </ul>
+        <div class="tombol-baris">
+          <a class="tombol utama" data-jalur="Riset atau dukungan" href="#" target="_blank" rel="noopener">Daftar jalur ini</a>
+        </div>
+      </article>
+
     </div>
+    <h3 style="margin-top:2.5rem">Aturan karya visual dan audio</h3>
+    <ul class="aturan">
+      <li>Karya sendiri, dilisensikan CC BY-SA 4.0. Satu tokoh, simpul, atau tema boleh punya banyak versi.</li>
+      <li>Tidak memakai aset, karakter, musik, atau gambar dari Suikoden atau karya lain yang berhak cipta. Rujukan gaya boleh, menyalin tidak.</li>
+      <li>Rujukan pihak ketiga harus berlisensi bebas dan disebutkan sumbernya. Tidak memakai foto orang nyata sebagai wajah tokoh tanpa izin tertulis.</li>
+      <li>Bila memakai alat AI generatif, sebutkan di catatan. Kurator menentukan apakah karya itu bisa masuk kanon luas.</li>
+      <li>Karya harus cocok dengan kanon: usia, asal daerah, pakaian, dan nasib tokoh tidak bertentangan dengan bible.</li>
+    </ul>
   </div>
 </section>
 
@@ -166,7 +255,7 @@
     <h2>Mulai dari mana saja</h2>
     <p class="redup sempit">Perkenalkan dirimu: nama atau nama samaran, daerah asal atau yang kamu kenal baik, dan ingin ikut lewat apa.</p>
     <div class="tombol-baris" style="margin:1.25rem 0 0">
-      <a class="tombol utama" id="mulai" href="#" target="_blank" rel="noopener">Ikut menulis</a>
+      <a class="tombol utama" id="mulai" href="#" target="_blank" rel="noopener">Ikut berkarya</a>
       <a class="tombol kedua" style="color:var(--teks);border-color:var(--garis)" href="bintang.html">Lihat 108 bintang</a>
     </div>
     <div class="kanal" id="kanal"></div>
@@ -187,7 +276,9 @@
 <script>
 (function () {
   const T = window.TEPIAN;
-  document.getElementById("mulai").href = T.ikutUrl("Ikut menulis: ");
+  document.getElementById("mulai").href = T.ikutUrl("Ikut berkarya: ");
+  document.querySelectorAll("a[data-jalur]").forEach((a) => { a.href = T.ikutUrl("Ikut berkarya (" + a.dataset.jalur + "): "); });
+  document.querySelectorAll("a[data-folder]").forEach((a) => { a.href = T.gh(a.dataset.folder.replace("main", T.cabang)); });
   T.kanal(document.getElementById("kanal"));
 })();
 </script>

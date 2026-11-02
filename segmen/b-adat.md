@@ -53,6 +53,10 @@ _Belum diisi. Ringkasan kanon ada di [`bible/03-bible-tokoh.md`](../bible/03-bib
 - Hubungan antar tokoh di dalam segmen.
 - Cerita pendek yang melibatkan beberapa tokoh sekaligus.
 
+## Visual dan audio
+
+_Belum ada. Tema musik segmen, ilustrasi, dan aset lain bisa ditautkan di sini._
+
 ## Catatan koordinasi
 
 _Siapa menulis apa, supaya tidak bertabrakan._
