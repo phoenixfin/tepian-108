@@ -4,12 +4,12 @@
   const B = window.TEPIAN_BINTANG || [];
   const S = window.TEPIAN_SIMPUL || [];
   const SEG = {
-    A: { nama: "Utama", fungsi: "Rumah. Dapur umum, pengungsian, orang-orang yang saling jaga." },
-    B: { nama: "Adat", fungsi: "Tanah dan sumpah. Buruh tambang, masyarakat adat, nelayan, petani." },
-    C: { nama: "Militer", fungsi: "Pelaksana. Aparat yang retak pelan-pelan dari dalam." },
-    D: { nama: "Birokrat", fungsi: "Dalam lingkaran. Keluarga pejabat, staf, pejabat daerah dan lembaga." },
-    E: { nama: "Akademisi", fungsi: "Pola. Analis, auditor, peneliti, pengacara kebijakan." },
-    F: { nama: "Bisnis", fungsi: "Modal dan jalur. Pelabuhan, kapal, truk, dan pewaris konglomerat." }
+    A: { nama: "Utama", fungsi: "Rumah. Dapur umum, pengungsian, orang-orang yang saling jaga.", pusat: "Jakarta dan Bekasi" },
+    B: { nama: "Adat", fungsi: "Tanah dan sumpah. Buruh tambang, masyarakat adat, nelayan, petani.", pusat: "Kalimantan Tengah" },
+    C: { nama: "Militer", fungsi: "Pelaksana. Aparat yang retak pelan-pelan dari dalam.", pusat: "Maluku dan Jawa Tengah" },
+    D: { nama: "Birokrat", fungsi: "Dalam lingkaran. Keluarga pejabat, staf, pejabat daerah dan lembaga.", pusat: "IKN dan Jakarta" },
+    E: { nama: "Akademisi", fungsi: "Pola. Analis, auditor, peneliti, pengacara kebijakan.", pusat: "Sumatera" },
+    F: { nama: "Bisnis", fungsi: "Modal dan jalur. Pelabuhan, kapal, truk, dan pewaris konglomerat.", pusat: "Pelabuhan antarpulau" }
   };
   const STATUS = { inti: "Tokoh inti", terbuka: "Menunggu penulis", diadopsi: "Sudah diadopsi" };
   const repo = (K.repo || "").replace(/\/$/, "");

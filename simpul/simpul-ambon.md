@@ -4,9 +4,9 @@
 | | |
 |---|---|
 | Wilayah | Maluku |
-| Fungsi dalam cerita | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut |
+| Fungsi dalam cerita | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut. Rumah Benyamin |
 | Babak aktif | 3 sampai 5 |
-| Segmen | B |
+| Segmen | B, C |
 <!-- data:selesai -->
 
 ## Kanon

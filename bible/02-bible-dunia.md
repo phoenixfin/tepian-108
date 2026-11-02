@@ -109,20 +109,29 @@ Aparat bukan pusat kekuasaan. Mereka alat tiap keluarga, dan pada akhirnya alat 
 | Simpul Belawan dan Medan, Sumut | Pelabuhan, buruh perkebunan, dan ojol. Mogok serentak di Babak 5 | 4 sampai 5 | A dan F |
 | Simpul Sungai Musi, Palembang | Jalur sungai kedua dan rumah kerja jaringan E | 4 sampai 5 | E |
 | Simpul Kupang dan Flores Timur, NTT | Kapal rakyat antarpulau, kabar dan logistik ke timur | 3 sampai 5 | B dan F |
-| Simpul Ambon, Maluku | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut | 3 sampai 5 | B |
+| Simpul Ambon, Maluku | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut. Rumah Benyamin | 3 sampai 5 | B dan C |
 | Food estate Merauke, Papua Selatan | Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau | 4 sampai 5 | B |
+| Pelabuhan Paotere, Makassar, Sulawesi Selatan | Jalur kapal antarpulau milik F, gudang dan kurir | 3 sampai 5 | F |
 | Fasilitas penahanan dekat IKN | Tempat Ambun dan Dodi ditahan | 4 sampai 5 | C dan D |
 | IKN dan Teluk Balikpapan | Upacara, Otorita, titik akhir | 5 | Semua |
 
 Rute markas bergerak: Sungai Barito, keluar ke laut, menyusuri pesisir menuju Teluk Balikpapan.
 
+**Pusat daerah per segmen**
+- A Utama: Jakarta dan Bekasi, tempat dapur umum lahir.
+- B Adat: Kalimantan Tengah, dengan kaki di Sulawesi Tenggara, Nusa Tenggara, dan Papua.
+- C Militer: Maluku dan Jawa Tengah.
+- D Birokrat: IKN dan Jakarta, pusat negara.
+- E Akademisi: Sumatera (Padang dan Palembang).
+- F Bisnis: pelabuhan antarpulau (Surabaya, Makassar, Belawan).
+
 **Gugus markas per segmen**
 - A: pabrik, lalu kos, simpul Bekasi, tongkang.
 - B: rumah serikat di Tolanggo, balai adat di Mentaya, koperasi nelayan Indramayu, kapal rakyat Kupang dan Ambon, tanah adat Merauke.
-- C: barak, rumah Benyamin di Bogor, lalu fasilitas penahanan.
+- C: barak di Magelang, rumah Benyamin di Ambon, lalu fasilitas penahanan.
 - D: rumah keluarga Wirasena, kantor Otorita, rumah notaris Hartono.
-- E: kantor kementerian, ruang arsip, kamar kos Intan, rumah kerja di tepi Sungai Musi.
-- F: kantor Adiwangsa Logistik, gudang Priok, kapal kargo, dermaga Belawan dan Kupang.
+- E: rumah kerja di tepi Sungai Musi, kampus di Padang, kamar kos Intan. Kantor kementerian dan ruang arsip di Jakarta hanya tempat kerja.
+- F: pelabuhan dan dermaga di Surabaya, Makassar, dan Belawan, gudang Priok, kapal kargo. Kantor Adiwangsa Logistik tetap di Jakarta.
 
 Ciri simpul: sel terpisah, tampilan sehari-hari biasa (warung, koperasi, bengkel, majelis taklim, sanggar), komunikasi lewat kurir manusia dan jalur logistik sah milik F.
 

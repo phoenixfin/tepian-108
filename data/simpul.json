@@ -13,6 +13,7 @@
  {"slug":"simpul-belawan","nama":"Simpul Belawan dan Medan","wilayah":"Sumatera Utara","fungsi":"Pelabuhan, buruh perkebunan, dan ojol. Mogok serentak di Babak 5","babak":"4 sampai 5","segmen":["A","F"]},
  {"slug":"simpul-musi","nama":"Simpul Sungai Musi, Palembang","wilayah":"Sumatera Selatan","fungsi":"Jalur sungai kedua dan rumah kerja jaringan E","babak":"4 sampai 5","segmen":["E"]},
  {"slug":"simpul-kupang","nama":"Simpul Kupang dan Flores Timur","wilayah":"Nusa Tenggara Timur","fungsi":"Kapal rakyat antarpulau, kabar dan logistik ke timur","babak":"3 sampai 5","segmen":["B","F"]},
- {"slug":"simpul-ambon","nama":"Simpul Ambon","wilayah":"Maluku","fungsi":"Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut","babak":"3 sampai 5","segmen":["B"]},
- {"slug":"food-estate-merauke","nama":"Food estate Merauke","wilayah":"Papua Selatan","fungsi":"Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau","babak":"4 sampai 5","segmen":["B"]}
+ {"slug":"simpul-ambon","nama":"Simpul Ambon","wilayah":"Maluku","fungsi":"Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut. Rumah Benyamin","babak":"3 sampai 5","segmen":["B","C"]},
+ {"slug":"food-estate-merauke","nama":"Food estate Merauke","wilayah":"Papua Selatan","fungsi":"Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau","babak":"4 sampai 5","segmen":["B"]},
+ {"slug":"pelabuhan-paotere","nama":"Pelabuhan Paotere, Makassar","wilayah":"Sulawesi Selatan","fungsi":"Jalur kapal antarpulau milik F, gudang dan kurir","babak":"3 sampai 5","segmen":["F"]}
 ]

@@ -20,5 +20,6 @@ File ini dibuat otomatis oleh `alat/bangun.py`.
 | [Simpul Belawan dan Medan](simpul-belawan.md) | Sumatera Utara | 4 sampai 5 | A, F |
 | [Simpul Sungai Musi, Palembang](simpul-musi.md) | Sumatera Selatan | 4 sampai 5 | E |
 | [Simpul Kupang dan Flores Timur](simpul-kupang.md) | Nusa Tenggara Timur | 3 sampai 5 | B, F |
-| [Simpul Ambon](simpul-ambon.md) | Maluku | 3 sampai 5 | B |
+| [Simpul Ambon](simpul-ambon.md) | Maluku | 3 sampai 5 | B, C |
 | [Food estate Merauke](food-estate-merauke.md) | Papua Selatan | 4 sampai 5 | B |
+| [Pelabuhan Paotere, Makassar](pelabuhan-paotere.md) | Sulawesi Selatan | 3 sampai 5 | F |

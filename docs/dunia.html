@@ -102,7 +102,7 @@
   Object.entries(SEG).forEach(([k, v]) => {
     const n = B.filter((b) => b.segmen === k).length;
     daftar.insertAdjacentHTML("beforeend",
-      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi}</span></li>`);
+      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi} <strong>Pusat: ${v.pusat}.</strong></span></li>`);
   });
 
   document.getElementById("simpul-kisi").innerHTML = S.map((s) => `
