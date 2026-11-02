@@ -6,7 +6,7 @@
 | Nomor | 47 dari 108 |
 | Bintang | Chisei 地正 (bintang bumi) |
 | Nama | Benny Kurniawan |
-| Usia dan asal | 45, Bogor |
+| Usia dan asal | 45, Jambi |
 | Segmen | D, Birokrat (Dalam lingkaran) |
 | Peran | Akuntan penaksir aset |
 | Masuk cerita | Babak 2, direkrut oleh Rafael |

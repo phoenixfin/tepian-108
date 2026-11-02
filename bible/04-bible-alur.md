@@ -32,7 +32,7 @@ Pabrik membesar lewat korban pinjol, PHK, dan Tarum. Iduladha dirayakan dengan k
 Pada 1 Mei pabrik memberi makan massa aksi buruh, dan itu menjadi dalih. Memo Sekar dipakai sebagai dasar operasi. Penggerebekan dilihat dari empat PoV. Mak Inah gugur. Di pemakamannya Damar bersumpah di depan Bue Ilai. Setelahnya Sekar bertemu La Ode lewat Laras, dan bukti Sekar mulai menunjuk keluarga Rafael.
 
 ### Babak 3: Menyebar (Juni)
-A menjadi pengungsi: ke kos Bu Endang, ke simpul Bekasi yang dilindungi wali kota Hendra, dan ke tongkang Kapten Rusmadi. Simpul pesisir Indramayu dibangun bersama Darsono.
+A menjadi pengungsi: ke kos Bu Endang, ke simpul Bekasi yang dilindungi wali kota Hendra, dan ke tongkang Kapten Rusmadi. Simpul pesisir Indramayu dibangun bersama Darsono. Dari Jawa dan Kalimantan, kabar dapur umum merambat lewat kurir dan kapal rakyat. Simpul tumbuh di Belawan, Palembang, Kupang, Ambon, dan Merauke, kecil dan diam-diam.
 
 Rantai dosa dan pengkhianatan: pada 1 Juni Nadia membocorkan berkas Rafael, termasuk Daftar 108, tanpa menyamarkan nama. Pak Darto tertangkap. Rizal Hakim menawari Rafael pembebasan Darto ganti lokasi simpul. Rafael menyerahkan lokasi pesisir. Simpul digerebek, Darsono gugur. Rafael datang sendiri ke musyawarah adat B dan diputus berutang.
 

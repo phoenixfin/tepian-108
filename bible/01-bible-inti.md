@@ -31,7 +31,7 @@ Damar Tingang, pemuda Kalimantan yang baru bebas dari salah tangkap, membuka dap
 
 ## 3. Gaya dan aturan realis
 
-- Tempat nyata (Jakarta, Bekasi, Indramayu, Sulawesi Tenggara, Kalimantan Tengah, Sungai Barito, IKN).
+- Tempat nyata (Jakarta, Bekasi, Indramayu, Sulawesi Tenggara, Kalimantan Tengah, Sungai Barito, Medan, Palembang, Kupang, Ambon, Merauke, IKN).
 - Orang, partai, perusahaan, lembaga, dan aparat sepenuhnya rekaan. Kebijakan nyata dipelesetkan namanya.
 - Kabupaten di Sulawesi Tenggara memakai nama fiktif (Tolanggo) agar pejabatnya tidak bisa dikaitkan dengan orang nyata.
 - Tidak ada kekuatan ajaib. Fungsi "markas" dalam kisah 108 pendekar diterjemahkan menjadi kebutuhan nyata: dapur, klinik, bengkel, radio, gudang, perahu, data.

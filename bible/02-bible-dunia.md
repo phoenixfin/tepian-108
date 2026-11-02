@@ -106,6 +106,11 @@ Aparat bukan pusat kekuasaan. Mereka alat tiap keluarga, dan pada akhirnya alat 
 | Tongkang Kapten Rusmadi, Sungai Barito | Markas bergerak, pusat data darurat. Diserang di B4 | 3 sampai 4 | A dan B |
 | Kampung Damar, tepi Sungai Mentaya, Kotawaringin Timur | Luka lama, pertemuan dengan Bue Ilai | 4 | A dan B |
 | Food estate Pulang Pisau | Petani yang kehilangan lahan | 4 | B |
+| Simpul Belawan dan Medan, Sumut | Pelabuhan, buruh perkebunan, dan ojol. Mogok serentak di Babak 5 | 4 sampai 5 | A dan F |
+| Simpul Sungai Musi, Palembang | Jalur sungai kedua dan rumah kerja jaringan E | 4 sampai 5 | E |
+| Simpul Kupang dan Flores Timur, NTT | Kapal rakyat antarpulau, kabar dan logistik ke timur | 3 sampai 5 | B dan F |
+| Simpul Ambon, Maluku | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut | 3 sampai 5 | B |
+| Food estate Merauke, Papua Selatan | Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau | 4 sampai 5 | B |
 | Fasilitas penahanan dekat IKN | Tempat Ambun dan Dodi ditahan | 4 sampai 5 | C dan D |
 | IKN dan Teluk Balikpapan | Upacara, Otorita, titik akhir | 5 | Semua |
 
@@ -113,11 +118,11 @@ Rute markas bergerak: Sungai Barito, keluar ke laut, menyusuri pesisir menuju Te
 
 **Gugus markas per segmen**
 - A: pabrik, lalu kos, simpul Bekasi, tongkang.
-- B: rumah serikat di Tolanggo, balai adat di Mentaya, koperasi nelayan Indramayu.
+- B: rumah serikat di Tolanggo, balai adat di Mentaya, koperasi nelayan Indramayu, kapal rakyat Kupang dan Ambon, tanah adat Merauke.
 - C: barak, rumah Benyamin di Bogor, lalu fasilitas penahanan.
 - D: rumah keluarga Wirasena, kantor Otorita, rumah notaris Hartono.
-- E: kantor kementerian, ruang arsip, kamar kos Intan.
-- F: kantor Adiwangsa Logistik, gudang Priok, kapal kargo.
+- E: kantor kementerian, ruang arsip, kamar kos Intan, rumah kerja di tepi Sungai Musi.
+- F: kantor Adiwangsa Logistik, gudang Priok, kapal kargo, dermaga Belawan dan Kupang.
 
 Ciri simpul: sel terpisah, tampilan sehari-hari biasa (warung, koperasi, bengkel, majelis taklim, sanggar), komunikasi lewat kurir manusia dan jalur logistik sah milik F.
 

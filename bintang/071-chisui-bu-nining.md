@@ -6,7 +6,7 @@
 | Nomor | 71 dari 108 |
 | Bintang | Chisui 地遂 (bintang bumi) |
 | Nama | Bu Nining |
-| Usia dan asal | 59, Garut |
+| Usia dan asal | 59, Lhokseumawe |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Pustakawan arsip |
 | Masuk cerita | Babak 2, direkrut oleh Laras |

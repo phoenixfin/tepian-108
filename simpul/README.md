@@ -17,3 +17,8 @@ File ini dibuat otomatis oleh `alat/bangun.py`.
 | [Food estate Pulang Pisau](pulang-pisau.md) | Kalimantan Tengah | 4 | B |
 | [Fasilitas penahanan dekat IKN](fasilitas-ikn.md) | Kalimantan Timur | 4 sampai 5 | C, D |
 | [IKN dan Teluk Balikpapan](ikn-teluk-balikpapan.md) | Kalimantan Timur | 5 | A, B, C, D, E, F |
+| [Simpul Belawan dan Medan](simpul-belawan.md) | Sumatera Utara | 4 sampai 5 | A, F |
+| [Simpul Sungai Musi, Palembang](simpul-musi.md) | Sumatera Selatan | 4 sampai 5 | E |
+| [Simpul Kupang dan Flores Timur](simpul-kupang.md) | Nusa Tenggara Timur | 3 sampai 5 | B, F |
+| [Simpul Ambon](simpul-ambon.md) | Maluku | 3 sampai 5 | B |
+| [Food estate Merauke](food-estate-merauke.md) | Papua Selatan | 4 sampai 5 | B |

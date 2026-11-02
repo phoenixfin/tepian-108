@@ -6,7 +6,7 @@
 | Nomor | 33 dari 108 |
 | Bintang | Tensui 天慧 (bintang langit) |
 | Nama | Annisa Rahman |
-| Usia dan asal | 30, Samarinda |
+| Usia dan asal | 30, Palu |
 | Segmen | D, Birokrat (Dalam lingkaran) |
 | Peran | Staf hukum Otorita |
 | Masuk cerita | Babak 4, direkrut oleh Rafael |

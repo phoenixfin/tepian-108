@@ -6,7 +6,7 @@
 | Nomor | 63 dari 108 |
 | Bintang | Chikyou 地狂 (bintang bumi) |
 | Nama | Bripka Ilham Saputra |
-| Usia dan asal | 30, Balikpapan |
+| Usia dan asal | 30, Merauke |
 | Segmen | C, Militer (Pelaksana) |
 | Peran | Operator drone |
 | Masuk cerita | Babak 5, direkrut oleh Made |

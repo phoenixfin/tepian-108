@@ -9,5 +9,10 @@
  {"slug":"kampung-mentaya","nama":"Kampung Damar, tepi Sungai Mentaya","wilayah":"Kotawaringin Timur, Kalimantan Tengah","fungsi":"Luka lama, pertemuan dengan Bue Ilai","babak":"4","segmen":["A","B"]},
  {"slug":"pulang-pisau","nama":"Food estate Pulang Pisau","wilayah":"Kalimantan Tengah","fungsi":"Petani yang kehilangan lahan","babak":"4","segmen":["B"]},
  {"slug":"fasilitas-ikn","nama":"Fasilitas penahanan dekat IKN","wilayah":"Kalimantan Timur","fungsi":"Tempat Ambun dan Dodi ditahan","babak":"4 sampai 5","segmen":["C","D"]},
- {"slug":"ikn-teluk-balikpapan","nama":"IKN dan Teluk Balikpapan","wilayah":"Kalimantan Timur","fungsi":"Upacara 17 Agustus, Otorita, titik akhir","babak":"5","segmen":["A","B","C","D","E","F"]}
+ {"slug":"ikn-teluk-balikpapan","nama":"IKN dan Teluk Balikpapan","wilayah":"Kalimantan Timur","fungsi":"Upacara 17 Agustus, Otorita, titik akhir","babak":"5","segmen":["A","B","C","D","E","F"]},
+ {"slug":"simpul-belawan","nama":"Simpul Belawan dan Medan","wilayah":"Sumatera Utara","fungsi":"Pelabuhan, buruh perkebunan, dan ojol. Mogok serentak di Babak 5","babak":"4 sampai 5","segmen":["A","F"]},
+ {"slug":"simpul-musi","nama":"Simpul Sungai Musi, Palembang","wilayah":"Sumatera Selatan","fungsi":"Jalur sungai kedua dan rumah kerja jaringan E","babak":"4 sampai 5","segmen":["E"]},
+ {"slug":"simpul-kupang","nama":"Simpul Kupang dan Flores Timur","wilayah":"Nusa Tenggara Timur","fungsi":"Kapal rakyat antarpulau, kabar dan logistik ke timur","babak":"3 sampai 5","segmen":["B","F"]},
+ {"slug":"simpul-ambon","nama":"Simpul Ambon","wilayah":"Maluku","fungsi":"Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut","babak":"3 sampai 5","segmen":["B"]},
+ {"slug":"food-estate-merauke","nama":"Food estate Merauke","wilayah":"Papua Selatan","fungsi":"Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau","babak":"4 sampai 5","segmen":["B"]}
 ]

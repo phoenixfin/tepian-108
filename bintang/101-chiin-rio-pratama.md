@@ -6,7 +6,7 @@
 | Nomor | 101 dari 108 |
 | Bintang | Chiin 地陰 (bintang bumi) |
 | Nama | Rio Pratama |
-| Usia dan asal | 27, Balikpapan |
+| Usia dan asal | 27, Jayapura |
 | Segmen | D, Birokrat (Dalam lingkaran) |
 | Peran | Staf TI Otorita |
 | Masuk cerita | Babak 5, direkrut oleh Annisa |

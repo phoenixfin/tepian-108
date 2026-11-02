@@ -6,7 +6,7 @@
 | Nomor | 66 dari 108 |
 | Bintang | Chikou 地巧 (bintang bumi) |
 | Nama | Hendrik Gozali |
-| Usia dan asal | 48, Jakarta |
+| Usia dan asal | 48, Batam |
 | Segmen | F, Bisnis (Modal dan jalur) |
 | Peran | Broker dan pedagang |
 | Masuk cerita | Babak 3, direkrut oleh Bima |

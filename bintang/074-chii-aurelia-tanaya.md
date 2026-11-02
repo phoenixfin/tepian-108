@@ -6,7 +6,7 @@
 | Nomor | 74 dari 108 |
 | Bintang | Chii 地異 (bintang bumi) |
 | Nama | Aurelia Tanaya |
-| Usia dan asal | 30, Jakarta |
+| Usia dan asal | 30, Manado |
 | Segmen | F, Bisnis (Modal dan jalur) |
 | Peran | Pendiri startup ekspedisi |
 | Masuk cerita | Babak 5, direkrut oleh Stefanus |

@@ -6,7 +6,7 @@
 | Nomor | 72 dari 108 |
 | Bintang | Chisyu 地周 (bintang bumi) |
 | Nama | Agung Wibowo |
-| Usia dan asal | 44, Yogyakarta |
+| Usia dan asal | 44, Pekanbaru |
 | Segmen | D, Birokrat (Dalam lingkaran) |
 | Peran | Pegawai pertanahan, kunci status tanah |
 | Masuk cerita | Babak 4, direkrut oleh Annisa |

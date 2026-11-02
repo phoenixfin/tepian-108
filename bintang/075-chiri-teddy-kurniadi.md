@@ -6,7 +6,7 @@
 | Nomor | 75 dari 108 |
 | Bintang | Chiri 地理 (bintang bumi) |
 | Nama | Teddy Kurniadi |
-| Usia dan asal | 33, Bandung |
+| Usia dan asal | 33, Mataram |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Statistikawan |
 | Masuk cerita | Babak 2, direkrut oleh Sekar |

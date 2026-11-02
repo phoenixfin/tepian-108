@@ -6,7 +6,7 @@
 | Nomor | 27 dari 108 |
 | Bintang | Tenken 天剣 (bintang langit) |
 | Nama | Stefanus Wijaya |
-| Usia dan asal | 39, Jakarta |
+| Usia dan asal | 39, Pangkalpinang |
 | Segmen | F, Bisnis (Modal dan jalur) |
 | Peran | Pengacara korporat |
 | Masuk cerita | Babak 4, direkrut oleh Bima |

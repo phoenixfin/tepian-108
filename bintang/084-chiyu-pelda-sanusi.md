@@ -6,7 +6,7 @@
 | Nomor | 84 dari 108 |
 | Bintang | Chiyu 地幽 (bintang bumi) |
 | Nama | Pelda Sanusi |
-| Usia dan asal | 52, Banten |
+| Usia dan asal | 52, Bima |
 | Segmen | C, Militer (Pelaksana) |
 | Peran | Juru masak barak |
 | Masuk cerita | Babak 3, direkrut oleh Bambang |

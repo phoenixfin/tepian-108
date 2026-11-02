@@ -6,7 +6,7 @@
 | Nomor | 97 dari 108 |
 | Bintang | Chisatsu 地察 (bintang bumi) |
 | Nama | Nindya Paramitha |
-| Usia dan asal | 28, Jakarta |
+| Usia dan asal | 28, Sorong |
 | Segmen | C, Militer (Pelaksana) |
 | Peran | Analis intel siber |
 | Masuk cerita | Babak 4, direkrut oleh Bimo |

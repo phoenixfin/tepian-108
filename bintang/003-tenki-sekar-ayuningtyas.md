@@ -6,7 +6,7 @@
 | Nomor | 3 dari 108 |
 | Bintang | Tenki 天機 (bintang langit) |
 | Nama | Sekar Ayuningtyas |
-| Usia dan asal | 31, Yogyakarta |
+| Usia dan asal | 31, Padang |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Strategist |
 | Masuk cerita | Babak 1, sebagai tokoh sudut pandang |

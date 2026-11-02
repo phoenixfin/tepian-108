@@ -6,7 +6,7 @@
 | Nomor | 38 dari 108 |
 | Bintang | Chisatsu 地煞 (bintang bumi) |
 | Nama | Mayor dr. Ratih Kusumawardani |
-| Usia dan asal | 39, Malang |
+| Usia dan asal | 39, Ternate |
 | Segmen | C, Militer (Pelaksana) |
 | Peran | Dokter militer |
 | Masuk cerita | Babak 3, direkrut oleh Galih |

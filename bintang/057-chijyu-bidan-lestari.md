@@ -6,7 +6,7 @@
 | Nomor | 57 dari 108 |
 | Bintang | Chijyu 地獣 (bintang bumi) |
 | Nama | Bidan Lestari |
-| Usia dan asal | 34, Klaten |
+| Usia dan asal | 34, Waingapu |
 | Segmen | A, Utama (Rumah) |
 | Peran | Bidan, medis kedua |
 | Masuk cerita | Babak 2, direkrut oleh Fransiska |

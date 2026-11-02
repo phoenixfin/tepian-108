@@ -114,7 +114,7 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 - 58, Kalteng. Dulu ikut meneken konsesi. Membantu sejak B4 karena rasa bersalah dan perhitungan. Ikut mengamankan posisinya di transisi.
 
 ### Sekar Ayuningtyas (Tenki 天機, E, PoV)
-- 31, Yogyakarta. Analis kebijakan di Kementerian Perencanaan Pembangunan. Diremehkan, paling tajam.
+- 31, Padang. Analis kebijakan di Kementerian Perencanaan Pembangunan. Diremehkan, paling tajam.
 - Memonya diklaim atasan dan dipakai untuk penggerebekan. Menanggung rasa bersalah, membangun kasus bersama B, merancang blokade, menyadari Seno, gugur di tongkang.
 - Catatan pribadinya diwarisi Intan.
 
@@ -157,7 +157,7 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Chitatsu 地撻 | Ucil | 17, Jakarta | Anak jalanan, hafal semua jalan tikus | 1 | Jeki | Selamat |
 | Chimei 地明 | Ustaz Fadli | 33, Sumenep | Ustaz musala pabrik | 1 | Mak Inah | Selamat |
 | Chizen 地全 | Wak Darman | 62, Kebumen | Penjaga malam tuna wicara | 1 | Yoseph | Selamat |
-| Chijyu 地獣 | Bidan Lestari | 34, Klaten | Bidan, medis kedua | 2 | Fransiska | Selamat |
+| Chijyu 地獣 | Bidan Lestari | 34, Waingapu | Bidan, medis kedua | 2 | Fransiska | Selamat |
 | Chihi 地飛 | Bu Endang | 57, Cianjur | Pemilik kos murah tempat menampung | 2 | Damar | Selamat |
 | Chiraku 地楽 | Opik | 25, Cianjur | Pengamen gitar | 2 | Jeki | Selamat |
 | Chiin 地隠 | Mira Andini | 28, Karawang | Penyanyi dangdut korban judol | 2 | Opik | Selamat |
@@ -204,18 +204,18 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Teni 天異 | Satria Wibisono "Bimo" | 32, Semarang | Intel penyusup, agen ganda | 2 | Damar, tanpa sadar | Terbuka |
 | Chii 地威 | Aiptu Bambang Sutejo | 50, Purworejo | Bawahan setia Galih | 2 | Galih | Selamat |
 | Tenyu 天勇 | Letjen (Purn) Benyamin Pattiasina | 67, Ambon | Jenderal purnawirawan, penengah | 3 | Galih | Selamat |
-| Chisatsu 地煞 | Mayor dr. Ratih Kusumawardani | 39, Malang | Dokter militer | 3 | Galih | Selamat |
-| Chiyu 地幽 | Pelda Sanusi | 52, Banten | Juru masak barak | 3 | Bambang | Selamat |
+| Chisatsu 地煞 | Mayor dr. Ratih Kusumawardani | 39, Ternate | Dokter militer | 3 | Galih | Selamat |
+| Chiyu 地幽 | Pelda Sanusi | 52, Bima | Juru masak barak | 3 | Bambang | Selamat |
 | Teni 天威 | Kapten Made Ariawan | 35, Tabanan | Komandan kompi yang menolak perintah | 4 | Galih | Selamat |
 | Tenpai 天敗 | Asep Gunawan | 29, Tasikmalaya | Prajurit pecatan | 4 | Yoseph | Selamat |
 | Chiaku 地悪 | Ferry Gunadi | 40, Jakarta | Wakil ketua FPK yang berbalik | 4 | Bimo | Selamat |
 | Chitou 地闘 | Serma Yosua Rumbiak | 44, Biak | Tukang senjata yang muak | 4 | Made | Selamat |
 | Chikei 地刑 | Iptu Wahyu Ramdani | 34, Sukabumi | Provos | 4 | Benyamin | Selamat |
 | Chibaku 地暴 | Rudi Hartawan | 37, Lampung | Pasukan khusus pecatan | 4 | Benyamin | Selamat |
-| Chisatsu 地察 | Nindya Paramitha | 28, Jakarta | Analis intel siber | 4 | Bimo | Selamat |
+| Chisatsu 地察 | Nindya Paramitha | 28, Sorong | Analis intel siber | 4 | Bimo | Selamat |
 | Tensatsu 天殺 | Serka Hasanuddin | 36, Bone | Penembak jitu yang menolak menembak | 5 | Benyamin | Selamat |
 | Chichin 地鎮 | Yohana Kristanti | 45, Kupang | Sipir fasilitas dekat IKN | 5 | Galih | Selamat |
-| Chikyou 地狂 | Bripka Ilham Saputra | 30, Balikpapan | Operator drone | 5 | Made | Selamat |
+| Chikyou 地狂 | Bripka Ilham Saputra | 30, Merauke | Operator drone | 5 | Made | Selamat |
 
 ### Segmen D: Birokrat (16)
 
@@ -224,38 +224,38 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Tenfu 天富 | Rafael Wirasena | 29, Jakarta | Anak pejabat Danusa | 1 | PoV | Penebusan parsial |
 | Chisa 地佐 | Pak Darto | 63, Wonosobo | Ajudan pengasuh Rafael | 1 | Rafael | Ditangkap B3, bebas B5 |
 | Chibi 地微 | Kirana Wirasena | 21, Jakarta | Adik Rafael | 2 | Rafael | Selamat |
-| Chisei 地正 | Benny Kurniawan | 45, Bogor | Akuntan penaksir aset | 2 | Rafael | Selamat |
+| Chisei 地正 | Benny Kurniawan | 45, Jambi | Akuntan penaksir aset | 2 | Rafael | Selamat |
 | Tenbi 天微 | Meilani Halim | 38, Pontianak | Sekretaris Haryo, pembocor dari dalam | 3 | Rafael | Selamat |
 | Chizoku 地賊 | Gunawan "Kucing" | 33, Jakarta | Pencuri arsip birokrasi | 3 | Meilani | Selamat |
 | Tenki 天貴 | Yusuf Mahdan | 58, Palangka Raya | Gubernur Kalteng | 4 | Rafael | Ikut transisi |
 | Tenzai 天罪 | Dodi Prasetyo | 50, Surabaya | Mantan direktur Danusa yang dijadikan kambing hitam, ditahan bersama Ambun | 4 | Rafael | Bebas |
-| Tensui 天慧 | Annisa Rahman | 30, Samarinda | Staf hukum Otorita | 4 | Rafael | Selamat |
+| Tensui 天慧 | Annisa Rahman | 30, Palu | Staf hukum Otorita | 4 | Rafael | Selamat |
 | Chikyu 地急 | Hartono Wijoyo | 70, Semarang | Notaris tua keluarga | 4 | Rafael | Selamat |
 | Chima 地魔 | Clara Santoso | 35, Jakarta | Konsultan PR yang berbalik | 4 | Kirana | Selamat |
 | Chisyu 地醜 | Theresia Manurung | 48, Tarutung | Pejabat BPSK | 4 | Annisa | Selamat |
-| Chisyu 地周 | Agung Wibowo | 44, Yogyakarta | Pegawai pertanahan, kunci status tanah | 4 | Annisa | Selamat |
-| Chiki 地奇 | Dinda Maharani | 31, Jakarta | Protokoler upacara | 5 | Rafael | Selamat |
-| Chiin 地陰 | Rio Pratama | 27, Balikpapan | Staf TI Otorita | 5 | Annisa | Selamat |
+| Chisyu 地周 | Agung Wibowo | 44, Pekanbaru | Pegawai pertanahan, kunci status tanah | 4 | Annisa | Selamat |
+| Chiki 地奇 | Dinda Maharani | 31, Denpasar | Protokoler upacara | 5 | Rafael | Selamat |
+| Chiin 地陰 | Rio Pratama | 27, Jayapura | Staf TI Otorita | 5 | Annisa | Selamat |
 | Chikei 地稽 | Sulastri | 52, Madiun | Auditor internal BPSN | 5 | Rafael | Selamat |
 
 ### Segmen E: Akademisi (14)
 
 | Bintang | Nama | Usia, asal | Peran | Babak | Perekrut | Nasib |
 |---|---|---|---|---|---|---|
-| Tenki 天機 | Sekar Ayuningtyas | 31, Yogyakarta | Strategist | 1 | PoV | †B4 |
+| Tenki 天機 | Sekar Ayuningtyas | 31, Padang | Strategist | 1 | PoV | †B4 |
 | Chikai 地魁 | Wayan Sudarsana | 40, Gianyar | Ahli logistik | 1 | Sekar | Selamat |
 | Chifuku 地伏 | Intan Permatasari | 24, Palembang | Murid Sekar, strategist pengganti | 1 | Sekar | Selamat |
 | Tenhei 天平 | Boni Tukan | 46, Flores Timur | Auditor BAN | 2 | Sekar | Selamat |
 | Tenbou 天暴 | Rizky Fadhillah | 21, Banda Aceh | Ketua BEM | 2 | Intan | Selamat |
-| Chisui 地遂 | Bu Nining | 59, Garut | Pustakawan arsip | 2 | Laras | Selamat |
-| Chiri 地理 | Teddy Kurniadi | 33, Bandung | Statistikawan | 2 | Sekar | Selamat |
+| Chisui 地遂 | Bu Nining | 59, Lhokseumawe | Pustakawan arsip | 2 | Laras | Selamat |
+| Chiri 地理 | Teddy Kurniadi | 33, Mataram | Statistikawan | 2 | Sekar | Selamat |
 | Chisin 地進 | Lukman Harahap | 47, Padang Sidempuan | Pejabat Kementerian Keuangan | 2 | Sekar | Selamat |
 | Tentai 天退 | Dewi Kartika Lubis | 44, Medan | Pengacara kebijakan | 3 | Haris | Selamat |
-| Tenkyu 天究 | Dimas Arifin | 34, Malang | Peneliti algoritma | 3 | Sekar | Selamat |
+| Tenkyu 天究 | Dimas Arifin | 34, Kupang | Peneliti algoritma | 3 | Sekar | Selamat |
 | Chikai 地会 | Hayati Saleh | 38, Kendari | Penerjemah dan fasilitator bahasa daerah | 3 | Sekar | Selamat |
-| Chisyun 地俊 | Ferdinand Tan | 36, Jakarta | Analis PAAD | 3 | Boni | Selamat |
+| Chisyun 地俊 | Ferdinand Tan | 36, Bengkulu | Analis PAAD | 3 | Boni | Selamat |
 | Chimou 地猛 | Rosalina Wuisan | 55, Minahasa | Komisioner KPHW | 3 | Laras | Selamat |
-| Chitai 地退 | Soemarno Hadi | 71, Yogyakarta | Pensiunan hakim, pernah ditekan di kasus Ambun | 4 | Haris | Selamat |
+| Chitai 地退 | Soemarno Hadi | 71, Gorontalo | Pensiunan hakim, pernah ditekan di kasus Ambun | 4 | Haris | Selamat |
 
 ### Segmen F: Bisnis (11)
 
@@ -266,12 +266,12 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Chiyu 地雄 | Komar | 46, Tanjung Priok | Kepala regu buruh pelabuhan | 3 | Hartini | Selamat |
 | Chison 地損 | Pak Rustam | 55, Makassar | Penjaga gudang pelabuhan | 3 | Komar | Selamat |
 | Chian 地暗 | Arifin "Lambo" Lamba | 29, Bulukumba | Pengemudi speedboat jalur gelap | 3 | Rusmadi | Selamat |
-| Chikou 地巧 | Hendrik Gozali | 48, Jakarta | Broker dan pedagang | 3 | Bima | Selamat |
+| Chikou 地巧 | Hendrik Gozali | 48, Batam | Broker dan pedagang | 3 | Bima | Selamat |
 | Tensyo 天捷 | Kapten Andi Baso | 51, Pinrang | Kapten kapal kargo | 4 | Hartini | Selamat |
-| Tenken 天剣 | Stefanus Wijaya | 39, Jakarta | Pengacara korporat | 4 | Bima | Selamat |
+| Tenken 天剣 | Stefanus Wijaya | 39, Pangkalpinang | Pengacara korporat | 4 | Bima | Selamat |
 | Tenson 天損 | Usman Daeng Rani | 58, Makassar | Pemasok yang bangkrut karena BPSN | 4 | Bima | Selamat |
 | Chisou 地壮 | Supriadi "Pri" | 41, Banjarmasin | Sopir truk lintas Kalimantan | 4 | Hartini | Selamat |
-| Chii 地異 | Aurelia Tanaya | 30, Jakarta | Pendiri startup ekspedisi | 5 | Stefanus | Selamat |
+| Chii 地異 | Aurelia Tanaya | 30, Manado | Pendiri startup ekspedisi | 5 | Stefanus | Selamat |
 
 ### Rekap per babak
 

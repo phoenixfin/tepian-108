@@ -6,7 +6,7 @@
 | Nomor | 24 dari 108 |
 | Bintang | Tenkyu 天究 (bintang langit) |
 | Nama | Dimas Arifin |
-| Usia dan asal | 34, Malang |
+| Usia dan asal | 34, Kupang |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Peneliti algoritma |
 | Masuk cerita | Babak 3, direkrut oleh Sekar |

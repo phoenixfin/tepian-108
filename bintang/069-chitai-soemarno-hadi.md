@@ -6,7 +6,7 @@
 | Nomor | 69 dari 108 |
 | Bintang | Chitai 地退 (bintang bumi) |
 | Nama | Soemarno Hadi |
-| Usia dan asal | 71, Yogyakarta |
+| Usia dan asal | 71, Gorontalo |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Pensiunan hakim, pernah ditekan di kasus Ambun |
 | Masuk cerita | Babak 4, direkrut oleh Haris |

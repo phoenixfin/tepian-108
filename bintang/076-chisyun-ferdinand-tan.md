@@ -6,7 +6,7 @@
 | Nomor | 76 dari 108 |
 | Bintang | Chisyun 地俊 (bintang bumi) |
 | Nama | Ferdinand Tan |
-| Usia dan asal | 36, Jakarta |
+| Usia dan asal | 36, Bengkulu |
 | Segmen | E, Akademisi (Pola) |
 | Peran | Analis PAAD |
 | Masuk cerita | Babak 3, direkrut oleh Boni |

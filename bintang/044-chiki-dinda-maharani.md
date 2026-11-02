@@ -6,7 +6,7 @@
 | Nomor | 44 dari 108 |
 | Bintang | Chiki 地奇 (bintang bumi) |
 | Nama | Dinda Maharani |
-| Usia dan asal | 31, Jakarta |
+| Usia dan asal | 31, Denpasar |
 | Segmen | D, Birokrat (Dalam lingkaran) |
 | Peran | Protokoler upacara |
 | Masuk cerita | Babak 5, direkrut oleh Rafael |
