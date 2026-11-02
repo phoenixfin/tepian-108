@@ -13,7 +13,8 @@
   "perekrut": "PoV",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 2,
@@ -29,7 +30,8 @@
   "perekrut": "PoV",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 3,
@@ -45,7 +47,8 @@
   "perekrut": "PoV",
   "nasib": "†B4",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 4,
@@ -61,7 +64,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 5,
@@ -77,7 +81,8 @@
   "perekrut": "Galih",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 6,
@@ -93,7 +98,8 @@
   "perekrut": "Bue Ilai",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 7,
@@ -109,7 +115,8 @@
   "perekrut": "PoV",
   "nasib": "†B5",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 8,
@@ -125,7 +132,8 @@
   "perekrut": "Galih",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 9,
@@ -141,7 +149,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 10,
@@ -157,7 +166,8 @@
   "perekrut": "Rafael",
   "nasib": "Ikut transisi",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 11,
@@ -173,7 +183,8 @@
   "perekrut": "PoV",
   "nasib": "Penebusan parsial",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 12,
@@ -189,7 +200,8 @@
   "perekrut": "Damar",
   "nasib": "†B2",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 13,
@@ -205,7 +217,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 14,
@@ -221,7 +234,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 15,
@@ -237,7 +251,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 16,
@@ -253,7 +268,8 @@
   "perekrut": "Hartini",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 17,
@@ -269,7 +285,8 @@
   "perekrut": "Damar",
   "nasib": "†B4",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 18,
@@ -285,7 +302,8 @@
   "perekrut": "Bima",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 19,
@@ -301,7 +319,8 @@
   "perekrut": "Damar",
   "nasib": "†B3",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 20,
@@ -317,7 +336,8 @@
   "perekrut": "Jeki",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 21,
@@ -333,7 +353,8 @@
   "perekrut": "Damar, tanpa sadar",
   "nasib": "Terbuka",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 22,
@@ -349,7 +370,8 @@
   "perekrut": "Benyamin",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 23,
@@ -365,7 +387,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 24,
@@ -381,7 +404,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 25,
@@ -397,7 +421,8 @@
   "perekrut": "Haris",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 26,
@@ -413,7 +438,8 @@
   "perekrut": "Jeki",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 27,
@@ -429,7 +455,8 @@
   "perekrut": "Bima",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 28,
@@ -445,7 +472,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 29,
@@ -461,7 +489,8 @@
   "perekrut": "Rafael",
   "nasib": "Bebas",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 30,
@@ -477,7 +506,8 @@
   "perekrut": "Bima",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 31,
@@ -493,7 +523,8 @@
   "perekrut": "Yoseph",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 32,
@@ -509,7 +540,8 @@
   "perekrut": "Damar",
   "nasib": "Bebas",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 33,
@@ -525,7 +557,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 34,
@@ -541,7 +574,8 @@
   "perekrut": "Intan",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 35,
@@ -557,7 +591,8 @@
   "perekrut": "Haris",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 36,
@@ -573,7 +608,8 @@
   "perekrut": "PoV parsial",
   "nasib": "Imunitas",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 37,
@@ -589,7 +625,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 38,
@@ -605,7 +642,8 @@
   "perekrut": "Galih",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 39,
@@ -621,7 +659,8 @@
   "perekrut": "La Ode",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 40,
@@ -637,7 +676,8 @@
   "perekrut": "Bue Ilai",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 41,
@@ -653,7 +693,8 @@
   "perekrut": "Hartini",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 42,
@@ -669,7 +710,8 @@
   "perekrut": "Galih",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 43,
@@ -685,7 +727,8 @@
   "perekrut": "La Ode",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 44,
@@ -701,7 +744,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 45,
@@ -717,7 +761,8 @@
   "perekrut": "Laras",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 46,
@@ -733,7 +778,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 47,
@@ -749,7 +795,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 48,
@@ -765,7 +812,8 @@
   "perekrut": "Bue Ilai",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 49,
@@ -781,7 +829,8 @@
   "perekrut": "Made",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 50,
@@ -797,7 +846,8 @@
   "perekrut": "La Ode",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 51,
@@ -813,7 +863,8 @@
   "perekrut": "Rusmadi",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 52,
@@ -829,7 +880,8 @@
   "perekrut": "Rangga",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 53,
@@ -845,7 +897,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 54,
@@ -861,7 +914,8 @@
   "perekrut": "Rafael",
   "nasib": "Ditangkap B3, bebas B5",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 55,
@@ -877,7 +931,8 @@
   "perekrut": "Bue Ilai",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 56,
@@ -893,7 +948,8 @@
   "perekrut": "Mak Inah",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 57,
@@ -909,7 +965,8 @@
   "perekrut": "Fransiska",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 58,
@@ -925,7 +982,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 59,
@@ -941,7 +999,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 60,
@@ -957,7 +1016,8 @@
   "perekrut": "Benyamin",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 61,
@@ -973,7 +1033,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 62,
@@ -989,7 +1050,8 @@
   "perekrut": "La Ode",
   "nasib": "Berkhianat B4, terbuka",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 63,
@@ -1005,7 +1067,8 @@
   "perekrut": "Made",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 64,
@@ -1021,7 +1084,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 65,
@@ -1037,7 +1101,8 @@
   "perekrut": "La Ode",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 66,
@@ -1053,7 +1118,8 @@
   "perekrut": "Bima",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 67,
@@ -1069,7 +1135,8 @@
   "perekrut": "Mak Inah",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 68,
@@ -1085,7 +1152,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 69,
@@ -1101,7 +1169,8 @@
   "perekrut": "Haris",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 70,
@@ -1117,7 +1186,8 @@
   "perekrut": "Darsono",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 71,
@@ -1133,7 +1203,8 @@
   "perekrut": "Laras",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 72,
@@ -1149,7 +1220,8 @@
   "perekrut": "Annisa",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 73,
@@ -1165,7 +1237,8 @@
   "perekrut": "Opik",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 74,
@@ -1181,7 +1254,8 @@
   "perekrut": "Stefanus",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 75,
@@ -1197,7 +1271,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 76,
@@ -1213,7 +1288,8 @@
   "perekrut": "Boni",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 77,
@@ -1229,7 +1305,8 @@
   "perekrut": "Jeki",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 78,
@@ -1245,7 +1322,8 @@
   "perekrut": "Jeki",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 79,
@@ -1261,7 +1339,8 @@
   "perekrut": "Daniel",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 80,
@@ -1277,7 +1356,8 @@
   "perekrut": "Galih",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 81,
@@ -1293,7 +1373,8 @@
   "perekrut": "Rafael",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 82,
@@ -1309,7 +1390,8 @@
   "perekrut": "Kirana",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 83,
@@ -1325,7 +1407,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 84,
@@ -1341,7 +1424,8 @@
   "perekrut": "Bambang",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 85,
@@ -1357,7 +1441,8 @@
   "perekrut": "Sekar",
   "nasib": "Selamat",
   "status": "inti",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": false
  },
  {
   "no": 86,
@@ -1373,7 +1458,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 87,
@@ -1389,7 +1475,8 @@
   "perekrut": "Darsono",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 88,
@@ -1405,7 +1492,8 @@
   "perekrut": "Yoseph",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 89,
@@ -1421,7 +1509,8 @@
   "perekrut": "Yoseph",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 90,
@@ -1437,7 +1526,8 @@
   "perekrut": "Damar",
   "nasib": "Dicopot B4, selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 91,
@@ -1453,7 +1543,8 @@
   "perekrut": "Rusmadi",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 92,
@@ -1469,7 +1560,8 @@
   "perekrut": "Damar",
   "nasib": "Berkhianat, †B4",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 93,
@@ -1485,7 +1577,8 @@
   "perekrut": "Mak Inah",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 94,
@@ -1501,7 +1594,8 @@
   "perekrut": "Mardiana",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 95,
@@ -1517,7 +1611,8 @@
   "perekrut": "Komar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 96,
@@ -1533,7 +1628,8 @@
   "perekrut": "Damar",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 97,
@@ -1549,7 +1645,8 @@
   "perekrut": "Bimo",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 98,
@@ -1565,7 +1662,8 @@
   "perekrut": "Bimo",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 99,
@@ -1581,7 +1679,8 @@
   "perekrut": "Annisa",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 100,
@@ -1597,7 +1696,8 @@
   "perekrut": "Sri",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 101,
@@ -1613,7 +1713,8 @@
   "perekrut": "Annisa",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 102,
@@ -1629,7 +1730,8 @@
   "perekrut": "Benyamin",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 103,
@@ -1645,7 +1747,8 @@
   "perekrut": "Hartini",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 104,
@@ -1661,7 +1764,8 @@
   "perekrut": "Mak Inah",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 105,
@@ -1677,7 +1781,8 @@
   "perekrut": "Yoseph",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 106,
@@ -1693,7 +1798,8 @@
   "perekrut": "Bue Ilai",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 107,
@@ -1709,7 +1815,8 @@
   "perekrut": "Meilani",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  },
  {
   "no": 108,
@@ -1725,6 +1832,7 @@
   "perekrut": "Wak Darman",
   "nasib": "Selamat",
   "status": "terbuka",
-  "pengadopsi": null
+  "penggarap": [],
+  "nama_terbuka": true
  }
 ]

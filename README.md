@@ -11,7 +11,8 @@ Semesta ini terinspirasi struktur 108 pendekar dalam *Water Margin* (Shuihu Zhua
 | Kamu ingin | Buka |
 |---|---|
 | Memahami dunianya | [`bible/`](bible/) mulai dari `01-bible-inti.md` |
-| Memilih tokoh untuk diadopsi | [`bintang/`](bintang/) |
+| Memilih tokoh untuk digarap bersama | [`bintang/`](bintang/) |
+| Memilih segmen untuk digarap bersama | [`segmen/`](segmen/) |
 | Menulis tentang daerahmu | [`simpul/`](simpul/) |
 | Membaca atau menulis cerita | [`cerita/`](cerita/) |
 | Ikut membuat game | [`game/`](game/) |
@@ -22,7 +23,7 @@ Semesta ini terinspirasi struktur 108 pendekar dalam *Water Margin* (Shuihu Zhua
 
 | Lapisan | Isi | Siapa yang memutuskan |
 |---|---|---|
-| Kanon inti | Bible dan novel utama | Pemrakarsa |
+| Kanon inti | Plot utama, peta simpul besar, dan novel utama | Pemrakarsa |
 | Kanon luas | Karya kontributor yang lolos kurasi | Kurator |
 | Non-kanon | Karya bebas, fan fiction, eksperimen | Siapa saja |
 
@@ -32,7 +33,8 @@ Kanon luas tidak boleh bertentangan dengan kanon inti. Non-kanon boleh ke mana s
 
 ```
 bible/        Bible dunia, tokoh, dan alur (kanon inti)
-bintang/      Satu file per bintang (108), bisa diadopsi
+bintang/      Satu file per bintang (108), boleh digarap beberapa orang
+segmen/       Satu file per segmen (6), pintu masuk ke cerita
 simpul/       Satu file per simpul daerah
 cerita/       kanon/ dan non-kanon/
 templat/      Templat tokoh, simpul, dan cerita

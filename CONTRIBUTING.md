@@ -14,21 +14,42 @@ Siapa saja boleh ikut, tidak perlu pengalaman menulis atau memprogram. Yang perl
 | Kode | Prototipe game, situs, alat bantu |
 | Penyuntingan | Membaca ulang, memeriksa konsistensi dengan bible |
 
-## Mengadopsi bintang
+## Ikut menulis: pilih segmen, simpul, atau tokoh
 
-Mengadopsi berarti menjadi penanggung jawab kisah, suara, dan riset satu tokoh.
+Ada tiga pintu masuk, dan kamu boleh memilih yang mana saja:
 
-1. Pilih bintang berstatus terbuka di [`bintang/`](bintang/) atau di landing page.
-2. Buka issue dengan templat "Adopsi bintang".
-3. Kurator mengonfirmasi dan mengubah status di `data/bintang.json`.
-4. Isi file bintangmu di bagian di luar blok data otomatis, lalu kirim pull request.
-5. Kurator meninjau kesesuaian dengan kanon. Setelah lolos, isinya menjadi kanon luas.
+| Pintu | Apa artinya | Di mana |
+|---|---|---|
+| Segmen | Enam kelompok besar (A sampai F), masing-masing dengan pusat daerahnya | [`segmen/`](segmen/) |
+| Simpul | Tempat cerita berpijak, dari Medan sampai Merauke | [`simpul/`](simpul/) |
+| Tokoh | Satu dari 108 bintang | [`bintang/`](bintang/) |
 
-Ketentuan:
-- Satu orang mengadopsi paling banyak dua bintang sekaligus, agar bintang lain tetap terbuka.
-- Bila tidak ada kabar selama tiga bulan, bintang bisa dibuka kembali setelah pemberitahuan.
+Tidak ada satu-satu. Satu tokoh, simpul, atau segmen boleh digarap beberapa orang selama saling berkoordinasi.
+
+1. Pilih pintu masukmu dan buka issue dengan templat "Ikut menulis". Sebutkan bagian yang ingin kamu garap (latar, suara, satu adegan, relasi, suasana simpul).
+2. Issue itu menjadi tempat koordinasi. Penggarap lain di tokoh atau simpul yang sama akan melihatnya. Sepakati pembagian bagian di sana, lalu tulis nama samaranmu sebagai penggarap.
+3. Tulis di file tokoh, simpul, atau segmen, pada bagian yang kamu umumkan. Kirim pull request kecil dan sering, bukan satu besar di akhir.
+4. Kurator meninjau kecocokan dengan plot utama. Setelah lolos, isinya menjadi kanon luas, dan namamu tercatat sebagai penggarap di `data/bintang.json` atau file simpul.
+
+### Yang terkunci dan yang terbuka
+
+| Terkunci (kanon inti) | Terbuka (kanon luas) |
+|---|---|
+| Plot utama lima babak dan garis waktunya | Suara, luka, adegan kunci, dan relasi antar tokoh |
+| Peta simpul besar: tempat, fungsi, babak aktif | Suasana, bahasa, dan konflik lokal di dalam simpul |
+| Enam segmen dan pusat daerahnya | Simpul kecil, cerita pendek, dokumen dalam dunia |
+| Per tokoh: nomor, segmen, peran, babak masuk, nasib | Nama, asal, dan latar 85 tokoh berstatus terbuka |
+| Identitas 23 tokoh inti | Detail tokoh inti, lewat usulan di issue |
+
+Mengubah nama atau asal tokoh terbuka dilakukan lewat issue lebih dulu supaya kurator memperbarui bible dan data sekaligus.
+
+### Aturan koordinasi
+
+- Umumkan bagianmu di issue sebelum menulis panjang. Dua orang tidak menulis adegan yang sama tanpa sepakat.
+- Hormati tulisan penggarap lain. Ubah milik orang lain hanya lewat komentar atau pull request yang sudah disetujui.
+- Bila dua versi bertabrakan, kurator membantu menyatukannya atau menaruh keduanya sebagai versi alternatif (non-kanon).
+- Bila tidak ada kabar selama tiga bulan, bagianmu bisa dibuka kembali setelah pemberitahuan di issue.
 - Tokoh inti dipegang pemrakarsa, tetapi siapa saja boleh mengusulkan detail lewat issue.
-- Usia, asal, peran, dan nasib tokoh di bible adalah kanon. Bila ingin mengubahnya, ajukan lewat issue lebih dulu.
 
 ## Menulis cerita
 

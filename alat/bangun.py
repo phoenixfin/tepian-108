@@ -6,6 +6,8 @@ Yang dibuat atau diperbarui:
 - bintang/README.md            (indeks, dibuat ulang penuh)
 - simpul/<slug>.md             (hanya blok data otomatis yang ditimpa)
 - simpul/README.md             (indeks, dibuat ulang penuh)
+- segmen/<huruf>-<nama>.md     (hanya blok data otomatis yang ditimpa)
+- segmen/README.md             (indeks, dibuat ulang penuh)
 - docs/data.js                 (data untuk landing page)
 
 Tulisan kontributor di luar blok data tidak pernah disentuh.
@@ -26,10 +28,18 @@ SEGMEN = {
     "E": ("Akademisi", "Pola"),
     "F": ("Bisnis", "Modal dan jalur"),
 }
+PUSAT = {
+    "A": "Jakarta dan Bekasi",
+    "B": "Kalimantan Tengah, dengan kaki di Sulawesi Tenggara, Nusa Tenggara, dan Papua",
+    "C": "Maluku dan Jawa Tengah",
+    "D": "IKN dan Jakarta",
+    "E": "Sumatera (Padang dan Palembang)",
+    "F": "Pelabuhan antarpulau (Surabaya, Makassar, Belawan)",
+}
 STATUS = {
-    "inti": "Tokoh inti (dipegang penulis kanon inti)",
-    "terbuka": "Terbuka untuk diadopsi",
-    "diadopsi": "Sudah diadopsi",
+    "inti": "Tokoh inti (kanon inti, detail bisa diusulkan lewat issue)",
+    "terbuka": "Terbuka: nama dan latar masih bisa ditulis bersama",
+    "digarap": "Sedang digarap bersama",
 }
 
 
@@ -69,7 +79,8 @@ BADAN_BINTANG = """
 ## Kanon
 
 Ringkasan kanon tokoh ini ada di [`bible/03-bible-tokoh.md`](../bible/03-bible-tokoh.md).
-Bagian di bawah ini diisi pengadopsi dan ditinjau kurator sebelum menjadi kanon luas.
+Bagian di bawah ini ditulis bersama oleh para penggarap dan ditinjau kurator sebelum menjadi kanon luas.
+Satu tokoh boleh digarap beberapa orang. Umumkan bagianmu di issue koordinasi tokoh ini supaya tidak bertabrakan.
 
 ## Latar dan suara
 
@@ -120,7 +131,8 @@ def bangun_bintang(data):
     folder.mkdir(exist_ok=True)
     for b in data:
         seg_nama, seg_fungsi = SEGMEN[b["segmen"]]
-        pengadopsi = b.get("pengadopsi") or "Belum ada"
+        penggarap = ", ".join(b.get("penggarap") or []) or "Belum ada"
+        kunci = "Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama, asal, latar, suara, adegan, relasi" if b["nama_terbuka"] else "Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue"
         blok = f"""
 | | |
 |---|---|
@@ -132,7 +144,8 @@ def bangun_bintang(data):
 | Peran | {b['peran']} |
 | Masuk cerita | {masuk(b)} |
 | Status | {STATUS[b['status']]} |
-| Pengadopsi | {pengadopsi} |
+| Penggarap | {penggarap} |
+| Terkunci dan terbuka | {kunci} |
 """
         tulis_dengan_blok(folder / nama_file_bintang(b), f"{b['nama']}", blok, BADAN_BINTANG)
 
@@ -145,9 +158,9 @@ def bangun_bintang(data):
     jumlah = {s: sum(1 for b in data if b["status"] == s) for s in STATUS}
     indeks = f"""# Papan 108 Bintang
 
-Satu file untuk setiap bintang. Bintang berstatus **terbuka** bisa diadopsi: kamu menjadi penanggung jawab kisah, suara, dan riset tokoh itu. Caranya ada di [`CONTRIBUTING.md`](../CONTRIBUTING.md).
+Satu file untuk setiap bintang. Satu tokoh boleh digarap beberapa orang yang berkoordinasi. Bintang berstatus **terbuka** punya nama dan latar yang masih bisa ditulis bersama. Caranya ada di [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
-Ringkasan: {jumlah['inti']} inti, {jumlah['terbuka']} terbuka, {jumlah['diadopsi']} diadopsi.
+Ringkasan: {jumlah['inti']} inti, {jumlah['terbuka']} terbuka, {jumlah['digarap']} digarap.
 
 File ini dibuat otomatis oleh `alat/bangun.py`. Untuk mengubah status, ubah `data/bintang.json` lalu jalankan skripnya.
 
@@ -183,9 +196,56 @@ File ini dibuat otomatis oleh `alat/bangun.py`.
     (folder / "README.md").write_text(indeks, encoding="utf-8")
 
 
+BADAN_SEGMEN = """
+## Cerita segmen ini
+
+_Belum diisi. Ringkasan kanon ada di [`bible/03-bible-tokoh.md`](../bible/03-bible-tokoh.md)._
+
+## Yang terbuka untuk ditulis
+
+- Suasana sehari-hari dan bahasa daerah di pusat segmen.
+- Hubungan antar tokoh di dalam segmen.
+- Cerita pendek yang melibatkan beberapa tokoh sekaligus.
+
+## Catatan koordinasi
+
+_Siapa menulis apa, supaya tidak bertabrakan._
+"""
+
+
+def bangun_segmen(bintang, simpul):
+    folder = AKAR / "segmen"
+    folder.mkdir(exist_ok=True)
+    indeks = ["# Segmen", "", "Enam segmen adalah enam pintu masuk ke cerita. Pilih satu untuk ikut menulis: tokoh dan simpulnya bisa digarap beberapa orang sekaligus.", "", "File ini dibuat otomatis oleh `alat/bangun.py`.", "", "| Segmen | Fungsi | Pusat daerah | Tokoh |", "|---|---|---|---|"]
+    for k, (nama, fungsi) in SEGMEN.items():
+        tokoh = [t for t in bintang if t["segmen"] == k]
+        ss = [s for s in simpul if k in s["segmen"]]
+        nf = f"{k.lower()}-{slug(nama)}.md"
+        baris_tokoh = "\n".join(f"- [{t['no']:03d} {t['nama']}](../bintang/{nama_file_bintang(t)}), {t['peran']} ({'terbuka' if t['status'] == 'terbuka' else t['status']})" for t in tokoh)
+        baris_simpul = "\n".join(f"- [{s['nama']}](../simpul/{s['slug']}.md), {s['wilayah']}" for s in ss)
+        blok = f"""
+| | |
+|---|---|
+| Segmen | {k}, {nama} ({fungsi}) |
+| Pusat daerah | {PUSAT[k]} |
+| Jumlah tokoh | {len(tokoh)} |
+
+### Tokoh
+
+{baris_tokoh}
+
+### Simpul
+
+{baris_simpul}
+"""
+        tulis_dengan_blok(folder / nf, f"Segmen {k}: {nama}", blok, BADAN_SEGMEN)
+        indeks.append(f"| [{k} {nama}]({nf}) | {fungsi} | {PUSAT[k]} | {len(tokoh)} |")
+    (folder / "README.md").write_text("\n".join(indeks) + "\n", encoding="utf-8")
+
+
 def bangun_situs(bintang, simpul):
     publik = [
-        {k: b[k] for k in ("no", "bintang", "kanji", "langit", "segmen", "nama", "usia_asal", "peran", "babak", "status", "pengadopsi")}
+        {k: b[k] for k in ("no", "bintang", "kanji", "langit", "segmen", "nama", "usia_asal", "peran", "babak", "status", "penggarap", "nama_terbuka")}
         | {"file": nama_file_bintang(b)}
         for b in bintang
     ]
@@ -207,6 +267,7 @@ def main():
         assert b["status"] in STATUS, f"status tidak dikenal pada bintang {b['no']}"
     bangun_bintang(bintang)
     bangun_simpul(simpul)
+    bangun_segmen(bintang, simpul)
     bangun_situs(bintang, simpul)
     print(f"Selesai: 108 bintang, {len(simpul)} simpul, docs/data.js diperbarui.")
 

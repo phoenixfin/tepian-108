@@ -11,7 +11,7 @@
     E: { nama: "Akademisi", fungsi: "Pola. Analis, auditor, peneliti, pengacara kebijakan.", pusat: "Sumatera" },
     F: { nama: "Bisnis", fungsi: "Modal dan jalur. Pelabuhan, kapal, truk, dan pewaris konglomerat.", pusat: "Pelabuhan antarpulau" }
   };
-  const STATUS = { inti: "Tokoh inti", terbuka: "Menunggu penulis", diadopsi: "Sudah diadopsi" };
+  const STATUS = { inti: "Tokoh inti", terbuka: "Menunggu penulis", digarap: "Sedang digarap" };
   const repo = (K.repo || "").replace(/\/$/, "");
   const cabang = K.cabang || "main";
   const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -20,7 +20,8 @@
     K, B, S, SEG, STATUS, repo, cabang, esc,
     warna: (s) => `var(--seg-${s.toLowerCase()})`,
     fileUrl: (b) => `${repo}/blob/${cabang}/bintang/${b.file}`,
-    adopsiUrl: (b) => `${repo}/issues/new?template=adopsi-bintang.md&title=${encodeURIComponent(`Adopsi bintang ${b.no}: ${b.nama}`)}`,
+    ikutUrl: (judul) => `${repo}/issues/new?template=ikut-menulis.md&title=${encodeURIComponent(judul)}`,
+    ikutTokoh: (b) => `${repo}/issues/new?template=ikut-menulis.md&title=${encodeURIComponent(`Ikut menulis tokoh ${String(b.no).padStart(3, "0")}: ${b.nama}`)}`,
     gh: (jalur) => `${repo}/${jalur}`,
     kanal(el) {
       const baris = [

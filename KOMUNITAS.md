@@ -6,7 +6,7 @@ Tempat untuk berkenalan, bertanya, dan mencari teman berkarya.
 |---|---|---|
 | Grup obrolan | Ngobrol santai, perkenalan, mencari kolaborator | [GANTI: tautan grup Telegram, WhatsApp, atau Discord] |
 | GitHub Discussions | Diskusi dunia, usulan besar, tanya jawab | [GANTI: tautan Discussions repositori] |
-| Issues | Adopsi bintang, usulan cerita, laporan masalah | Tab Issues di repositori ini |
+| Issues | Ikut menulis, usulan cerita, laporan masalah | Tab Issues di repositori ini |
 | Email | Hal pribadi, kerja sama, laporan pelanggaran kode etik | [GANTI: alamat email proyek] |
 
 ## Perkenalan

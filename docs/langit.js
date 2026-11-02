@@ -61,7 +61,7 @@
     const [x, y] = posisi[b.no];
     const r = b.langit ? 5 : 3.2;
     const c = WARNA_LANGIT[b.segmen];
-    const isi = b.status === "inti" ? c : b.status === "diadopsi" ? "#ECE5D8" : "#1C1410";
+    const isi = b.status === "inti" ? c : b.status === "digarap" ? "#ECE5D8" : "#1C1410";
     const garisT = b.status === "terbuka" ? "#ECE5D8" : "none";
     const buat = (induk, interaktif) => {
       const g = document.createElementNS(NS, "g");

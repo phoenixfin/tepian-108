@@ -51,7 +51,7 @@
 <section id="simpul">
   <div class="lebar">
     <h2>Simpul daerah</h2>
-    <p class="redup sempit" style="margin:0">Simpul adalah tempat cerita berpijak. Kamu bisa memperkaya yang sudah ada, atau mengusulkan simpul baru dari daerahmu: suasana, bahasa, makanan, adat, dan konflik nyata.</p>
+    <p class="redup sempit" style="margin:0">Simpul adalah tempat cerita berpijak. Peta simpul besar terkunci, tapi isi di dalamnya terbuka: suasana, bahasa, makanan, adat, konflik lokal, dan orang-orang di sana. Beberapa orang boleh menulis satu simpul. Punya daerah yang belum ada? Usulkan simpul kecil di dalam atau di sekitar simpul besar.</p>
     <div class="simpul-kisi" id="simpul-kisi"></div>
     <p style="margin-top:1.5rem"><a class="tombol utama" id="g-simpul" href="#">Usulkan atau tulis simpul</a></p>
   </div>
@@ -59,13 +59,31 @@
 
 <section id="kanon">
   <div class="lebar">
-    <h2>Lapisan kanon</h2>
-    <p class="redup sempit" style="margin:0">Kontribusimu punya tempat, apa pun tingkat keterlibatanmu.</p>
-    <div class="kanon">
-      <div><h3>Kanon inti</h3><p>Bible dan novel utama. Diputuskan pemrakarsa.</p></div>
-      <div><h3>Kanon luas</h3><p>Karya kontributor yang lolos kurasi. Tidak boleh bertentangan dengan kanon inti.</p></div>
-      <div><h3>Non-kanon</h3><p>Karya bebas, fan fiction, eksperimen. Boleh ke mana saja selama mematuhi kode etik.</p></div>
+    <h2>Yang terkunci dan yang terbuka</h2>
+    <p class="redup sempit" style="margin:0">Supaya banyak orang bisa menulis tanpa menabrak satu sama lain, hanya kerangkanya yang dikunci.</p>
+    <div class="dua-kolom" style="margin-top:1.5rem">
+      <div>
+        <h3>Terkunci (kanon inti)</h3>
+        <ul class="aturan">
+          <li>Plot utama lima babak, dari dapur umum di Cakung sampai 17 Agustus 2030 di IKN.</li>
+          <li>Peta simpul besar: tempatnya, fungsinya, dan babak aktifnya.</li>
+          <li>Enam segmen dan pusat daerahnya.</li>
+          <li>Tiap tokoh: nomor bintang, segmen, peran, babak masuk, dan nasib.</li>
+          <li>Identitas 23 tokoh inti.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Terbuka (kanon luas)</h3>
+        <ul class="aturan">
+          <li>Nama, asal, dan latar 85 tokoh yang masih terbuka.</li>
+          <li>Suara, luka, adegan kunci, dan relasi antar tokoh.</li>
+          <li>Suasana, bahasa, dan konflik lokal di dalam simpul.</li>
+          <li>Simpul kecil, cerita pendek, dan dokumen dalam dunia.</li>
+          <li>Banyak penulis untuk satu tokoh, selama saling berkoordinasi di issue.</li>
+        </ul>
+      </div>
     </div>
+    <p class="redup" style="margin-top:1.5rem;max-width:68ch">Karya yang lolos kurasi menjadi kanon luas dan tidak boleh bertentangan dengan kanon inti. Karya bebas dan fan fiction tetap disambut sebagai non-kanon.</p>
   </div>
 </section>
 
@@ -102,11 +120,11 @@
   Object.entries(SEG).forEach(([k, v]) => {
     const n = B.filter((b) => b.segmen === k).length;
     daftar.insertAdjacentHTML("beforeend",
-      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi} <strong>Pusat: ${v.pusat}.</strong></span></li>`);
+      `<li><span class="kode" style="color:${warna(k)}">${k}</span><span class="nama">${v.nama}</span><span class="jumlah">${n} bintang</span><span class="fungsi">${v.fungsi} <strong>Pusat: ${v.pusat}.</strong> <a href="bintang.html?segmen=${k}">Ikut di segmen ini</a></span></li>`);
   });
 
   document.getElementById("simpul-kisi").innerHTML = S.map((s) => `
-    <div><strong>${esc(s.nama)}</strong><span>${esc(s.wilayah)}</span><span>${esc(s.fungsi)}</span></div>`).join("");
+    <div><strong>${esc(s.nama)}</strong><span>${esc(s.wilayah)}</span><span>${esc(s.fungsi)}</span><span><a href="${T.ikutUrl("Ikut menulis simpul: " + s.nama)}" target="_blank" rel="noopener">Ikut menulis simpul ini</a></span></div>`).join("");
 
   const bible = document.getElementById("g-bible");
   bible.href = T.gh("tree/" + T.cabang + "/bible"); bible.target = "_blank"; bible.rel = "noopener";

@@ -10,14 +10,16 @@
 | Segmen | F, Bisnis (Modal dan jalur) |
 | Peran | Pengacara korporat |
 | Masuk cerita | Babak 4, direkrut oleh Bima |
-| Status | Terbuka untuk diadopsi |
-| Pengadopsi | Belum ada |
+| Status | Terbuka: nama dan latar masih bisa ditulis bersama |
+| Penggarap | Belum ada |
+| Terkunci dan terbuka | Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama, asal, latar, suara, adegan, relasi |
 <!-- data:selesai -->
 
 ## Kanon
 
 Ringkasan kanon tokoh ini ada di [`bible/03-bible-tokoh.md`](../bible/03-bible-tokoh.md).
-Bagian di bawah ini diisi pengadopsi dan ditinjau kurator sebelum menjadi kanon luas.
+Bagian di bawah ini ditulis bersama oleh para penggarap dan ditinjau kurator sebelum menjadi kanon luas.
+Satu tokoh boleh digarap beberapa orang. Umumkan bagianmu di issue koordinasi tokoh ini supaya tidak bertabrakan.
 
 ## Latar dan suara
 
