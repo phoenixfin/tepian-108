@@ -97,7 +97,7 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 - Nasib: terbuka.
 
 ### Letjen (Purn) Benyamin Pattiasina (Tenyu 天勇, C)
-- 67, Ambon. Otoritas moral, dulu atasan Yoseph. Bergerak diam-diam sejak B3, penengah transisi di akhir.
+- 67, Ambon. Otoritas moral, dulu atasan Yoseph. Pensiun di rumahnya di Ambon, dan dari sana bergerak diam-diam sejak B3 lewat simpul Ambon. Penengah transisi di akhir.
 
 ### Rafael Wirasena (Tenfu, D, PoV)
 - 29. Anak Haryo Wirasena. Teman sekelas Bima.
@@ -114,12 +114,12 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 - 58, Kalteng. Dulu ikut meneken konsesi. Membantu sejak B4 karena rasa bersalah dan perhitungan. Ikut mengamankan posisinya di transisi.
 
 ### Sekar Ayuningtyas (Tenki 天機, E, PoV)
-- 31, Padang. Analis kebijakan di Kementerian Perencanaan Pembangunan. Diremehkan, paling tajam.
+- 31, Padang. Analis kebijakan di Kementerian Perencanaan Pembangunan (kantornya di Jakarta, tetapi jaringan dan pengaruhnya tumbuh di Sumatera). Diremehkan, paling tajam.
 - Memonya diklaim atasan dan dipakai untuk penggerebekan. Menanggung rasa bersalah, membangun kasus bersama B, merancang blokade, menyadari Seno, gugur di tongkang.
 - Catatan pribadinya diwarisi Intan.
 
 ### Intan Permatasari (Chifuku, E, PoV pengganti)
-- 24, Palembang. Murid dan pengagum Sekar. Menjadi strategis sendiri di B5, menemukan celah terakhir.
+- 24, Palembang. Murid dan pengagum Sekar, bekerja dari rumah kerja jaringan E di tepi Sungai Musi. Menjadi strategis sendiri di B5, menemukan celah terakhir.
 
 ### Wayan Sudarsana (Chikai 地魁, E)
 - 40, Gianyar. Ahli logistik. Menjalankan mesin operasi 17 Agustus bersama Bu Hartini.
@@ -129,7 +129,7 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 - Dikorbankan Seno di B4, berbalik, memasok logistik dengan harga imunitas.
 
 ### Bu Hartini (Tenyu 天祐, F)
-- 50, manajer logistik senior Adiwangsa. Diam-diam meminjamkan gudang untuk pengungsi sejak B3. Mitra Wayan.
+- 50, Surabaya. Manajer logistik senior Adiwangsa yang memegang jalur kapal antarpulau (Surabaya, Makassar, Belawan). Diam-diam meminjamkan gudang untuk pengungsi sejak B3. Mitra Wayan.
 
 ## 3. Tabel 108 bintang
 

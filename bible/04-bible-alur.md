@@ -32,11 +32,11 @@ Pabrik membesar lewat korban pinjol, PHK, dan Tarum. Iduladha dirayakan dengan k
 Pada 1 Mei pabrik memberi makan massa aksi buruh, dan itu menjadi dalih. Memo Sekar dipakai sebagai dasar operasi. Penggerebekan dilihat dari empat PoV. Mak Inah gugur. Di pemakamannya Damar bersumpah di depan Bue Ilai. Setelahnya Sekar bertemu La Ode lewat Laras, dan bukti Sekar mulai menunjuk keluarga Rafael.
 
 ### Babak 3: Menyebar (Juni)
-A menjadi pengungsi: ke kos Bu Endang, ke simpul Bekasi yang dilindungi wali kota Hendra, dan ke tongkang Kapten Rusmadi. Simpul pesisir Indramayu dibangun bersama Darsono. Dari Jawa dan Kalimantan, kabar dapur umum merambat lewat kurir dan kapal rakyat. Simpul tumbuh di Belawan, Palembang, Kupang, Ambon, dan Merauke, kecil dan diam-diam.
+A menjadi pengungsi: ke kos Bu Endang, ke simpul Bekasi yang dilindungi wali kota Hendra, dan ke tongkang Kapten Rusmadi. Simpul pesisir Indramayu dibangun bersama Darsono. Dari Jawa dan Kalimantan, kabar dapur umum merambat lewat kurir dan kapal rakyat. Simpul tumbuh di Belawan, Palembang, Kupang, Ambon, Makassar, dan Merauke, kecil dan diam-diam.
 
 Rantai dosa dan pengkhianatan: pada 1 Juni Nadia membocorkan berkas Rafael, termasuk Daftar 108, tanpa menyamarkan nama. Pak Darto tertangkap. Rizal Hakim menawari Rafael pembebasan Darto ganti lokasi simpul. Rafael menyerahkan lokasi pesisir. Simpul digerebek, Darsono gugur. Rafael datang sendiri ke musyawarah adat B dan diputus berutang.
 
-Di Tolanggo, bupati Ridwan diam-diam membantu serikat. Galih dimutasi untuk membubarkan blokade, pasukannya menewaskan La Ode Arman. Benyamin mulai bergerak. A dan D bertemu pertama kali untuk menengahi C.
+Di Tolanggo, bupati Ridwan diam-diam membantu serikat. Galih dimutasi untuk membubarkan blokade, pasukannya menewaskan La Ode Arman. Benyamin mulai bergerak dari Ambon. A dan D bertemu pertama kali untuk menengahi C.
 
 Penutup: video kekerasan FPK dibocorkan Cakra Media, Gilang jatuh. Seno tampil di televisi sebagai penyelamat stabilitas dan mendapat wewenang darurat.
 
@@ -119,13 +119,13 @@ Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetap
 
 **B, Adat: sumpah dan tanah.** Dari menolak pusat menuju aliansi tanpa ilusi. B1 menolak santunan. B2 diteror, hadir di pemakaman Mak Inah. B3 Darsono dan La Ode Arman tewas, B hampir keluar dari aliansi. B4 Kalimantan menjadi medan B, Ridwan berkhianat, Bue Ilai bersaksi. B5 menjaga tanah, menerima C dan F hanya sebagai sekutu taktis.
 
-**C, Militer: retak dari dalam.** Dari menjalankan perintah menuju menanggung akibatnya. B1 laporan dibingkai ulang. B2 menjalankan penggerebekan. B3 darah di Tolanggo, Benyamin bergerak. B4 Galih membelot, Bimo menjadi agen ganda, Benyamin dan Yoseph bertemu. B5 C menjadi tameng, Galih gugur, Benyamin menjadi penengah transisi.
+**C, Militer: retak dari dalam.** Dari menjalankan perintah menuju menanggung akibatnya. B1 laporan dibingkai ulang. B2 menjalankan penggerebekan. B3 darah di Tolanggo, Benyamin bergerak dari Ambon. B4 Galih membelot, Bimo menjadi agen ganda, Benyamin dan Yoseph bertemu. B5 C menjadi tameng, Galih gugur, Benyamin menjadi penengah transisi.
 
 **D, Birokrat: harga loyalitas.** Dari kenyamanan menuju penebusan yang tidak pernah lengkap. B1 berkas disalin. B2 bukti menunjuk Haryo. B3 pengkhianatan demi Pak Darto. B4 Rafael di Otorita, gubernur dan pejabat lembaga bergabung. B5 kunci administratif dan kesaksian, keluarga Wirasena runtuh.
 
-**E, Akademisi: pola dan rasa bersalah.** Dari membaca angka menuju melihat manusia. B1 aliran dana janggal. B2 memo dipakai untuk penggerebekan, bertemu B. B3 kasus dibangun, berselisih soal etika. B4 rencana gagal, Sekar melihat Seno lalu gugur. B5 Intan mewarisi catatan, Wayan menjalankan operasi, Haris keluar dari jalur aman.
+**E, Akademisi: pola dan rasa bersalah.** Dari membaca angka menuju melihat manusia. B1 aliran dana janggal. B2 memo dipakai untuk penggerebekan, bertemu B. B3 kasus dibangun dari Jakarta, Padang, dan Palembang, berselisih soal etika. B4 rencana gagal, Sekar melihat Seno lalu gugur. B5 Intan mewarisi catatan, Wayan menjalankan operasi, Haris keluar dari jalur aman.
 
-**F, Bisnis: persekutuan yang tidak nyaman.** Dari pragmatisme menuju pilihan yang tetap bertarif. B1 bayangan. B2 sadar asetnya digerebek. B3 disingkirkan sekutu, Hartini dan Rusmadi sudah lebih dulu membantu. B4 dikambinghitamkan, berbalik. B5 memasok jalur dengan harga imunitas.
+**F, Bisnis: persekutuan yang tidak nyaman.** Dari pragmatisme menuju pilihan yang tetap bertarif. B1 bayangan. B2 sadar asetnya digerebek. B3 disingkirkan sekutu, Hartini (jalur kapal Surabaya dan Makassar) dan Rusmadi sudah lebih dulu membantu. B4 dikambinghitamkan, berbalik. B5 memasok jalur dengan harga imunitas.
 
 ## 5. Urutan bersatu antar segmen
 
