@@ -9,6 +9,7 @@ Yang dibuat atau diperbarui:
 - segmen/<huruf>-<nama>.md     (hanya blok data otomatis yang ditimpa)
 - segmen/README.md             (indeks, dibuat ulang penuh)
 - docs/data.js                 (data untuk landing page)
+- docs/feed.xml, docs/sitemap.xml (dari data/kabar.json dan daftar halaman)
 
 Tulisan kontributor di luar blok data tidak pernah disentuh.
 Jalankan dari akar repositori:  python3 alat/bangun.py
@@ -18,6 +19,8 @@ import re
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
+BASE_URL = "http://phx.my.id/tepian-108/"
+HALAMAN = ["", "dunia.html", "bintang.html", "ikut.html", "mulai.html", "kirim.html", "kabar.html", "kontributor.html", "dukung.html", "tata-kelola.html", "en.html"]
 MULAI = "<!-- data:mulai (dibuat otomatis oleh alat/bangun.py, jangan diubah manual) -->"
 SELESAI = "<!-- data:selesai -->"
 SEGMEN = {
@@ -275,6 +278,35 @@ def bangun_segmen(bintang, simpul):
     (folder / "README.md").write_text("\n".join(indeks) + "\n", encoding="utf-8")
 
 
+def muat(nama):
+    return json.loads((AKAR / "data" / f"{nama}.json").read_text(encoding="utf-8"))
+
+
+def esc_xml(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def bangun_feed_dan_peta():
+    kabar = muat("kabar")
+    item = "".join(
+        f"<item><title>{esc_xml(e['judul'])}</title><link>{BASE_URL}kabar.html</link>"
+        f"<guid>{BASE_URL}kabar.html#{e['tanggal']}</guid><pubDate>{e['tanggal']}</pubDate>"
+        f"<description>{esc_xml(e['isi'])}</description></item>"
+        for e in kabar["entri"]
+    )
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
+        f"<title>Tepian 108: kabar</title><link>{BASE_URL}</link>"
+        "<description>Kabar pengembangan Tepian 108</description><language>id</language>"
+        f"{item}</channel></rss>\n"
+    )
+    (AKAR / "docs" / "feed.xml").write_text(feed, encoding="utf-8")
+    urls = "".join(f"<url><loc>{BASE_URL}{h}</loc></url>" for h in HALAMAN)
+    peta = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n'
+    (AKAR / "docs" / "sitemap.xml").write_text(peta, encoding="utf-8")
+    (AKAR / "docs" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
+
+
 def bangun_situs(bintang, simpul):
     publik = [
         {k: b[k] for k in ("no", "bintang", "kanji", "langit", "segmen", "nama", "usia_asal", "peran", "babak", "status", "penggarap", "nama_terbuka", "karya")}
@@ -285,6 +317,9 @@ def bangun_situs(bintang, simpul):
         "// Dibuat otomatis oleh alat/bangun.py. Jangan diubah manual.\n"
         f"window.TEPIAN_BINTANG = {json.dumps(publik, ensure_ascii=False)};\n"
         f"window.TEPIAN_SIMPUL = {json.dumps(simpul, ensure_ascii=False)};\n"
+        f"window.TEPIAN_TUGAS = {json.dumps(muat('tugas'), ensure_ascii=False)};\n"
+        f"window.TEPIAN_KONTRIBUTOR = {json.dumps(muat('kontributor'), ensure_ascii=False)};\n"
+        f"window.TEPIAN_KABAR = {json.dumps(muat('kabar'), ensure_ascii=False)};\n"
     )
     (AKAR / "docs").mkdir(exist_ok=True)
     (AKAR / "docs" / "data.js").write_text(isi, encoding="utf-8")
@@ -315,6 +350,7 @@ def main():
     bangun_simpul(simpul)
     bangun_segmen(bintang, simpul)
     bangun_situs(bintang, simpul)
+    bangun_feed_dan_peta()
     peringatkan_usang(bintang, simpul)
     print(f"Selesai: 108 bintang, {len(simpul)} simpul, docs/data.js diperbarui.")
 

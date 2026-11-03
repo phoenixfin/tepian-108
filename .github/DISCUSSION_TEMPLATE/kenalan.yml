@@ -1,0 +1,33 @@
+title: "Kenalan: [nama atau nama samaran]"
+labels: ["kenalan"]
+body:
+  - type: markdown
+    attributes:
+      value: Selamat datang di Tepian 108! Nama samaran sepenuhnya boleh.
+  - type: input
+    id: nama
+    attributes:
+      label: Nama atau nama samaran
+    validations:
+      required: true
+  - type: input
+    id: daerah
+    attributes:
+      label: Daerah asal atau daerah yang kamu kenal baik
+  - type: dropdown
+    id: jalur
+    attributes:
+      label: Kamu ingin ikut lewat apa?
+      multiple: true
+      options:
+        - Menulis
+        - Ilustrasi dan visual
+        - Musik dan suara
+        - Desain game atau kode
+        - Riset daerah atau terjemahan
+        - Penyuntingan atau uji coba
+        - Lainnya
+  - type: textarea
+    id: minat
+    attributes:
+      label: Tokoh, simpul, atau segmen yang menarik bagimu (bila sudah ada)

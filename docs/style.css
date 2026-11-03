@@ -274,3 +274,28 @@ footer p { margin: 0 0 .4rem; max-width: 80ch; }
 @media (prefers-reduced-motion: reduce) { .segmen-api .kedip { animation: none; } }
 
 .tanpa-nama { font-style: italic; color: var(--pelita); }
+
+/* Halaman tambahan */
+.tugas-daftar { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); margin-top: 1.25rem; }
+.tugas { background: var(--permukaan); border: 1px solid var(--garis); border-left: 5px solid var(--pelita); border-radius: 8px; padding: 1.1rem 1.25rem 1.25rem; display: grid; gap: .5rem; align-content: start; }
+.tugas h3 { font-size: 1.15rem; }
+.tugas p { margin: 0; color: var(--teks-redup); font-size: .97rem; }
+.tugas-atas { display: flex; justify-content: space-between; gap: .5rem; align-items: center; font-size: .85rem; }
+.kontributor-daftar { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.kontributor { background: var(--permukaan); border: 1px solid var(--garis); border-radius: 8px; padding: 1rem 1.25rem; }
+.kabar-entri { border-top: 1px solid var(--garis); padding: 1.25rem 0; max-width: 70ch; }
+.kabar-entri h3 { font-size: 1.35rem; margin: .15rem 0 .5rem; }
+.form-kirim { display: grid; gap: 1rem; }
+.form-kirim label { display: grid; gap: .3rem; font-weight: 600; font-size: .95rem; }
+.form-kirim input[type="text"], .form-kirim input[type="url"], .form-kirim select, .form-kirim textarea {
+  font: inherit; color: var(--teks); background: var(--permukaan); border: 1.5px solid var(--garis); border-radius: 6px; padding: .6rem .75rem; min-height: 44px;
+}
+.form-kirim .ceklis { display: flex; gap: .6rem; align-items: flex-start; font-weight: 400; }
+.form-kirim .ceklis input { margin-top: .3rem; width: 18px; height: 18px; }
+.kirim-opsi { display: grid; gap: 1.25rem; }
+.kirim-opsi > div { border-top: 1px solid var(--garis); padding-top: 1rem; }
+.kirim-opsi p { color: var(--teks-redup); margin: .2rem 0 .75rem; }
+.tabel-catatan { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.tabel-catatan th, .tabel-catatan td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--garis); }
+.tabel-catatan td[colspan] { color: var(--teks-redup); }
+[hidden] { display: none !important; }

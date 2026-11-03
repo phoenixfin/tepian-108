@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kontributor · Tepian 108</title>
+<meta name="description" content="Orang-orang yang membangun Tepian 108 dan karya mereka.">
+<meta property="og:site_name" content="Tepian 108">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kontributor · Tepian 108">
+<meta property="og:description" content="Orang-orang yang membangun Tepian 108 dan karya mereka.">
+<meta property="og:image" content="http://phx.my.id/tepian-108/og.png">
+<meta property="og:url" content="http://phx.my.id/tepian-108/kontributor.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kontributor · Tepian 108">
+<meta name="twitter:description" content="Orang-orang yang membangun Tepian 108 dan karya mereka.">
+<meta name="twitter:image" content="http://phx.my.id/tepian-108/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero kecil">
+  <div class="lebar">
+    <nav aria-label="Navigasi utama">
+      <a class="merek" href="index.html">Tepian 108</a>
+      <ul>
+        <li><a href="dunia.html">Dunianya</a></li>
+        <li><a href="bintang.html">108 bintang</a></li>
+        <li><a href="ikut.html">Ikut membangun</a></li>
+        <li><a href="kabar.html">Kabar</a></li>
+      </ul>
+    </nav>
+    <div class="judul-halaman">
+      <h1>Kontributor</h1>
+      <p class="premis">Dunia ini dibangun bersama. Setiap nama di sini adalah orang yang menyumbang tulisan, gambar, musik, kode, atau waktunya.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="lebar">
+    <div class="kontributor-daftar" id="kontributor"></div>
+    <div class="callout-nama" style="margin-top:2rem;max-width:68ch"><strong>Kamu bisa menjadi yang berikutnya.</strong>Nama samaran sepenuhnya boleh. Mulai dari <a href="mulai.html">tugas pemula</a> atau <a href="ikut.html">pilih jalurmu</a>, dan namamu akan dicantumkan di sini setelah karyamu diterima.</div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lebar">
+    <p><a href="mulai.html">Tugas pemula</a> · <a href="kirim.html">Kirim karya</a> · <a href="kontributor.html">Kontributor</a> · <a href="dukung.html">Dukung</a> · <a href="tata-kelola.html">Tata kelola</a> · <a href="en.html">English</a> · <a href="dunia.html#aturan">Aturan main</a></p>
+    <p>Konten CC BY-SA 4.0, kode MIT. Proyek penggemar yang terbuka untuk siapa saja. Semua tokoh, partai, perusahaan, dan lembaga dalam Tepian 108 adalah rekaan. Kemiripan dengan orang atau organisasi nyata tidak disengaja.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="umum.js"></script>
+<script>
+(function () {
+  const T = window.TEPIAN;
+  const daftar = (window.TEPIAN_KONTRIBUTOR || []).slice();
+  const dariTokoh = {};
+  T.B.forEach((b) => (b.penggarap || []).forEach((n) => { (dariTokoh[n] = dariTokoh[n] || []).push(T.label(b)); }));
+  Object.keys(dariTokoh).forEach((n) => { if (!daftar.some((d) => d.nama === n)) daftar.push({ nama: n, peran: "Penggarap tokoh", karya: [] }); });
+  document.getElementById("kontributor").innerHTML = daftar.map((d) => `
+    <article class="kontributor">
+      <h3>${T.esc(d.nama)}</h3>
+      <p class="redup" style="margin:0">${T.esc(d.peran || "")}${d.sejak ? ` · sejak ${T.esc(d.sejak)}` : ""}</p>
+      ${(d.karya || []).length ? `<ul class="karya-daftar">${d.karya.map((k) => `<li><a href="${T.esc(k.url)}" target="_blank" rel="noopener">${T.esc(k.judul)}</a></li>`).join("")}</ul>` : ""}
+      ${(dariTokoh[d.nama] || []).length ? `<p style="margin:.5rem 0 0;font-size:.9rem">Menggarap: ${dariTokoh[d.nama].map(T.esc).join(", ")}</p>` : ""}
+    </article>`).join("");
+})();
+</script>
+</body>
+</html>

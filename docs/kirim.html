@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kirim karya · Tepian 108</title>
+<meta name="description" content="Kirim tulisan, gambar, atau musikmu ke Tepian 108, dengan atau tanpa akun GitHub.">
+<meta property="og:site_name" content="Tepian 108">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kirim karya · Tepian 108">
+<meta property="og:description" content="Kirim tulisan, gambar, atau musikmu ke Tepian 108, dengan atau tanpa akun GitHub.">
+<meta property="og:image" content="http://phx.my.id/tepian-108/og.png">
+<meta property="og:url" content="http://phx.my.id/tepian-108/kirim.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kirim karya · Tepian 108">
+<meta name="twitter:description" content="Kirim tulisan, gambar, atau musikmu ke Tepian 108, dengan atau tanpa akun GitHub.">
+<meta name="twitter:image" content="http://phx.my.id/tepian-108/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero kecil">
+  <div class="lebar">
+    <nav aria-label="Navigasi utama">
+      <a class="merek" href="index.html">Tepian 108</a>
+      <ul>
+        <li><a href="dunia.html">Dunianya</a></li>
+        <li><a href="bintang.html">108 bintang</a></li>
+        <li><a href="ikut.html">Ikut membangun</a></li>
+        <li><a href="kabar.html">Kabar</a></li>
+      </ul>
+    </nav>
+    <div class="judul-halaman">
+      <h1>Kirim karya</h1>
+      <p class="premis">Punya karya yang ingin kamu masukkan? Tidak harus lewat GitHub. Isi bentuk di bawah, lalu pilih cara mengirimnya.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="lebar dua-kolom">
+    <div>
+      <h2>Isi dulu</h2>
+      <form id="form" class="form-kirim">
+        <label>Nama atau nama samaranmu<input type="text" name="nama" autocomplete="nickname"></label>
+        <label>Jenis karya
+          <select name="jenis"><option>Tulisan</option><option>Ilustrasi</option><option>Musik</option><option>Suara</option><option>Kode atau desain game</option><option>Riset atau terjemahan</option><option>Lainnya</option></select>
+        </label>
+        <label>Terkait dengan (tokoh, simpul, segmen, atau umum)<input type="text" name="terkait" placeholder="misalnya: tokoh 064, atau Simpul Belawan"></label>
+        <label>Judul karya<input type="text" name="judul"></label>
+        <label>Tautan karya (Google Drive, GitHub, Soundcloud, dan sebagainya)<input type="url" name="url" placeholder="https://"></label>
+        <label>Catatan (alat yang dipakai, rujukan, peringatan konten)<textarea name="catatan" rows="4"></textarea></label>
+        <label class="ceklis"><input type="checkbox" name="setuju"><span>Karya ini buatanku sendiri dan boleh dilisensikan CC BY-SA 4.0 sesuai <a href="tata-kelola.html">tata kelola</a>.</span></label>
+      </form>
+    </div>
+    <div>
+      <h2>Lalu kirim</h2>
+      <div class="kirim-opsi">
+        <div><h3>Lewat GitHub</h3><p>Punya akun GitHub? Isi formulir issue yang sudah terisi dari bentuk di kiri.</p><a class="tombol utama" id="k-issue" href="#" target="_blank" rel="noopener">Buka issue</a></div>
+        <div id="k-formulir-wadah" hidden><h3>Lewat formulir</h3><p>Tanpa akun GitHub.</p><a class="tombol utama" id="k-formulir" href="#" target="_blank" rel="noopener">Buka formulir</a></div>
+        <div id="k-email-wadah"><h3>Lewat email</h3><p id="k-email-ket">Alamat email proyek belum diumumkan.</p><a class="tombol utama" id="k-email" href="#" hidden>Kirim email</a></div>
+        <div><h3>Salin teksnya</h3><p>Kirim lewat grup komunitas atau cara lain yang kamu suka.</p><button type="button" class="tombol kedua" id="k-salin" style="color:var(--teks);border-color:var(--garis)">Salin teks</button> <span id="k-status" aria-live="polite" class="redup"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lebar">
+    <p><a href="mulai.html">Tugas pemula</a> · <a href="kirim.html">Kirim karya</a> · <a href="kontributor.html">Kontributor</a> · <a href="dukung.html">Dukung</a> · <a href="tata-kelola.html">Tata kelola</a> · <a href="en.html">English</a> · <a href="dunia.html#aturan">Aturan main</a></p>
+    <p>Konten CC BY-SA 4.0, kode MIT. Proyek penggemar yang terbuka untuk siapa saja. Semua tokoh, partai, perusahaan, dan lembaga dalam Tepian 108 adalah rekaan. Kemiripan dengan orang atau organisasi nyata tidak disengaja.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="umum.js"></script>
+<script>
+(function () {
+  const T = window.TEPIAN;
+  const f = document.getElementById("form");
+  const teks = () => {
+    const d = new FormData(f);
+    return [`Jenis: ${d.get("jenis")}`, `Terkait: ${d.get("terkait") || "-"}`, `Judul: ${d.get("judul") || "-"}`, `Tautan: ${d.get("url") || "-"}`, `Nama: ${d.get("nama") || "(tanpa nama)"}`, `Catatan: ${d.get("catatan") || "-"}`, `Buatan sendiri dan boleh dilisensikan CC BY-SA 4.0: ${d.get("setuju") ? "ya" : "belum dicentang"}`].join("\n");
+  };
+  const judul = () => `Kirim karya (${new FormData(f).get("jenis")}): ${new FormData(f).get("judul") || ""}`;
+  function perbarui() {
+    document.getElementById("k-issue").href = `${T.repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(judul())}&body=${encodeURIComponent(teks())}`;
+    if (T.K.formulir) { document.getElementById("k-formulir-wadah").hidden = false; document.getElementById("k-formulir").href = T.K.formulir; }
+    if (T.K.email) {
+      document.getElementById("k-email-ket").textContent = "Kirim ke " + T.K.email + ".";
+      const a = document.getElementById("k-email"); a.hidden = false;
+      a.href = `mailto:${T.K.email}?subject=${encodeURIComponent(judul())}&body=${encodeURIComponent(teks())}`;
+    }
+  }
+  f.addEventListener("input", perbarui); perbarui();
+  document.getElementById("k-salin").addEventListener("click", async () => {
+    const s = document.getElementById("k-status");
+    try { await navigator.clipboard.writeText(teks()); s.textContent = "Tersalin."; } catch (e) { s.textContent = "Tidak bisa menyalin otomatis."; }
+  });
+})();
+</script>
+</body>
+</html>

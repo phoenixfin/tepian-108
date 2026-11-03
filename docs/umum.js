@@ -16,6 +16,12 @@
   const cabang = K.cabang || "main";
   const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+  if (K.analitik) {
+    const g = document.createElement("script");
+    g.async = true; g.dataset.goatcounter = `https://${K.analitik}.goatcounter.com/count`; g.src = "https://gc.zgo.at/count.js";
+    document.head.appendChild(g);
+  }
+
   window.TEPIAN = {
     K, B, S, SEG, STATUS, repo, cabang, esc,
     warna: (s) => `var(--seg-${s.toLowerCase()})`,

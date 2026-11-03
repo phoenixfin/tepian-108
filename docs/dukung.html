@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dukung · Tepian 108</title>
+<meta name="description" content="Cara mendukung Tepian 108: tenaga, sebaran, dan dana.">
+<meta property="og:site_name" content="Tepian 108">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dukung · Tepian 108">
+<meta property="og:description" content="Cara mendukung Tepian 108: tenaga, sebaran, dan dana.">
+<meta property="og:image" content="http://phx.my.id/tepian-108/og.png">
+<meta property="og:url" content="http://phx.my.id/tepian-108/dukung.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dukung · Tepian 108">
+<meta name="twitter:description" content="Cara mendukung Tepian 108: tenaga, sebaran, dan dana.">
+<meta name="twitter:image" content="http://phx.my.id/tepian-108/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero kecil">
+  <div class="lebar">
+    <nav aria-label="Navigasi utama">
+      <a class="merek" href="index.html">Tepian 108</a>
+      <ul>
+        <li><a href="dunia.html">Dunianya</a></li>
+        <li><a href="bintang.html">108 bintang</a></li>
+        <li><a href="ikut.html">Ikut membangun</a></li>
+        <li><a href="kabar.html">Kabar</a></li>
+      </ul>
+    </nav>
+    <div class="judul-halaman">
+      <h1>Dukung proyek ini</h1>
+      <p class="premis">Tepian 108 digarap bersama dan tidak menjual apa pun. Dukungan paling berharga adalah tenaga dan perhatianmu. Dana, bila ada, dipakai untuk honorarium karya.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="lebar">
+    <h2>Tiga cara mendukung</h2>
+    <div class="dua-jalur" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <article class="kartu-jalur"><h3>Tenaga</h3><p class="seru">Menulis, menggambar, bermusik, atau membantu hal lain.</p><p>Paling berharga dan tidak perlu biaya. Mulai dari tugas kecil.</p><div class="tombol-baris"><a class="tombol utama" href="mulai.html">Tugas pemula</a></div></article>
+      <article class="kartu-jalur"><h3>Sebarkan</h3><p class="seru">Ceritakan ke orang yang mungkin tertarik.</p><p>Penggemar Suikoden, penulis, ilustrator, musisi, dan pengembang game indie.</p><div class="tombol-baris"><a class="tombol utama" id="wa" href="#" target="_blank" rel="noopener">Bagikan lewat WhatsApp</a><a class="tombol kedua" style="color:var(--teks);border-color:var(--garis)" id="x" href="#" target="_blank" rel="noopener">Bagikan di X</a></div></article>
+      <article class="kartu-jalur"><h3>Dana</h3><p class="seru">Untuk honorarium ilustrator dan musisi, per karya.</p><div id="dana"></div></article>
+    </div>
+    <h2 style="margin-top:3rem">Prinsip penggunaan dana</h2>
+    <ul class="aturan">
+      <li>Dana dipakai untuk membayar karya, bukan untuk pengelola: potret tokoh, tema musik, aset game, dan rekaman suara.</li>
+      <li>Setiap pemasukan dan pengeluaran dicatat terbuka di halaman ini.</li>
+      <li>Tidak ada crowdfunding besar sebelum ada prototipe yang bisa dicoba.</li>
+      <li>Penerima honorarium dipilih terbuka, dan karyanya tetap berlisensi CC BY-SA.</li>
+    </ul>
+    <h2 style="margin-top:3rem">Catatan keuangan</h2>
+    <table class="tabel-catatan"><thead><tr><th>Tanggal</th><th>Keterangan</th><th>Masuk</th><th>Keluar</th></tr></thead><tbody><tr><td colspan="4">Belum ada pemasukan atau pengeluaran.</td></tr></tbody></table>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lebar">
+    <p><a href="mulai.html">Tugas pemula</a> · <a href="kirim.html">Kirim karya</a> · <a href="kontributor.html">Kontributor</a> · <a href="dukung.html">Dukung</a> · <a href="tata-kelola.html">Tata kelola</a> · <a href="en.html">English</a> · <a href="dunia.html#aturan">Aturan main</a></p>
+    <p>Konten CC BY-SA 4.0, kode MIT. Proyek penggemar yang terbuka untuk siapa saja. Semua tokoh, partai, perusahaan, dan lembaga dalam Tepian 108 adalah rekaan. Kemiripan dengan orang atau organisasi nyata tidak disengaja.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="umum.js"></script>
+<script>
+(function () {
+  const T = window.TEPIAN;
+  const d = (T.K.dukungan || {});
+  const kanal = [["saweria", "Saweria"], ["trakteer", "Trakteer"], ["kofi", "Ko-fi"], ["sponsors", "GitHub Sponsors"]].filter(([k]) => d[k]);
+  document.getElementById("dana").innerHTML = kanal.length
+    ? `<div class="tombol-baris">${kanal.map(([k, n]) => `<a class="tombol utama" href="${T.esc(d[k])}" target="_blank" rel="noopener">${n}</a>`).join("")}</div>`
+    : `<p>Kanal dana belum dibuka. Kami menunggu sampai ada karya yang bisa dilihat.</p>`;
+  const u = encodeURIComponent(location.origin + location.pathname.replace(/[^/]*$/, ""));
+  const teks = encodeURIComponent("Kamu fans Suikoden? Bagaimana kalau 108 bintang itu berkumpul di Indonesia, 2030? Tepian 108, proyek cerita dan game terbuka.");
+  document.getElementById("wa").href = `https://wa.me/?text=${teks}%20${u}`;
+  document.getElementById("x").href = `https://twitter.com/intent/tweet?text=${teks}&url=${u}`;
+})();
+</script>
+</body>
+</html>

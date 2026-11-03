@@ -1,0 +1,34 @@
+title: "Usul nama: tokoh [nomor]"
+labels: ["usul-nama"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nama 85 tokoh sengaja dikosongkan. Usulkan satu nama yang cocok dengan usia, asal daerah, dan peran tokoh. Nama yang cocok dan mendapat dukungan akan dicantumkan lengkap dengan nama pengusulnya.
+  - type: input
+    id: tokoh
+    attributes:
+      label: Tokoh
+      description: Nomor dan bintang tokoh (misalnya 064 Chihi).
+    validations:
+      required: true
+  - type: input
+    id: nama
+    attributes:
+      label: Nama yang kamu usulkan
+    validations:
+      required: true
+  - type: textarea
+    id: alasan
+    attributes:
+      label: Alasan
+      description: Kenapa nama ini cocok (daerah asal, usia, peran, atau bunyi nama).
+    validations:
+      required: true
+  - type: checkboxes
+    id: syarat
+    attributes:
+      label: Pernyataan
+      options:
+        - label: Nama ini rekaan dan tidak mengarah ke orang nyata.
+          required: true

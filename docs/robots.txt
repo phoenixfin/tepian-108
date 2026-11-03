@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://phx.my.id/tepian-108/sitemap.xml

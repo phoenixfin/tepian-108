@@ -14,5 +14,19 @@ window.TEPIAN_KONFIG = {
   diskusi: "https://github.com/phoenixfin/tepian-108/discussions",
 
   // Email proyek
-  email: ""
+  email: "",
+
+  // Formulir kirim karya tanpa GitHub (Tally, Google Form, dan sejenisnya)
+  formulir: "",
+
+  // Dukungan dana. Biarkan kosong bila belum ada.
+  dukungan: {
+    saweria: "",
+    trakteer: "",
+    kofi: "",
+    sponsors: ""
+  },
+
+  // Kode situs GoatCounter (analitik tanpa cookie), misalnya "tepian108". Kosong = tidak ada analitik.
+  analitik: ""
 };
