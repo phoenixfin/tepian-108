@@ -9,22 +9,22 @@
 
 ### Tokoh
 
-- [005 Letjen (Purn) Benyamin Pattiasina](../bintang/005-tenyu-letjen-purn-benyamin-pattiasina.md), Jenderal purnawirawan, penengah (inti)
-- [007 AKBP Galih Pradana](../bintang/007-tenmou-akbp-galih-pradana.md), Perwira penulis laporan jujur (inti)
-- [008 Kapten Made Ariawan](../bintang/008-teni-kapten-made-ariawan.md), Komandan kompi yang menolak perintah (terbuka)
-- [021 Satria Wibisono "Bimo"](../bintang/021-teni-satria-wibisono-bimo.md), Intel penyusup, agen ganda (inti)
-- [022 Serka Hasanuddin](../bintang/022-tensatsu-serka-hasanuddin.md), Penembak jitu yang menolak menembak (terbuka)
-- [031 Asep Gunawan](../bintang/031-tenpai-asep-gunawan.md), Prajurit pecatan (terbuka)
-- [038 Mayor dr. Ratih Kusumawardani](../bintang/038-chisatsu-mayor-dr-ratih-kusumawardani.md), Dokter militer (terbuka)
-- [042 Aiptu Bambang Sutejo](../bintang/042-chii-aiptu-bambang-sutejo.md), Bawahan setia Galih (terbuka)
-- [049 Serma Yosua Rumbiak](../bintang/049-chitou-serma-yosua-rumbiak.md), Tukang senjata yang muak (terbuka)
-- [060 Rudi Hartawan](../bintang/060-chibaku-rudi-hartawan.md), Pasukan khusus pecatan (terbuka)
-- [063 Bripka Ilham Saputra](../bintang/063-chikyou-bripka-ilham-saputra.md), Operator drone (terbuka)
-- [080 Yohana Kristanti](../bintang/080-chichin-yohana-kristanti.md), Sipir fasilitas dekat IKN (terbuka)
-- [084 Pelda Sanusi](../bintang/084-chiyu-pelda-sanusi.md), Juru masak barak (terbuka)
-- [097 Nindya Paramitha](../bintang/097-chisatsu-nindya-paramitha.md), Analis intel siber (terbuka)
-- [098 Ferry Gunadi](../bintang/098-chiaku-ferry-gunadi.md), Wakil ketua FPK yang berbalik (terbuka)
-- [102 Iptu Wahyu Ramdani](../bintang/102-chikei-iptu-wahyu-ramdani.md), Provos (terbuka)
+- [005 Letjen (Purn) Benyamin Pattiasina](../bintang/005-tenyu.md), Jenderal purnawirawan, penengah (inti)
+- [007 AKBP Galih Pradana](../bintang/007-tenmou.md), Perwira penulis laporan jujur (inti)
+- [008 Belum bernama (Teni)](../bintang/008-teni.md), Komandan kompi yang menolak perintah (terbuka)
+- [021 Satria Wibisono "Bimo"](../bintang/021-teni.md), Intel penyusup, agen ganda (inti)
+- [022 Belum bernama (Tensatsu)](../bintang/022-tensatsu.md), Penembak jitu yang menolak menembak (terbuka)
+- [031 Belum bernama (Tenpai)](../bintang/031-tenpai.md), Prajurit pecatan (terbuka)
+- [038 Belum bernama (Chisatsu)](../bintang/038-chisatsu.md), Dokter militer (terbuka)
+- [042 Belum bernama (Chii)](../bintang/042-chii.md), Bawahan setia Galih (terbuka)
+- [049 Belum bernama (Chitou)](../bintang/049-chitou.md), Tukang senjata yang muak (terbuka)
+- [060 Belum bernama (Chibaku)](../bintang/060-chibaku.md), Pasukan khusus pecatan (terbuka)
+- [063 Belum bernama (Chikyou)](../bintang/063-chikyou.md), Operator drone (terbuka)
+- [080 Belum bernama (Chichin)](../bintang/080-chichin.md), Sipir fasilitas dekat IKN (terbuka)
+- [084 Belum bernama (Chiyu)](../bintang/084-chiyu.md), Juru masak barak (terbuka)
+- [097 Belum bernama (Chisatsu)](../bintang/097-chisatsu.md), Analis intel siber (terbuka)
+- [098 Belum bernama (Chiaku)](../bintang/098-chiaku.md), Wakil ketua FPK yang berbalik (terbuka)
+- [102 Belum bernama (Chikei)](../bintang/102-chikei.md), Provos (terbuka)
 
 ### Simpul
 

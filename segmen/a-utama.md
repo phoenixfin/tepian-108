@@ -9,44 +9,44 @@
 
 ### Tokoh
 
-- [001 Damar Tingang](../bintang/001-tenkai-damar-tingang.md), Protagonis (inti)
-- [009 Jaka "Jeki" Saputra](../bintang/009-tenei-jaka-jeki-saputra.md), Anak jalanan, sahabat (inti)
-- [012 Mak Inah](../bintang/012-tenman-mak-inah.md), Pemilik warung, jangkar emosi (inti)
-- [013 Yoseph Bria](../bintang/013-tenko-yoseph-bria.md), Veteran penjaga pabrik (inti)
-- [014 Sri Wahyuni](../bintang/014-tensyo-sri-wahyuni.md), Buruh tekstil PHK, pemimpin mogok kecil (terbuka)
-- [017 Rangga Permana](../bintang/017-tenan-rangga-permana.md), Koordinator ojol (inti)
-- [020 Daniel Lim](../bintang/020-tensoku-daniel-lim.md), Pembalap liar, pengemudi pelarian (terbuka)
-- [035 Ratna Siregar](../bintang/035-tenkoku-ratna-siregar.md), Ibu korban salah tangkap, penggerak keluarga korban (terbuka)
-- [046 Dr. Haris Mukti](../bintang/046-chibun-dr-haris-mukti.md), Dosen eks aktivis (inti)
-- [052 Fauzi "Ojik" Ramadhan](../bintang/052-chijiku-fauzi-ojik-ramadhan.md), Ojol, tangan kanan Rangga (terbuka)
-- [056 Fransiska Laoli](../bintang/056-chirei-fransiska-laoli.md), Nakes honorer, dokter utama (terbuka)
-- [057 Bidan Lestari](../bintang/057-chijyu-bidan-lestari.md), Bidan, medis kedua (terbuka)
-- [061 Nadia Rahmani](../bintang/061-chizen-nadia-rahmani.md), Peretas, anak peneliti (inti)
-- [064 Bu Endang](../bintang/064-chihi-bu-endang.md), Pemilik kos murah tempat menampung (terbuka)
-- [067 Ustaz Fadli](../bintang/067-chimei-ustaz-fadli.md), Ustaz musala pabrik (terbuka)
-- [073 Mira Andini](../bintang/073-chiin-mira-andini.md), Penyanyi dangdut korban judol (terbuka)
-- [077 Opik](../bintang/077-chiraku-opik.md), Pengamen gitar (terbuka)
-- [078 Ucil](../bintang/078-chitatsu-ucil.md), Anak jalanan, hafal semua jalan tikus (terbuka)
-- [079 Bayu](../bintang/079-chisoku-bayu.md), Kurir dokumen bersepeda (terbuka)
-- [083 Laras Pertiwi](../bintang/083-chiyou-laras-pertiwi.md), Jurnalis (inti)
-- [086 Teguh Santoso](../bintang/086-chihi-teguh-santoso.md), Pegawai kontrak korban Tarum (terbuka)
-- [088 Tarno](../bintang/088-chiko-tarno.md), Tukang las (terbuka)
-- [089 Wak Darman](../bintang/089-chizen-wak-darman.md), Penjaga malam tuna wicara (terbuka)
-- [090 Hendra Kusuma](../bintang/090-chitan-hendra-kusuma.md), Wali kota Bekasi (terbuka)
-- [092 Bram Saputra](../bintang/092-chisyu-bram-saputra.md), Mantan teman sel Damar (terbuka)
-- [093 Pak Sobari](../bintang/093-chizou-pak-sobari.md), Juru masak dapur umum (terbuka)
-- [096 Wartini](../bintang/096-chido-wartini.md), Mantan pekerja migran korban pinjol (terbuka)
-- [100 Nur Aini](../bintang/100-chisu-nur-aini.md), Bendahara koperasi tanpa bunga (terbuka)
-- [104 Yudi Hartono](../bintang/104-chiretsu-yudi-hartono.md), Penjahit pengguna kursi roda (terbuka)
-- [105 Bang Rohim](../bintang/105-chiken-bang-rohim.md), Pelatih silat anak-anak (terbuka)
-- [108 Mbah Kardi](../bintang/108-chikou-mbah-kardi.md), Pemulung dengan anjing penjaga (terbuka)
+- [001 Damar Tingang](../bintang/001-tenkai.md), Protagonis (inti)
+- [009 Jaka "Jeki" Saputra](../bintang/009-tenei.md), Anak jalanan, sahabat (inti)
+- [012 Mak Inah](../bintang/012-tenman.md), Pemilik warung, jangkar emosi (inti)
+- [013 Yoseph Bria](../bintang/013-tenko.md), Veteran penjaga pabrik (inti)
+- [014 Belum bernama (Tensyo)](../bintang/014-tensyo.md), Buruh tekstil PHK, pemimpin mogok kecil (terbuka)
+- [017 Rangga Permana](../bintang/017-tenan.md), Koordinator ojol (inti)
+- [020 Belum bernama (Tensoku)](../bintang/020-tensoku.md), Pembalap liar, pengemudi pelarian (terbuka)
+- [035 Belum bernama (Tenkoku)](../bintang/035-tenkoku.md), Ibu korban salah tangkap, penggerak keluarga korban (terbuka)
+- [046 Dr. Haris Mukti](../bintang/046-chibun.md), Dosen eks aktivis (inti)
+- [052 Belum bernama (Chijiku)](../bintang/052-chijiku.md), Ojol, tangan kanan Rangga (terbuka)
+- [056 Belum bernama (Chirei)](../bintang/056-chirei.md), Nakes honorer, dokter utama (terbuka)
+- [057 Belum bernama (Chijyu)](../bintang/057-chijyu.md), Bidan, medis kedua (terbuka)
+- [061 Nadia Rahmani](../bintang/061-chizen.md), Peretas, anak peneliti (inti)
+- [064 Belum bernama (Chihi)](../bintang/064-chihi.md), Pemilik kos murah tempat menampung (terbuka)
+- [067 Belum bernama (Chimei)](../bintang/067-chimei.md), Ustaz musala pabrik (terbuka)
+- [073 Belum bernama (Chiin)](../bintang/073-chiin.md), Penyanyi dangdut korban judol (terbuka)
+- [077 Belum bernama (Chiraku)](../bintang/077-chiraku.md), Pengamen gitar (terbuka)
+- [078 Belum bernama (Chitatsu)](../bintang/078-chitatsu.md), Anak jalanan, hafal semua jalan tikus (terbuka)
+- [079 Belum bernama (Chisoku)](../bintang/079-chisoku.md), Kurir dokumen bersepeda (terbuka)
+- [083 Laras Pertiwi](../bintang/083-chiyou.md), Jurnalis (inti)
+- [086 Belum bernama (Chihi)](../bintang/086-chihi.md), Pegawai kontrak korban Tarum (terbuka)
+- [088 Belum bernama (Chiko)](../bintang/088-chiko.md), Tukang las (terbuka)
+- [089 Belum bernama (Chizen)](../bintang/089-chizen.md), Penjaga malam tuna wicara (terbuka)
+- [090 Belum bernama (Chitan)](../bintang/090-chitan.md), Wali kota Bekasi (terbuka)
+- [092 Belum bernama (Chisyu)](../bintang/092-chisyu.md), Mantan teman sel Damar (terbuka)
+- [093 Belum bernama (Chizou)](../bintang/093-chizou.md), Juru masak dapur umum (terbuka)
+- [096 Belum bernama (Chido)](../bintang/096-chido.md), Mantan pekerja migran korban pinjol (terbuka)
+- [100 Belum bernama (Chisu)](../bintang/100-chisu.md), Bendahara koperasi tanpa bunga (terbuka)
+- [104 Belum bernama (Chiretsu)](../bintang/104-chiretsu.md), Penjahit pengguna kursi roda (terbuka)
+- [105 Belum bernama (Chiken)](../bintang/105-chiken.md), Pelatih silat anak-anak (terbuka)
+- [108 Belum bernama (Chikou)](../bintang/108-chikou.md), Pemulung dengan anjing penjaga (terbuka)
 
 ### Simpul
 
 - [Pabrik tekstil mangkrak, Cakung](../simpul/pabrik-cakung.md), Jakarta Timur
-- [Kos Bu Endang](../simpul/kos-bu-endang.md), Jakarta Utara
+- [Kos penampungan](../simpul/kos-penampungan.md), Jakarta Utara
 - [Simpul Bekasi](../simpul/simpul-bekasi.md), Kawasan industri Bekasi
-- [Tongkang Kapten Rusmadi](../simpul/tongkang-barito.md), Sungai Barito
+- [Tongkang Sungai Barito](../simpul/tongkang-barito.md), Sungai Barito
 - [Kampung Damar, tepi Sungai Mentaya](../simpul/kampung-mentaya.md), Kotawaringin Timur, Kalimantan Tengah
 - [IKN dan Teluk Balikpapan](../simpul/ikn-teluk-balikpapan.md), Kalimantan Timur
 - [Simpul Belawan dan Medan](../simpul/simpul-belawan.md), Sumatera Utara

@@ -45,10 +45,10 @@ Tidak ada satu-satu. Satu tokoh, simpul, atau segmen boleh digarap beberapa oran
 | Plot utama lima babak dan garis waktunya | Suara, luka, adegan kunci, dan relasi antar tokoh |
 | Peta simpul besar: tempat, fungsi, babak aktif | Suasana, bahasa, dan konflik lokal di dalam simpul |
 | Enam segmen dan pusat daerahnya | Simpul kecil, cerita pendek, dokumen dalam dunia |
-| Per tokoh: nomor, segmen, peran, babak masuk, nasib | Nama, asal, dan latar 85 tokoh berstatus terbuka |
+| Per tokoh: nomor, segmen, peran, babak masuk, nasib | Nama (sengaja dikosongkan dulu), asal, dan latar 85 tokoh berstatus terbuka |
 | Identitas 23 tokoh inti | Detail tokoh inti, lewat usulan di issue |
 
-Mengubah nama atau asal tokoh terbuka dilakukan lewat issue lebih dulu supaya kurator memperbarui bible dan data sekaligus.
+Memberi nama atau mengubah asal tokoh terbuka dilakukan lewat issue lebih dulu supaya kurator memperbarui bible dan data sekaligus.
 
 ### Aturan koordinasi
 

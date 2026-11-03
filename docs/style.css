@@ -272,3 +272,5 @@ footer p { margin: 0 0 .4rem; max-width: 80ch; }
 .segmen-api g:nth-of-type(n+4) .kedip { animation-delay: -.8s; }
 @keyframes kedip { 0%,100% { transform: scale(1,1); } 30% { transform: scale(.94,1.06); } 60% { transform: scale(1.04,.96); } }
 @media (prefers-reduced-motion: reduce) { .segmen-api .kedip { animation: none; } }
+
+.tanpa-nama { font-style: italic; color: var(--pelita); }

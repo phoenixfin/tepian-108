@@ -1,5 +1,7 @@
 # Bible Tokoh
 
+> Catatan: nama 85 tokoh terbuka di bible ini adalah nama kerja penulis inti agar alur mudah dibaca. Di situs dan file tokoh, nama itu sengaja dikosongkan dulu dan menunggu kontributor. Lihat `bible/00-indeks-dan-log-keputusan.md`.
+
 ## 1. Enam segmen
 
 | Kode | Segmen | Jumlah | Fungsi | Cara merekrut | PoV |

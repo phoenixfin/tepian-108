@@ -38,7 +38,7 @@ PUSAT = {
 }
 STATUS = {
     "inti": "Tokoh inti (kanon inti, detail bisa diusulkan lewat issue)",
-    "terbuka": "Terbuka: nama dan latar masih bisa ditulis bersama",
+    "terbuka": "Terbuka: nama dan latar masih kosong dan bisa ditulis bersama",
     "digarap": "Sedang digarap bersama",
 }
 
@@ -49,15 +49,32 @@ def slug(teks):
     return teks.strip("-")
 
 
+NAMA_TERBUKA = {}
+
+
+def samarkan(teks):
+    """Ganti nama tokoh terbuka (yang namanya dikosongkan) dengan nomornya."""
+    for no, awal in NAMA_TERBUKA.items():
+        if teks and len(teks) >= 3 and teks in awal:
+            return f"tokoh {no:03d}"
+    return teks
+
+
 def masuk(b):
     if b["perekrut"].startswith("PoV"):
         jenis = "tokoh sudut pandang parsial" if "parsial" in b["perekrut"] else "tokoh sudut pandang"
         return f"Babak {b['babak']}, sebagai {jenis}"
-    return f"Babak {b['babak']}, direkrut oleh {b['perekrut']}"
+    return f"Babak {b['babak']}, direkrut oleh {samarkan(b['perekrut'])}"
+
+
+def label(b):
+    """Nama tokoh, atau penanda bila namanya sengaja dikosongkan."""
+    return b["nama"] or f"Belum bernama ({b['bintang']})"
 
 
 def nama_file_bintang(b):
-    return f"{b['no']:03d}-{slug(b['bintang'])}-{slug(b['nama'])}.md"
+    # Nama file tidak memuat nama tokoh, supaya tetap stabil ketika tokoh diberi nama.
+    return f"{b['no']:03d}-{slug(b['bintang'])}.md"
 
 
 def tulis_dengan_blok(path, judul, blok, badan_awal):
@@ -141,13 +158,13 @@ def bangun_bintang(data):
         seg_nama, seg_fungsi = SEGMEN[b["segmen"]]
         penggarap = ", ".join(b.get("penggarap") or []) or "Belum ada"
         karya = ", ".join(f"[{k['judul']}]({k['url']})" for k in b.get("karya") or []) or "Belum ada"
-        kunci = "Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama kerja (boleh diusulkan ganti), asal, latar, suara, adegan, relasi" if b["nama_terbuka"] else "Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue"
+        kunci = "Terkunci: nomor, bintang, segmen, peran, babak, nasib. Terbuka: nama (sengaja dikosongkan), asal, latar, suara, adegan, relasi" if b["nama_terbuka"] else "Terkunci: identitas dan nasib (kanon inti). Terbuka: detail yang diusulkan lewat issue"
         blok = f"""
 | | |
 |---|---|
 | Nomor | {b['no']} dari 108 |
 | Bintang | {b['bintang']} {b['kanji']} ({'bintang langit' if b['langit'] else 'bintang bumi'}) |
-| Nama | {b['nama']} |
+| Nama | {b['nama'] or '_Belum bernama. Usulkan lewat issue._'} |
 | Usia dan asal | {b['usia_asal']} |
 | Segmen | {b['segmen']}, {seg_nama} ({seg_fungsi}) |
 | Peran | {b['peran']} |
@@ -157,12 +174,13 @@ def bangun_bintang(data):
 | Karya visual dan audio | {karya} |
 | Terkunci dan terbuka | {kunci} |
 """
-        tulis_dengan_blok(folder / nama_file_bintang(b), f"{b['nama']}", blok, BADAN_BINTANG)
+        judul = b["nama"] or f"Tokoh {b['no']:03d}, {b['bintang']} (belum bernama)"
+        tulis_dengan_blok(folder / nama_file_bintang(b), judul, blok, BADAN_BINTANG)
 
     baris = []
     for b in data:
         baris.append(
-            f"| {b['no']} | {b['bintang']} {b['kanji']} | [{b['nama']}]({nama_file_bintang(b)}) "
+            f"| {b['no']} | {b['bintang']} {b['kanji']} | [{label(b)}]({nama_file_bintang(b)}) "
             f"| {b['segmen']} | {b['peran']} | {b['babak']} | {STATUS[b['status']]} |"
         )
     jumlah = {s: sum(1 for b in data if b["status"] == s) for s in STATUS}
@@ -235,7 +253,7 @@ def bangun_segmen(bintang, simpul):
         tokoh = [t for t in bintang if t["segmen"] == k]
         ss = [s for s in simpul if k in s["segmen"]]
         nf = f"{k.lower()}-{slug(nama)}.md"
-        baris_tokoh = "\n".join(f"- [{t['no']:03d} {t['nama']}](../bintang/{nama_file_bintang(t)}), {t['peran']} ({'terbuka' if t['status'] == 'terbuka' else t['status']})" for t in tokoh)
+        baris_tokoh = "\n".join(f"- [{t['no']:03d} {label(t)}](../bintang/{nama_file_bintang(t)}), {t['peran']} ({'terbuka' if t['status'] == 'terbuka' else t['status']})" for t in tokoh)
         baris_simpul = "\n".join(f"- [{s['nama']}](../simpul/{s['slug']}.md), {s['wilayah']}" for s in ss)
         blok = f"""
 | | |
@@ -272,6 +290,18 @@ def bangun_situs(bintang, simpul):
     (AKAR / "docs" / "data.js").write_text(isi, encoding="utf-8")
 
 
+def peringatkan_usang(bintang, simpul):
+    """Beri tahu bila ada file lama yang tidak lagi dibuat (nama file berubah)."""
+    sah = {nama_file_bintang(x) for x in bintang} | {"README.md"}
+    for f in sorted((AKAR / "bintang").glob("*.md")):
+        if f.name not in sah:
+            print(f"Peringatan: {f.relative_to(AKAR)} tidak lagi dibuat; periksa isinya lalu hapus bila kosong.")
+    sah = {s["slug"] + ".md" for s in simpul} | {"README.md"}
+    for f in sorted((AKAR / "simpul").glob("*.md")):
+        if f.name not in sah:
+            print(f"Peringatan: {f.relative_to(AKAR)} tidak lagi dibuat; periksa isinya lalu hapus bila kosong.")
+
+
 def main():
     bintang = json.loads((AKAR / "data" / "bintang.json").read_text(encoding="utf-8"))
     simpul = json.loads((AKAR / "data" / "simpul.json").read_text(encoding="utf-8"))
@@ -279,10 +309,13 @@ def main():
     assert len({b["no"] for b in bintang}) == 108, "nomor bintang ganda"
     for b in bintang:
         assert b["status"] in STATUS, f"status tidak dikenal pada bintang {b['no']}"
+    NAMA_TERBUKA.clear()
+    NAMA_TERBUKA.update({t["no"]: t.get("nama_awal", "") for t in bintang if t["nama_terbuka"] and t.get("nama_awal")})
     bangun_bintang(bintang)
     bangun_simpul(simpul)
     bangun_segmen(bintang, simpul)
     bangun_situs(bintang, simpul)
+    peringatkan_usang(bintang, simpul)
     print(f"Selesai: 108 bintang, {len(simpul)} simpul, docs/data.js diperbarui.")
 
 

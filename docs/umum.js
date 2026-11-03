@@ -21,9 +21,10 @@
     warna: (s) => `var(--seg-${s.toLowerCase()})`,
     fileUrl: (b) => `${repo}/blob/${cabang}/bintang/${b.file}`,
     ikutUrl: (judul) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(judul)}`,
-    ikutTokoh: (b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Ikut menulis tokoh ${String(b.no).padStart(3, "0")}: ${b.nama}`)}`,
-    usulNama: (b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Usulan nama tokoh ${String(b.no).padStart(3, "0")}: ${b.nama}`)}`,
-    ikutKarya: (jalur, b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Ikut berkarya (${jalur}) tokoh ${String(b.no).padStart(3, "0")}: ${b.nama}`)}`,
+    ikutTokoh: (b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Ikut menulis tokoh ${String(b.no).padStart(3, "0")}: ${b.nama || b.bintang}`)}`,
+    usulNama: (b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Usulan nama tokoh ${String(b.no).padStart(3, "0")} (${b.bintang})${b.nama ? ": " + b.nama : ""}`)}`,
+    ikutKarya: (jalur, b) => `${repo}/issues/new?template=ikut-berkarya.md&title=${encodeURIComponent(`Ikut berkarya (${jalur}) tokoh ${String(b.no).padStart(3, "0")}: ${b.nama || b.bintang}`)}`,
+    label: (b) => b.nama || `Tokoh ${String(b.no).padStart(3, "0")} (${b.bintang})`,
     gh: (jalur) => `${repo}/${jalur}`,
     kanal(el) {
       const baris = [

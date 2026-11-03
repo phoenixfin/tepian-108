@@ -43,7 +43,7 @@ Tujuan: membuktikan bahwa lingkar inti menyenangkan.
 
 - Satu tokoh sudut pandang: Damar.
 - Satu lokasi: pabrik Cakung dan sekitarnya.
-- Sekitar 10 bintang yang bisa direkrut: Jeki, Mak Inah, Yoseph, Rangga, Haris, Laras, Nadia, Fransiska, Pak Sobari, Tarno.
+- Sekitar 10 bintang yang bisa direkrut: Jeki, Mak Inah, Yoseph, Rangga, Haris, Laras, Nadia, dan tiga tokoh yang namanya masih kosong (nomor 56, 88, 93).
 - Tiga fasilitas: dapur umum, klinik, bengkel.
 - Satu bentuk tekanan: cek izin dan audit.
 - Akhir prototipe: malam ketika 40 orang buka puasa bersama.

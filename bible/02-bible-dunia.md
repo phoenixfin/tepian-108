@@ -98,12 +98,12 @@ Aparat bukan pusat kekuasaan. Mereka alat tiap keluarga, dan pada akhirnya alat 
 | Lokasi | Fungsi | Babak aktif | Segmen |
 |---|---|---|---|
 | Pabrik tekstil mangkrak, Cakung, Jakarta Timur | Dapur umum, klinik, pengungsian pertama. Aset keluarga Adiwangsa | 1 sampai 2 | A |
-| Kos Bu Endang, Jakarta Utara | Tempat menampung sementara | 2 sampai 3 | A |
+| Kos penampungan, Jakarta Utara | Tempat menampung sementara | 2 sampai 3 | A |
 | Simpul Bekasi (kawasan industri) | Pengungsian pasca penggerebekan, dilindungi wali kota | 3 sampai 5 | A |
 | Simpul pesisir Indramayu | Jalur pelarian laut, koperasi nelayan. Dihancurkan di B3 | 3 | B |
 | Kabupaten Tolanggo, Sultra | Serikat buruh nikel, smelter | 1 sampai 4 | B |
 | Gudang pelabuhan Tanjung Priok | Jalur logistik dan penyimpanan, milik Adiwangsa Logistik | 3 sampai 5 | F |
-| Tongkang Kapten Rusmadi, Sungai Barito | Markas bergerak, pusat data darurat. Diserang di B4 | 3 sampai 4 | A dan B |
+| Tongkang, Sungai Barito | Markas bergerak, pusat data darurat. Diserang di B4 | 3 sampai 4 | A dan B |
 | Kampung Damar, tepi Sungai Mentaya, Kotawaringin Timur | Luka lama, pertemuan dengan Bue Ilai | 4 | A dan B |
 | Food estate Pulang Pisau | Petani yang kehilangan lahan | 4 | B |
 | Simpul Belawan dan Medan, Sumut | Pelabuhan, buruh perkebunan, dan ojol. Mogok serentak di Babak 5 | 4 sampai 5 | A dan F |

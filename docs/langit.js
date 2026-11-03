@@ -77,9 +77,9 @@
         g.setAttribute("class", "bintang");
         g.setAttribute("tabindex", "0");
         g.setAttribute("role", "button");
-        g.setAttribute("aria-label", `${b.nama}, ${b.bintang}, segmen ${SEG[b.segmen].nama}, ${STATUS[b.status]}`);
+        g.setAttribute("aria-label", `${T.label(b)}, ${b.bintang}, segmen ${SEG[b.segmen].nama}, ${STATUS[b.status]}`);
         const judul = document.createElementNS(NS, "title");
-        judul.textContent = `${b.nama} (${b.bintang})`;
+        judul.textContent = `${T.label(b)}`;
         g.appendChild(judul);
         g.addEventListener("click", () => pergi(b));
         g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pergi(b); } });

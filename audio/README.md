@@ -7,7 +7,7 @@ Tempat untuk aransemen soundtrack, musik latar (BGM), suara lingkungan, dan reka
 | Jenis | Contoh | Folder |
 |---|---|---|
 | Tema segmen | Satu tema untuk tiap segmen A sampai F, memakai bunyi dari pusat daerahnya | `tema-segmen/` |
-| Tema tokoh | Motif untuk tokoh, misalnya Damar atau Bu Endang | `tema-tokoh/` |
+| Tema tokoh | Motif untuk tokoh, misalnya Damar | `tema-tokoh/` |
 | BGM dan soundtrack | Musik latar untuk simpul, adegan, atau babak. Aransemen ulang dari tema yang sudah ada juga disambut | `bgm/` |
 | Suara lingkungan | Pasar, sungai, pelabuhan, hutan, dapur umum, hujan | `ambient/` |
 | Efek suara | Antarmuka, langkah, pintu, kapal, mesin | `sfx/` |

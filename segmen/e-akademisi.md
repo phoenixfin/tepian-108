@@ -9,20 +9,20 @@
 
 ### Tokoh
 
-- [003 Sekar Ayuningtyas](../bintang/003-tenki-sekar-ayuningtyas.md), Strategist (inti)
-- [024 Dimas Arifin](../bintang/024-tenkyu-dimas-arifin.md), Peneliti algoritma (terbuka)
-- [025 Dewi Kartika Lubis](../bintang/025-tentai-dewi-kartika-lubis.md), Pengacara kebijakan (terbuka)
-- [028 Boni Tukan](../bintang/028-tenhei-boni-tukan.md), Auditor BAN (terbuka)
-- [034 Rizky Fadhillah](../bintang/034-tenbou-rizky-fadhillah.md), Ketua BEM (terbuka)
-- [037 Wayan Sudarsana](../bintang/037-chikai-wayan-sudarsana.md), Ahli logistik (inti)
-- [045 Rosalina Wuisan](../bintang/045-chimou-rosalina-wuisan.md), Komisioner KPHW (terbuka)
-- [053 Hayati Saleh](../bintang/053-chikai-hayati-saleh.md), Penerjemah dan fasilitator bahasa daerah (terbuka)
-- [068 Lukman Harahap](../bintang/068-chisin-lukman-harahap.md), Pejabat Kementerian Keuangan (terbuka)
-- [069 Soemarno Hadi](../bintang/069-chitai-soemarno-hadi.md), Pensiunan hakim, pernah ditekan di kasus Ambun (terbuka)
-- [071 Bu Nining](../bintang/071-chisui-bu-nining.md), Pustakawan arsip (terbuka)
-- [075 Teddy Kurniadi](../bintang/075-chiri-teddy-kurniadi.md), Statistikawan (terbuka)
-- [076 Ferdinand Tan](../bintang/076-chisyun-ferdinand-tan.md), Analis PAAD (terbuka)
-- [085 Intan Permatasari](../bintang/085-chifuku-intan-permatasari.md), Murid Sekar, strategist pengganti (inti)
+- [003 Sekar Ayuningtyas](../bintang/003-tenki.md), Strategist (inti)
+- [024 Belum bernama (Tenkyu)](../bintang/024-tenkyu.md), Peneliti algoritma (terbuka)
+- [025 Belum bernama (Tentai)](../bintang/025-tentai.md), Pengacara kebijakan (terbuka)
+- [028 Belum bernama (Tenhei)](../bintang/028-tenhei.md), Auditor BAN (terbuka)
+- [034 Belum bernama (Tenbou)](../bintang/034-tenbou.md), Ketua BEM (terbuka)
+- [037 Wayan Sudarsana](../bintang/037-chikai.md), Ahli logistik (inti)
+- [045 Belum bernama (Chimou)](../bintang/045-chimou.md), Komisioner KPHW (terbuka)
+- [053 Belum bernama (Chikai)](../bintang/053-chikai.md), Penerjemah dan fasilitator bahasa daerah (terbuka)
+- [068 Belum bernama (Chisin)](../bintang/068-chisin.md), Pejabat Kementerian Keuangan (terbuka)
+- [069 Belum bernama (Chitai)](../bintang/069-chitai.md), Pensiunan hakim, pernah ditekan di kasus Ambun (terbuka)
+- [071 Belum bernama (Chisui)](../bintang/071-chisui.md), Pustakawan arsip (terbuka)
+- [075 Belum bernama (Chiri)](../bintang/075-chiri.md), Statistikawan (terbuka)
+- [076 Belum bernama (Chisyun)](../bintang/076-chisyun.md), Analis PAAD (terbuka)
+- [085 Intan Permatasari](../bintang/085-chifuku.md), Murid Sekar, strategist pengganti (inti)
 
 ### Simpul
 

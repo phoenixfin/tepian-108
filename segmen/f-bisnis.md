@@ -9,17 +9,17 @@
 
 ### Tokoh
 
-- [016 Kapten Andi Baso](../bintang/016-tensyo-kapten-andi-baso.md), Kapten kapal kargo (terbuka)
-- [018 Bu Hartini](../bintang/018-tenyu-bu-hartini.md), Manajer logistik senior (inti)
-- [027 Stefanus Wijaya](../bintang/027-tenken-stefanus-wijaya.md), Pengacara korporat (terbuka)
-- [030 Usman Daeng Rani](../bintang/030-tenson-usman-daeng-rani.md), Pemasok yang bangkrut karena BPSN (terbuka)
-- [036 Bima Adiwangsa](../bintang/036-tenkou-bima-adiwangsa.md), Pewaris Adiwangsa (inti)
-- [041 Komar](../bintang/041-chiyu-komar.md), Kepala regu buruh pelabuhan (terbuka)
-- [051 Arifin "Lambo" Lamba](../bintang/051-chian-arifin-lambo-lamba.md), Pengemudi speedboat jalur gelap (terbuka)
-- [066 Hendrik Gozali](../bintang/066-chikou-hendrik-gozali.md), Broker dan pedagang (terbuka)
-- [074 Aurelia Tanaya](../bintang/074-chii-aurelia-tanaya.md), Pendiri startup ekspedisi (terbuka)
-- [095 Pak Rustam](../bintang/095-chison-pak-rustam.md), Penjaga gudang pelabuhan (terbuka)
-- [103 Supriadi "Pri"](../bintang/103-chisou-supriadi-pri.md), Sopir truk lintas Kalimantan (terbuka)
+- [016 Belum bernama (Tensyo)](../bintang/016-tensyo.md), Kapten kapal kargo (terbuka)
+- [018 Bu Hartini](../bintang/018-tenyu.md), Manajer logistik senior (inti)
+- [027 Belum bernama (Tenken)](../bintang/027-tenken.md), Pengacara korporat (terbuka)
+- [030 Belum bernama (Tenson)](../bintang/030-tenson.md), Pemasok yang bangkrut karena BPSN (terbuka)
+- [036 Bima Adiwangsa](../bintang/036-tenkou.md), Pewaris Adiwangsa (inti)
+- [041 Belum bernama (Chiyu)](../bintang/041-chiyu.md), Kepala regu buruh pelabuhan (terbuka)
+- [051 Belum bernama (Chian)](../bintang/051-chian.md), Pengemudi speedboat jalur gelap (terbuka)
+- [066 Belum bernama (Chikou)](../bintang/066-chikou.md), Broker dan pedagang (terbuka)
+- [074 Belum bernama (Chii)](../bintang/074-chii.md), Pendiri startup ekspedisi (terbuka)
+- [095 Belum bernama (Chison)](../bintang/095-chison.md), Penjaga gudang pelabuhan (terbuka)
+- [103 Belum bernama (Chisou)](../bintang/103-chisou.md), Sopir truk lintas Kalimantan (terbuka)
 
 ### Simpul
 
