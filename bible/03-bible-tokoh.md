@@ -1,6 +1,6 @@
 # Bible Tokoh
 
-> Catatan: nama 85 tokoh terbuka di bible ini adalah nama kerja penulis inti agar alur mudah dibaca. Di situs dan file tokoh, nama itu sengaja dikosongkan dulu dan menunggu kontributor. Lihat `bible/00-indeks-dan-log-keputusan.md`.
+> Catatan: tokoh yang masih terbuka ditulis sebagai "tokoh NNN" (nomor bintang) karena namanya sengaja dikosongkan dulu dan menunggu kontributor. Nama kerja awal penulis inti disimpan di `nama_awal` pada `data/bintang.json`. Lihat `bible/00-indeks-dan-log-keputusan.md`.
 
 ## 1. Enam segmen
 
@@ -43,7 +43,7 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 ### Jaka "Jeki" Saputra (Tenei, A)
 - 19, Betawi, Tanjung Priok. Putus sekolah, keluarganya hancur karena pinjol.
 - Yang pertama menemukan Damar dan membawanya ke pabrik. Penghubung ke jaringan ojol, pasar, dan anak jalanan.
-- Busur: dari setia tanpa syarat menuju setia dengan mata terbuka. Retak dengan Damar soal Bimo, dicurigai membunuh Bram, dibersihkan namanya di B5.
+- Busur: dari setia tanpa syarat menuju setia dengan mata terbuka. Retak dengan Damar soal Bimo, dicurigai membunuh tokoh 092, dibersihkan namanya di B5.
 - Nasib: selamat, di sisi Damar sampai akhir.
 
 ### Mak Inah, Siti Aminah (Tenman, A)
@@ -110,7 +110,7 @@ Format: asal dan usia, latar, luka atau kebutuhan, busur, relasi kunci, nasib.
 - 63, ajudan yang mengasuh Rafael sejak kecil. Tertangkap karena namanya ikut bocor. Alasan Rafael berkhianat.
 
 ### Kirana Wirasena (Chibi, D)
-- 21, adik Rafael. Yang pertama bertanya soal berkas. Membawa Clara Santoso ke pihak gerakan.
+- 21, adik Rafael. Yang pertama bertanya soal berkas. Membawa tokoh 082 ke pihak gerakan.
 
 ### Gubernur Yusuf Mahdan (Tenki 天貴, D)
 - 58, Kalteng. Dulu ikut meneken konsesi. Membantu sejak B4 karena rasa bersalah dan perhitungan. Ikut mengamankan posisinya di transisi.
@@ -146,32 +146,32 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Tenman 天満 | Mak Inah | 52, Banjar | Pemilik warung, jangkar emosi | 1 | Damar | †B2 |
 | Tenko 天孤 | Yoseph Bria | 58, Belu | Veteran penjaga pabrik | 1 | Damar | Selamat |
 | Tenan 天暗 | Rangga Permana | 27, Garut | Koordinator ojol | 1 | Damar | †B4 |
-| Tensyo 天傷 | Sri Wahyuni | 41, Pekalongan | Buruh tekstil PHK, pemimpin mogok kecil | 2 | Damar | Selamat |
-| Tensoku 天速 | Daniel Lim | 24, Jakarta Utara | Pembalap liar, pengemudi pelarian | 2 | Jeki | Selamat |
-| Tenkoku 天哭 | Ratna Siregar | 55, Medan | Ibu korban salah tangkap, penggerak keluarga korban | 2 | Haris | Selamat |
+| Tensyo 天傷 | Tokoh 014 | 41, Pekalongan | Buruh tekstil PHK, pemimpin mogok kecil | 2 | Damar | Selamat |
+| Tensoku 天速 | Tokoh 020 | 24, Jakarta Utara | Pembalap liar, pengemudi pelarian | 2 | Jeki | Selamat |
+| Tenkoku 天哭 | Tokoh 035 | 55, Medan | Ibu korban salah tangkap, penggerak keluarga korban | 2 | Haris | Selamat |
 | Chibun 地文 | Dr. Haris Mukti | 54, Bukittinggi | Dosen eks aktivis | 1 | Damar | Selamat |
 | Chiyou 地妖 | Laras Pertiwi | 36, Solo | Jurnalis | 1 | Damar | Selamat |
 | Chizen 地然 | Nadia Rahmani | 22, Bandung | Peretas, anak peneliti | 1 | Damar | Selamat |
-| Chirei 地霊 | Fransiska Laoli | 30, Nias | Nakes honorer, dokter utama | 1 | Mak Inah | Selamat |
-| Chizou 地蔵 | Pak Sobari | 60, Betawi | Juru masak dapur umum | 1 | Mak Inah | Selamat |
-| Chiko 地孤 | Tarno | 45, Tegal | Tukang las | 1 | Yoseph | Selamat |
-| Chijiku 地軸 | Fauzi "Ojik" Ramadhan | 30, Depok | Ojol, tangan kanan Rangga | 1 | Rangga | Selamat |
-| Chitatsu 地撻 | Ucil | 17, Jakarta | Anak jalanan, hafal semua jalan tikus | 1 | Jeki | Selamat |
-| Chimei 地明 | Ustaz Fadli | 33, Sumenep | Ustaz musala pabrik | 1 | Mak Inah | Selamat |
-| Chizen 地全 | Wak Darman | 62, Kebumen | Penjaga malam tuna wicara | 1 | Yoseph | Selamat |
-| Chijyu 地獣 | Bidan Lestari | 34, Waingapu | Bidan, medis kedua | 2 | Fransiska | Selamat |
-| Chihi 地飛 | Bu Endang | 57, Cianjur | Pemilik kos murah tempat menampung | 2 | Damar | Selamat |
-| Chiraku 地楽 | Opik | 25, Cianjur | Pengamen gitar | 2 | Jeki | Selamat |
-| Chiin 地隠 | Mira Andini | 28, Karawang | Penyanyi dangdut korban judol | 2 | Opik | Selamat |
-| Chisoku 地速 | Bayu | 20, Jakarta | Kurir dokumen bersepeda | 2 | Daniel | Selamat |
-| Chido 地奴 | Wartini | 38, Indramayu | Mantan pekerja migran korban pinjol | 2 | Damar | Selamat |
-| Chiretsu 地劣 | Yudi Hartono | 35, Jakarta | Penjahit pengguna kursi roda | 2 | Mak Inah | Selamat |
-| Chisyu 地囚 | Bram Saputra | 31, Jakarta | Mantan teman sel Damar | 2 | Damar | Berkhianat, †B4 |
-| Chiken 地健 | Bang Rohim | 40, Betawi | Pelatih silat anak-anak | 2 | Yoseph | Selamat |
-| Chisu 地数 | Nur Aini | 29, Bone | Bendahara koperasi tanpa bunga | 2 | Sri | Selamat |
-| Chitan 地短 | Hendra Kusuma | 47, Bekasi | Wali kota Bekasi | 3 | Damar | Dicopot B4, selamat |
-| Chihi 地僻 | Teguh Santoso | 37, Bekasi | Pegawai kontrak korban Tarum | 3 | Damar | Selamat |
-| Chikou 地狗 | Mbah Kardi | 66, Wonogiri | Pemulung dengan anjing penjaga | 3 | Wak Darman | Selamat |
+| Chirei 地霊 | Tokoh 056 | 30, Nias | Nakes honorer, dokter utama | 1 | Mak Inah | Selamat |
+| Chizou 地蔵 | Tokoh 093 | 60, Betawi | Juru masak dapur umum | 1 | Mak Inah | Selamat |
+| Chiko 地孤 | Tokoh 088 | 45, Tegal | Tukang las | 1 | Yoseph | Selamat |
+| Chijiku 地軸 | Tokoh 052 | 30, Depok | Ojol, tangan kanan Rangga | 1 | Rangga | Selamat |
+| Chitatsu 地撻 | Tokoh 078 | 17, Jakarta | Anak jalanan, hafal semua jalan tikus | 1 | Jeki | Selamat |
+| Chimei 地明 | Tokoh 067 | 33, Sumenep | Ustaz musala pabrik | 1 | Mak Inah | Selamat |
+| Chizen 地全 | Tokoh 089 | 62, Kebumen | Penjaga malam tuna wicara | 1 | Yoseph | Selamat |
+| Chijyu 地獣 | Tokoh 057 | 34, Waingapu | Bidan, medis kedua | 2 | Tokoh 056 | Selamat |
+| Chihi 地飛 | Tokoh 064 | 57, Cianjur | Pemilik kos murah tempat menampung | 2 | Damar | Selamat |
+| Chiraku 地楽 | Tokoh 077 | 25, Cianjur | Pengamen gitar | 2 | Jeki | Selamat |
+| Chiin 地隠 | Tokoh 073 | 28, Karawang | Penyanyi dangdut korban judol | 2 | Tokoh 077 | Selamat |
+| Chisoku 地速 | Tokoh 079 | 20, Jakarta | Kurir dokumen bersepeda | 2 | Tokoh 020 | Selamat |
+| Chido 地奴 | Tokoh 096 | 38, Indramayu | Mantan pekerja migran korban pinjol | 2 | Damar | Selamat |
+| Chiretsu 地劣 | Tokoh 104 | 35, Jakarta | Penjahit pengguna kursi roda | 2 | Mak Inah | Selamat |
+| Chisyu 地囚 | Tokoh 092 | 31, Jakarta | Mantan teman sel Damar | 2 | Damar | Berkhianat, †B4 |
+| Chiken 地健 | Tokoh 105 | 40, Betawi | Pelatih silat anak-anak | 2 | Yoseph | Selamat |
+| Chisu 地数 | Tokoh 100 | 29, Bone | Bendahara koperasi tanpa bunga | 2 | tokoh 014 | Selamat |
+| Chitan 地短 | Tokoh 090 | 47, Bekasi | Wali kota Bekasi | 3 | Damar | Dicopot B4, selamat |
+| Chihi 地僻 | Tokoh 086 | 37, Bekasi | Pegawai kontrak korban Tarum | 3 | Damar | Selamat |
+| Chikou 地狗 | Tokoh 108 | 66, Wonogiri | Pemulung dengan anjing penjaga | 3 | Tokoh 089 | Selamat |
 
 ### Segmen B: Adat (20)
 
@@ -179,24 +179,24 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 |---|---|---|---|---|---|---|
 | Tengou 天罡 | La Ode Sabri | 45, Buton | Pemimpin serikat nikel Tolanggo | 1 | PoV | Selamat |
 | Tenkan 天間 | Bue Ilai | 74, Dayak Ngaju | Tetua, saksi kasus Ambun | 2 | Damar | Selamat |
-| Tenjyu 天寿 | Kapten Rusmadi | 50, Banjar | Kapten tongkang Barito | 2 | Jeki | Selamat |
-| Tenku 天空 | Darsono | 48, Indramayu | Pemimpin nelayan pesisir | 3 | Damar | †B3 |
-| Tenyu 天雄 | Kilat | 25, Dayak Ngaju | Pemuda adat penjaga hutan | 4 | Bue Ilai | Selamat |
-| Tenritsu 天立 | Mardiana | 39, Pulang Pisau | Petani food estate | 4 | Damar | Selamat |
+| Tenjyu 天寿 | Tokoh 026 | 50, Banjar | Kapten tongkang Barito | 2 | Jeki | Selamat |
+| Tenku 天空 | Tokoh 019 | 48, Indramayu | Pemimpin nelayan pesisir | 3 | Damar | †B3 |
+| Tenyu 天雄 | Tokoh 006 | 25, Dayak Ngaju | Pemuda adat penjaga hutan | 4 | Bue Ilai | Selamat |
+| Tenritsu 天立 | Tokoh 015 | 39, Pulang Pisau | Petani food estate | 4 | Damar | Selamat |
 | Tenrou 天牢 | Ambun Tingang | 56, Kotawaringin Timur | Ayah Damar, tahanan politik | 5 | Damar | Bebas |
-| Chikyou 地強 | Sukri | 33, Tolaki | Buruh smelter | 1 | La Ode | Selamat |
-| Chiyu 地勇 | Wa Ode Nurhayati | 30, Buton | Penyiar radio kampung | 2 | La Ode | Selamat |
-| Chiyu 地祐 | Indu Uli | 60, Dayak Ngaju | Tabib | 2 | Bue Ilai | Selamat |
-| Chiku 地空 | Tarmiji | 35, Indramayu | Nelayan | 3 | Darsono | Selamat |
-| Chiman 地満 | Casmini | 44, Indramayu | Koperasi pengolah ikan | 3 | Darsono | Selamat |
-| Chiei 地英 | Irawati | 34, Tolaki | Guru SD desa tambang | 3 | La Ode | Selamat |
-| Chikou 地好 | Ridwan Lakawa | 52, Tolanggo | Bupati Tolanggo | 3 | La Ode | Berkhianat B4, terbuka |
-| Chisou 地走 | Markus Yikwa | 23, Papua Pegunungan | Buruh tambang, dulu penambang rakyat | 3 | La Ode | Selamat |
-| Chiketsu 地傑 | Pak Unting | 58, Dayak Ngaju | Pandai besi mandau | 3 | Bue Ilai | Selamat |
-| Chikatsu 地闊 | Lawing | 27, Kenyah, Kaltim | Pemain sape | 4 | Bue Ilai | Selamat |
-| Chihei 地平 | Suriansyah | 42, Banjar | Petani food estate | 4 | Mardiana | Selamat |
-| Chikaku 地角 | Pak Rabiansyah | 55, Hulu Sungai | Peternak kerbau rawa | 4 | Rusmadi | Selamat |
-| Chimou 地耗 | Elisa Nyahu | 29, Dayak Ngaju | Pemeta wilayah adat | 4 | Bue Ilai | Selamat |
+| Chikyou 地強 | Tokoh 050 | 33, Tolaki | Buruh smelter | 1 | La Ode | Selamat |
+| Chiyu 地勇 | Tokoh 039 | 30, Buton | Penyiar radio kampung | 2 | La Ode | Selamat |
+| Chiyu 地祐 | Tokoh 055 | 60, Dayak Ngaju | Tabib | 2 | Bue Ilai | Selamat |
+| Chiku 地空 | Tokoh 087 | 35, Indramayu | Nelayan | 3 | Tokoh 019 | Selamat |
+| Chiman 地満 | Tokoh 070 | 44, Indramayu | Koperasi pengolah ikan | 3 | Tokoh 019 | Selamat |
+| Chiei 地英 | Tokoh 043 | 34, Tolaki | Guru SD desa tambang | 3 | La Ode | Selamat |
+| Chikou 地好 | Tokoh 062 | 52, Tolanggo | Bupati Tolanggo | 3 | La Ode | Berkhianat B4, terbuka |
+| Chisou 地走 | Tokoh 065 | 23, Papua Pegunungan | Buruh tambang, dulu penambang rakyat | 3 | La Ode | Selamat |
+| Chiketsu 地傑 | Tokoh 040 | 58, Dayak Ngaju | Pandai besi mandau | 3 | Bue Ilai | Selamat |
+| Chikatsu 地闊 | Tokoh 048 | 27, Kenyah, Kaltim | Pemain sape | 4 | Bue Ilai | Selamat |
+| Chihei 地平 | Tokoh 094 | 42, Banjar | Petani food estate | 4 | Tokoh 015 | Selamat |
+| Chikaku 地角 | Tokoh 091 | 55, Hulu Sungai | Peternak kerbau rawa | 4 | Tokoh 026 | Selamat |
+| Chimou 地耗 | Tokoh 106 | 29, Dayak Ngaju | Pemeta wilayah adat | 4 | Bue Ilai | Selamat |
 
 ### Segmen C: Militer (16)
 
@@ -204,20 +204,20 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 |---|---|---|---|---|---|---|
 | Tenmou 天猛 | AKBP Galih Pradana | 38, Magelang | Perwira penulis laporan jujur | 1 | PoV | †B5 |
 | Teni 天異 | Satria Wibisono "Bimo" | 32, Semarang | Intel penyusup, agen ganda | 2 | Damar, tanpa sadar | Terbuka |
-| Chii 地威 | Aiptu Bambang Sutejo | 50, Purworejo | Bawahan setia Galih | 2 | Galih | Selamat |
+| Chii 地威 | Tokoh 042 | 50, Purworejo | Bawahan setia Galih | 2 | Galih | Selamat |
 | Tenyu 天勇 | Letjen (Purn) Benyamin Pattiasina | 67, Ambon | Jenderal purnawirawan, penengah | 3 | Galih | Selamat |
-| Chisatsu 地煞 | Mayor dr. Ratih Kusumawardani | 39, Ternate | Dokter militer | 3 | Galih | Selamat |
-| Chiyu 地幽 | Pelda Sanusi | 52, Bima | Juru masak barak | 3 | Bambang | Selamat |
-| Teni 天威 | Kapten Made Ariawan | 35, Tabanan | Komandan kompi yang menolak perintah | 4 | Galih | Selamat |
-| Tenpai 天敗 | Asep Gunawan | 29, Tasikmalaya | Prajurit pecatan | 4 | Yoseph | Selamat |
-| Chiaku 地悪 | Ferry Gunadi | 40, Jakarta | Wakil ketua FPK yang berbalik | 4 | Bimo | Selamat |
-| Chitou 地闘 | Serma Yosua Rumbiak | 44, Biak | Tukang senjata yang muak | 4 | Made | Selamat |
-| Chikei 地刑 | Iptu Wahyu Ramdani | 34, Sukabumi | Provos | 4 | Benyamin | Selamat |
-| Chibaku 地暴 | Rudi Hartawan | 37, Lampung | Pasukan khusus pecatan | 4 | Benyamin | Selamat |
-| Chisatsu 地察 | Nindya Paramitha | 28, Sorong | Analis intel siber | 4 | Bimo | Selamat |
-| Tensatsu 天殺 | Serka Hasanuddin | 36, Bone | Penembak jitu yang menolak menembak | 5 | Benyamin | Selamat |
-| Chichin 地鎮 | Yohana Kristanti | 45, Kupang | Sipir fasilitas dekat IKN | 5 | Galih | Selamat |
-| Chikyou 地狂 | Bripka Ilham Saputra | 30, Merauke | Operator drone | 5 | Made | Selamat |
+| Chisatsu 地煞 | Tokoh 038 | 39, Ternate | Dokter militer | 3 | Galih | Selamat |
+| Chiyu 地幽 | Tokoh 084 | 52, Bima | Juru masak barak | 3 | Tokoh 042 | Selamat |
+| Teni 天威 | Tokoh 008 | 35, Tabanan | Komandan kompi yang menolak perintah | 4 | Galih | Selamat |
+| Tenpai 天敗 | Tokoh 031 | 29, Tasikmalaya | Prajurit pecatan | 4 | Yoseph | Selamat |
+| Chiaku 地悪 | Tokoh 098 | 40, Jakarta | Wakil ketua FPK yang berbalik | 4 | Bimo | Selamat |
+| Chitou 地闘 | Tokoh 049 | 44, Biak | Tukang senjata yang muak | 4 | Tokoh 008 | Selamat |
+| Chikei 地刑 | Tokoh 102 | 34, Sukabumi | Provos | 4 | Benyamin | Selamat |
+| Chibaku 地暴 | Tokoh 060 | 37, Lampung | Pasukan khusus pecatan | 4 | Benyamin | Selamat |
+| Chisatsu 地察 | Tokoh 097 | 28, Sorong | Analis intel siber | 4 | Bimo | Selamat |
+| Tensatsu 天殺 | Tokoh 022 | 36, Bone | Penembak jitu yang menolak menembak | 5 | Benyamin | Selamat |
+| Chichin 地鎮 | Tokoh 080 | 45, Kupang | Sipir fasilitas dekat IKN | 5 | Galih | Selamat |
+| Chikyou 地狂 | Tokoh 063 | 30, Merauke | Operator drone | 5 | Tokoh 008 | Selamat |
 
 ### Segmen D: Birokrat (16)
 
@@ -226,19 +226,19 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Tenfu 天富 | Rafael Wirasena | 29, Jakarta | Anak pejabat Danusa | 1 | PoV | Penebusan parsial |
 | Chisa 地佐 | Pak Darto | 63, Wonosobo | Ajudan pengasuh Rafael | 1 | Rafael | Ditangkap B3, bebas B5 |
 | Chibi 地微 | Kirana Wirasena | 21, Jakarta | Adik Rafael | 2 | Rafael | Selamat |
-| Chisei 地正 | Benny Kurniawan | 45, Jambi | Akuntan penaksir aset | 2 | Rafael | Selamat |
-| Tenbi 天微 | Meilani Halim | 38, Pontianak | Sekretaris Haryo, pembocor dari dalam | 3 | Rafael | Selamat |
-| Chizoku 地賊 | Gunawan "Kucing" | 33, Jakarta | Pencuri arsip birokrasi | 3 | Meilani | Selamat |
+| Chisei 地正 | Tokoh 047 | 45, Jambi | Akuntan penaksir aset | 2 | Rafael | Selamat |
+| Tenbi 天微 | Tokoh 023 | 38, Pontianak | Sekretaris Haryo, pembocor dari dalam | 3 | Rafael | Selamat |
+| Chizoku 地賊 | Tokoh 107 | 33, Jakarta | Pencuri arsip birokrasi | 3 | Tokoh 023 | Selamat |
 | Tenki 天貴 | Yusuf Mahdan | 58, Palangka Raya | Gubernur Kalteng | 4 | Rafael | Ikut transisi |
-| Tenzai 天罪 | Dodi Prasetyo | 50, Surabaya | Mantan direktur Danusa yang dijadikan kambing hitam, ditahan bersama Ambun | 4 | Rafael | Bebas |
-| Tensui 天慧 | Annisa Rahman | 30, Palu | Staf hukum Otorita | 4 | Rafael | Selamat |
-| Chikyu 地急 | Hartono Wijoyo | 70, Semarang | Notaris tua keluarga | 4 | Rafael | Selamat |
-| Chima 地魔 | Clara Santoso | 35, Jakarta | Konsultan PR yang berbalik | 4 | Kirana | Selamat |
-| Chisyu 地醜 | Theresia Manurung | 48, Tarutung | Pejabat BPSK | 4 | Annisa | Selamat |
-| Chisyu 地周 | Agung Wibowo | 44, Pekanbaru | Pegawai pertanahan, kunci status tanah | 4 | Annisa | Selamat |
-| Chiki 地奇 | Dinda Maharani | 31, Denpasar | Protokoler upacara | 5 | Rafael | Selamat |
-| Chiin 地陰 | Rio Pratama | 27, Jayapura | Staf TI Otorita | 5 | Annisa | Selamat |
-| Chikei 地稽 | Sulastri | 52, Madiun | Auditor internal BPSN | 5 | Rafael | Selamat |
+| Tenzai 天罪 | Tokoh 029 | 50, Surabaya | Mantan direktur Danusa yang dijadikan kambing hitam, ditahan bersama Ambun | 4 | Rafael | Bebas |
+| Tensui 天慧 | Tokoh 033 | 30, Palu | Staf hukum Otorita | 4 | Rafael | Selamat |
+| Chikyu 地急 | Tokoh 059 | 70, Semarang | Notaris tua keluarga | 4 | Rafael | Selamat |
+| Chima 地魔 | Tokoh 082 | 35, Jakarta | Konsultan PR yang berbalik | 4 | Kirana | Selamat |
+| Chisyu 地醜 | Tokoh 099 | 48, Tarutung | Pejabat BPSK | 4 | Tokoh 033 | Selamat |
+| Chisyu 地周 | Tokoh 072 | 44, Pekanbaru | Pegawai pertanahan, kunci status tanah | 4 | Tokoh 033 | Selamat |
+| Chiki 地奇 | Tokoh 044 | 31, Denpasar | Protokoler upacara | 5 | Rafael | Selamat |
+| Chiin 地陰 | Tokoh 101 | 27, Jayapura | Staf TI Otorita | 5 | Tokoh 033 | Selamat |
+| Chikei 地稽 | Tokoh 081 | 52, Madiun | Auditor internal BPSN | 5 | Rafael | Selamat |
 
 ### Segmen E: Akademisi (14)
 
@@ -247,17 +247,17 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Tenki 天機 | Sekar Ayuningtyas | 31, Padang | Strategist | 1 | PoV | †B4 |
 | Chikai 地魁 | Wayan Sudarsana | 40, Gianyar | Ahli logistik | 1 | Sekar | Selamat |
 | Chifuku 地伏 | Intan Permatasari | 24, Palembang | Murid Sekar, strategist pengganti | 1 | Sekar | Selamat |
-| Tenhei 天平 | Boni Tukan | 46, Flores Timur | Auditor BAN | 2 | Sekar | Selamat |
-| Tenbou 天暴 | Rizky Fadhillah | 21, Banda Aceh | Ketua BEM | 2 | Intan | Selamat |
-| Chisui 地遂 | Bu Nining | 59, Lhokseumawe | Pustakawan arsip | 2 | Laras | Selamat |
-| Chiri 地理 | Teddy Kurniadi | 33, Mataram | Statistikawan | 2 | Sekar | Selamat |
-| Chisin 地進 | Lukman Harahap | 47, Padang Sidempuan | Pejabat Kementerian Keuangan | 2 | Sekar | Selamat |
-| Tentai 天退 | Dewi Kartika Lubis | 44, Medan | Pengacara kebijakan | 3 | Haris | Selamat |
-| Tenkyu 天究 | Dimas Arifin | 34, Kupang | Peneliti algoritma | 3 | Sekar | Selamat |
-| Chikai 地会 | Hayati Saleh | 38, Kendari | Penerjemah dan fasilitator bahasa daerah | 3 | Sekar | Selamat |
-| Chisyun 地俊 | Ferdinand Tan | 36, Bengkulu | Analis PAAD | 3 | Boni | Selamat |
-| Chimou 地猛 | Rosalina Wuisan | 55, Minahasa | Komisioner KPHW | 3 | Laras | Selamat |
-| Chitai 地退 | Soemarno Hadi | 71, Gorontalo | Pensiunan hakim, pernah ditekan di kasus Ambun | 4 | Haris | Selamat |
+| Tenhei 天平 | Tokoh 028 | 46, Flores Timur | Auditor BAN | 2 | Sekar | Selamat |
+| Tenbou 天暴 | Tokoh 034 | 21, Banda Aceh | Ketua BEM | 2 | Intan | Selamat |
+| Chisui 地遂 | Tokoh 071 | 59, Lhokseumawe | Pustakawan arsip | 2 | Laras | Selamat |
+| Chiri 地理 | Tokoh 075 | 33, Mataram | Statistikawan | 2 | Sekar | Selamat |
+| Chisin 地進 | Tokoh 068 | 47, Padang Sidempuan | Pejabat Kementerian Keuangan | 2 | Sekar | Selamat |
+| Tentai 天退 | Tokoh 025 | 44, Medan | Pengacara kebijakan | 3 | Haris | Selamat |
+| Tenkyu 天究 | Tokoh 024 | 34, Kupang | Peneliti algoritma | 3 | Sekar | Selamat |
+| Chikai 地会 | Tokoh 053 | 38, Kendari | Penerjemah dan fasilitator bahasa daerah | 3 | Sekar | Selamat |
+| Chisyun 地俊 | Tokoh 076 | 36, Bengkulu | Analis PAAD | 3 | Tokoh 028 | Selamat |
+| Chimou 地猛 | Tokoh 045 | 55, Minahasa | Komisioner KPHW | 3 | Laras | Selamat |
+| Chitai 地退 | Tokoh 069 | 71, Gorontalo | Pensiunan hakim, pernah ditekan di kasus Ambun | 4 | Haris | Selamat |
 
 ### Segmen F: Bisnis (11)
 
@@ -265,15 +265,15 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 |---|---|---|---|---|---|---|
 | Tenkou 天巧 | Bima Adiwangsa | 32, Jakarta | Pewaris Adiwangsa | 1 | PoV parsial | Imunitas |
 | Tenyu 天祐 | Bu Hartini | 50, Surabaya | Manajer logistik senior | 2 | Bima | Selamat |
-| Chiyu 地雄 | Komar | 46, Tanjung Priok | Kepala regu buruh pelabuhan | 3 | Hartini | Selamat |
-| Chison 地損 | Pak Rustam | 55, Makassar | Penjaga gudang pelabuhan | 3 | Komar | Selamat |
-| Chian 地暗 | Arifin "Lambo" Lamba | 29, Bulukumba | Pengemudi speedboat jalur gelap | 3 | Rusmadi | Selamat |
-| Chikou 地巧 | Hendrik Gozali | 48, Batam | Broker dan pedagang | 3 | Bima | Selamat |
-| Tensyo 天捷 | Kapten Andi Baso | 51, Pinrang | Kapten kapal kargo | 4 | Hartini | Selamat |
-| Tenken 天剣 | Stefanus Wijaya | 39, Pangkalpinang | Pengacara korporat | 4 | Bima | Selamat |
-| Tenson 天損 | Usman Daeng Rani | 58, Makassar | Pemasok yang bangkrut karena BPSN | 4 | Bima | Selamat |
-| Chisou 地壮 | Supriadi "Pri" | 41, Banjarmasin | Sopir truk lintas Kalimantan | 4 | Hartini | Selamat |
-| Chii 地異 | Aurelia Tanaya | 30, Manado | Pendiri startup ekspedisi | 5 | Stefanus | Selamat |
+| Chiyu 地雄 | Tokoh 041 | 46, Tanjung Priok | Kepala regu buruh pelabuhan | 3 | Hartini | Selamat |
+| Chison 地損 | Tokoh 095 | 55, Makassar | Penjaga gudang pelabuhan | 3 | Tokoh 041 | Selamat |
+| Chian 地暗 | Tokoh 051 | 29, Bulukumba | Pengemudi speedboat jalur gelap | 3 | Tokoh 026 | Selamat |
+| Chikou 地巧 | Tokoh 066 | 48, Batam | Broker dan pedagang | 3 | Bima | Selamat |
+| Tensyo 天捷 | Tokoh 016 | 51, Pinrang | Kapten kapal kargo | 4 | Hartini | Selamat |
+| Tenken 天剣 | Tokoh 027 | 39, Pangkalpinang | Pengacara korporat | 4 | Bima | Selamat |
+| Tenson 天損 | Tokoh 030 | 58, Makassar | Pemasok yang bangkrut karena BPSN | 4 | Bima | Selamat |
+| Chisou 地壮 | Tokoh 103 | 41, Banjarmasin | Sopir truk lintas Kalimantan | 4 | Hartini | Selamat |
+| Chii 地異 | Tokoh 074 | 30, Manado | Pendiri startup ekspedisi | 5 | Tokoh 027 | Selamat |
 
 ### Rekap per babak
 
@@ -295,7 +295,7 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Gilang Surya Atmaja | Ketua FPK | Naik di B2, jatuh di B3, memicu kemunculan Seno |
 | Rizal Hakim | Kepala staf BPSN | Pengkhianat ganda, dimaafkan Seno karena berguna |
 | Haryo Wirasena | Ayah Rafael | Jatuh di B5 |
-| Hendro Sastrawidjaja | Kepala keluarga agraria | Penekan bupati Ridwan, berunding di akhir |
+| Hendro Sastrawidjaja | Kepala keluarga agraria | Penekan bupati tokoh 062, berunding di akhir |
 | Rudolf Adiwangsa | Ayah Bima | Dikorbankan Seno di B4 |
 | Liliana Hartadi | Kepala Cakra Media | Berpindah haluan demi selamat |
 
@@ -310,19 +310,19 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Bimo | C, A, D | Penyusup di pabrik, agen ganda di B4 |
 | Rafael dan Sekar | D, E | Berkas dan pola angka bersilang. Aliansi informasi rapuh |
 | Rafael dan Bima | D, F | Teman sekelas, saling paham dan saling curiga |
-| Rafael dan Darsono | D, B | Pengkhianatan Rafael menewaskan Darsono. Rafael diadili musyawarah adat |
-| Rusmadi | B, F, A | Lahir di sungai, pernah bekerja untuk armada F, kapalnya jadi markas A |
+| Rafael dan tokoh 019 | D, B | Pengkhianatan Rafael menewaskan tokoh 019. Rafael diadili musyawarah adat |
+| Tokoh 026 | B, F, A | Lahir di sungai, pernah bekerja untuk armada F, kapalnya jadi markas A |
 | Wayan dan Bu Hartini | E, F | Mitra eksekusi 17 Agustus |
 | Haris dan Sekar | A, E | Mentor yang mundur dan murid yang maju |
 | Benyamin dan Yoseph | C, A | Dua veteran, dulu satu kesatuan |
-| Bram dan Damar | A | Teman sel yang berkhianat, luka yang membentuk keputusan akhir Damar |
-| Ambun dan Dodi | B, D | Dua tahanan satu fasilitas, korban dan kambing hitam |
+| Tokoh 092 dan Damar | A | Teman sel yang berkhianat, luka yang membentuk keputusan akhir Damar |
+| Ambun dan tokoh 029 | B, D | Dua tahanan satu fasilitas, korban dan kambing hitam |
 
 **Tingkat konflik antar segmen:** 1 curiga, 2 perselisihan terbuka, 3 darah atau pengkhianatan.
 - A dan B: 1. Sama-sama dikorbankan.
 - D dan E: 1 sampai 2. Berkas bertemu pola angka.
 - E dan B: 2, lalu mereda. B merasa dijadikan data.
-- D dan B: 3 setelah Darsono gugur.
+- D dan B: 3 setelah tokoh 019 gugur.
 - C dan B: 3. Adik La Ode tewas.
 - C dan E: 2. Memo Sekar jadi dasar operasi.
 - F dan B: 3. Tidak pernah tuntas.
@@ -347,10 +347,10 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 
 | Tokoh | Bintang | Bentuk |
 |---|---|---|
-| Ferry Gunadi | Chiaku | Wakil ketua FPK, berbalik setelah Gilang dikorbankan |
-| Clara Santoso | Chima | Konsultan PR, pembelot sunyi |
-| Sulastri | Chikei 地稽 | Auditor internal BPSN, pembelot sunyi |
-| Meilani Halim | Tenbi | Sekretaris Haryo, membocorkan dari dalam |
+| Tokoh 098 | Chiaku | Wakil ketua FPK, berbalik setelah Gilang dikorbankan |
+| Tokoh 082 | Chima | Konsultan PR, pembelot sunyi |
+| Tokoh 081 | Chikei 地稽 | Auditor internal BPSN, pembelot sunyi |
+| Tokoh 023 | Tenbi | Sekretaris Haryo, membocorkan dari dalam |
 | Rizal Hakim | Bukan bintang | Pengkhianat ganda |
 | Komjen Baskoro | Bukan bintang | Bersaksi di akhir |
 
@@ -358,9 +358,9 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 
 | Babak | Tokoh | Bentuk | Akibat |
 |---|---|---|---|
-| 3 | Rafael | Menukar lokasi simpul pesisir demi Pak Darto | Simpul hancur, Darsono gugur |
-| 4 | Ridwan Lakawa | Membuka jalan aparat ke desa tambang | Serikat La Ode terpukul |
-| 4 | Bram Saputra | Diperas lewat kasus lama dan ancaman keluarga, membocorkan posisi tongkang | Sekar gugur |
+| 3 | Rafael | Menukar lokasi simpul pesisir demi Pak Darto | Simpul hancur, tokoh 019 gugur |
+| 4 | Tokoh 062 | Membuka jalan aparat ke desa tambang | Serikat La Ode terpukul |
+| 4 | Tokoh 092 | Diperas lewat kasus lama dan ancaman keluarga, membocorkan posisi tongkang | Sekar gugur |
 
 ## 8. Korban meninggal
 
@@ -369,10 +369,10 @@ Tanda † berarti gugur. Kanji ditulis untuk membedakan romanisasi yang sama.
 | Babak | Tokoh | Sebab |
 |---|---|---|
 | 2 | Mak Inah | Penggerebekan pabrik |
-| 3 | Darsono | Penggerebekan simpul pesisir |
+| 3 | Tokoh 019 | Penggerebekan simpul pesisir |
 | 4 | Rangga | Menyerang konvoi |
 | 4 | Sekar | Serangan tongkang |
-| 4 | Bram | Dibunuh pemerasnya setelah tidak berguna |
+| 4 | Tokoh 092 | Dibunuh pemerasnya setelah tidak berguna |
 | 5 | Galih | Menjadi tameng massa di IKN |
 
-**Bukan bintang:** buruh smelter Tolanggo (B1), mahasiswa kelompok Rizky saat demo UKB (B2), La Ode Arman (B3), rekan jurnalis Laras (B3), warga di blokade sungai (B4).
+**Bukan bintang:** buruh smelter Tolanggo (B1), mahasiswa kelompok tokoh 034 saat demo UKB (B2), La Ode Arman (B3), rekan jurnalis Laras (B3), warga di blokade sungai (B4).

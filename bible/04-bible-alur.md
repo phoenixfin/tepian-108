@@ -8,7 +8,7 @@
 | 2012 | Tanah keluarga Tingang masuk konsesi Sastrawidjaja. Ambun menggugat dan kalah |
 | 2019 | Galih menjadi perwira muda. Sekar mulai kuliah, dibimbing Haris |
 | 2021 | Baskoro menjadi Kapolda Kalteng |
-| 2022 | Ambun ditangkap saat aksi kedua, divonis 10 tahun. Hakim Soemarno ditekan dalam perkara ini |
+| 2022 | Ambun ditangkap saat aksi kedua, divonis 10 tahun. Hakim tokoh 069 ditekan dalam perkara ini |
 | 2025 | Damar kuliah di Jakarta lewat jalur mandiri berutang |
 | 2026 | Ibu Damar meninggal. Damar berhenti menjenguk ayahnya |
 | 2027 | UKB berlaku. Damar putus kuliah di semester lima |
@@ -27,16 +27,16 @@ Di tempat lain: memo Sekar tentang aliran dana janggal diklaim atasannya. Rafael
 Penutup: laporan Galih menjadi cikal bakal Daftar 108, dan nama Damar ada di urutan atas.
 
 ### Babak 2: Tumbuh lalu dipukul (April sampai pertengahan Mei)
-Pabrik membesar lewat korban pinjol, PHK, dan Tarum. Iduladha dirayakan dengan kurban di pabrik. Tekanan naik bertahap: cek izin, audit pajak, label ormas ilegal, lalu koperasi dan bantuan hukum dicap penggalangan dana ilegal. Gilang dan FPK mengobarkan isu jaringan radikal. Bimo menyusup sebagai relawan. Mahasiswa kelompok Rizky tewas saat demo UKB.
+Pabrik membesar lewat korban pinjol, PHK, dan Tarum. Iduladha dirayakan dengan kurban di pabrik. Tekanan naik bertahap: cek izin, audit pajak, label ormas ilegal, lalu koperasi dan bantuan hukum dicap penggalangan dana ilegal. Gilang dan FPK mengobarkan isu jaringan radikal. Bimo menyusup sebagai relawan. Mahasiswa kelompok tokoh 034 tewas saat demo UKB.
 
 Pada 1 Mei pabrik memberi makan massa aksi buruh, dan itu menjadi dalih. Memo Sekar dipakai sebagai dasar operasi. Penggerebekan dilihat dari empat PoV. Mak Inah gugur. Di pemakamannya Damar bersumpah di depan Bue Ilai. Setelahnya Sekar bertemu La Ode lewat Laras, dan bukti Sekar mulai menunjuk keluarga Rafael.
 
 ### Babak 3: Menyebar (Juni)
-A menjadi pengungsi: ke kos Bu Endang, ke simpul Bekasi yang dilindungi wali kota Hendra, dan ke tongkang Kapten Rusmadi. Simpul pesisir Indramayu dibangun bersama Darsono. Dari Jawa dan Kalimantan, kabar dapur umum merambat lewat kurir dan kapal rakyat. Simpul tumbuh di Belawan, Palembang, Kupang, Ambon, Makassar, dan Merauke, kecil dan diam-diam.
+A menjadi pengungsi: ke kos tokoh 064, ke simpul Bekasi yang dilindungi wali kota tokoh 090, dan ke tongkang tokoh 026. Simpul pesisir Indramayu dibangun bersama tokoh 019. Dari Jawa dan Kalimantan, kabar dapur umum merambat lewat kurir dan kapal rakyat. Simpul tumbuh di Belawan, Palembang, Kupang, Ambon, Makassar, dan Merauke, kecil dan diam-diam.
 
-Rantai dosa dan pengkhianatan: pada 1 Juni Nadia membocorkan berkas Rafael, termasuk Daftar 108, tanpa menyamarkan nama. Pak Darto tertangkap. Rizal Hakim menawari Rafael pembebasan Darto ganti lokasi simpul. Rafael menyerahkan lokasi pesisir. Simpul digerebek, Darsono gugur. Rafael datang sendiri ke musyawarah adat B dan diputus berutang.
+Rantai dosa dan pengkhianatan: pada 1 Juni Nadia membocorkan berkas Rafael, termasuk Daftar 108, tanpa menyamarkan nama. Pak Darto tertangkap. Rizal Hakim menawari Rafael pembebasan Darto ganti lokasi simpul. Rafael menyerahkan lokasi pesisir. Simpul digerebek, tokoh 019 gugur. Rafael datang sendiri ke musyawarah adat B dan diputus berutang.
 
-Di Tolanggo, bupati Ridwan diam-diam membantu serikat. Galih dimutasi untuk membubarkan blokade, pasukannya menewaskan La Ode Arman. Benyamin mulai bergerak dari Ambon. A dan D bertemu pertama kali untuk menengahi C.
+Di Tolanggo, bupati tokoh 062 diam-diam membantu serikat. Galih dimutasi untuk membubarkan blokade, pasukannya menewaskan La Ode Arman. Benyamin mulai bergerak dari Ambon. A dan D bertemu pertama kali untuk menengahi C.
 
 Penutup: video kekerasan FPK dibocorkan Cakra Media, Gilang jatuh. Seno tampil di televisi sebagai penyelamat stabilitas dan mendapat wewenang darurat.
 
@@ -45,16 +45,16 @@ Tongkang membawa Damar pulang ke Mentaya. Kampungnya kini kebun. Bue Ilai bersak
 
 Sekar merancang blokade sungai untuk mengadu Sastrawidjaja dengan Adiwangsa. Blokade berhasil sebagian, kemenangan besar pertama. Rangga nekat menyerang konvoi untuk menolong warga yang ditahan, rencana bocor ke publik dengan cara yang salah, Rangga gugur.
 
-Galih menolak menembak dan membelot bersama Made. Damar melindunginya meski A marah. Bimo terbongkar dan dijadikan agen ganda atas saran Sekar. Seno menjadikan Adiwangsa kambing hitam kerusuhan, sehingga Bima berbalik. Di Tolanggo, Ridwan berkhianat. Gubernur Yusuf mulai membantu lewat Rafael.
+Galih menolak menembak dan membelot bersama tokoh 008. Damar melindunginya meski A marah. Bimo terbongkar dan dijadikan agen ganda atas saran Sekar. Seno menjadikan Adiwangsa kambing hitam kerusuhan, sehingga Bima berbalik. Di Tolanggo, tokoh 062 berkhianat. Gubernur Yusuf mulai membantu lewat Rafael.
 
-Sekar menyadari setiap kerusakan selalu menguntungkan BPSN dan menulis semuanya di catatan pribadi. Bram, diperas, membocorkan posisi tongkang. Tongkang diserang, Sekar gugur. Bram ketahuan, dilepas, lalu dibunuh pemerasnya. Rumor menyebar bahwa Jeki pelakunya. Seno memulai represi nasional.
+Sekar menyadari setiap kerusakan selalu menguntungkan BPSN dan menulis semuanya di catatan pribadi. Tokoh 092, diperas, membocorkan posisi tongkang. Tongkang diserang, Sekar gugur. Tokoh 092 ketahuan, dilepas, lalu dibunuh pemerasnya. Rumor menyebar bahwa Jeki pelakunya. Seno memulai represi nasional.
 
 ### Babak 5: Tujuh Belas (1 sampai 17 Agustus)
 Intan membaca catatan Sekar. Rafael, kini teknokrat Otorita, mengonfirmasi dari dalam. Gambarnya utuh: upacara akan menjadi panggung peresmian status tanah adat sebagai milik investor dan negara, Ambun dijadikan sandera agar Damar diam, dan kerusuhan apa pun akan menjadi alasan Seno memimpin status darurat.
 
-Rencana Wayan dan Intan: bukan menyerang upacara, tetapi membuat kerusuhan mustahil. Semua simpul menyala serentak lewat aksi kecil dan damai (pelabuhan, ojol, nelayan, mogok), logistik lewat jalur Bu Hartini, C menjadi tameng yang menahan aparat. Rizal berbalik lagi ke Seno dan rencana nyaris runtuh. Intan menemukan celah terakhir: keputusan status tanah butuh paraf administratif dari Agung dan Annisa yang bisa ditunda Rafael.
+Rencana Wayan dan Intan: bukan menyerang upacara, tetapi membuat kerusuhan mustahil. Semua simpul menyala serentak lewat aksi kecil dan damai (pelabuhan, ojol, nelayan, mogok), logistik lewat jalur Bu Hartini, C menjadi tameng yang menahan aparat. Rizal berbalik lagi ke Seno dan rencana nyaris runtuh. Intan menemukan celah terakhir: keputusan status tanah butuh paraf administratif dari tokoh 072 dan tokoh 033 yang bisa ditunda Rafael.
 
-Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetapi dilepaskan orang lain. La Ode menyaksikannya. Yohana membuka jalan bagi Ambun. Damar berhadapan dengan Baskoro. Ia bisa membalas, dan itu akan memberi Seno alasan darurat. Ia memilih keadilan. Baskoro, yang sadar dirinya juga dipakai, menyerahkan diri lewat Theresia dan bersaksi.
+Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak tokoh 022 tetapi dilepaskan orang lain. La Ode menyaksikannya. Tokoh 080 membuka jalan bagi Ambun. Damar berhadapan dengan Baskoro. Ia bisa membalas, dan itu akan memberi Seno alasan darurat. Ia memilih keadilan. Baskoro, yang sadar dirinya juga dipakai, menyerahkan diri lewat tokoh 099 dan bersaksi.
 
 ## 3. Tabel per PoV
 
@@ -84,23 +84,23 @@ Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetap
 
 | PoV | Buka | Gerak | Tutup | Serpihan Seno |
 |---|---|---|---|---|
-| Damar | Pengungsian ke Bekasi dan tongkang | Membangun simpul, Darsono gugur, kasus Rafael diserahkan ke musyawarah adat | Melihat pola yang sama di tiap simpul | Wajah di televisi saat Gilang jatuh |
-| Sekar | Bekerja diam-diam bersama Boni dan Dimas | Membangun kasus bersama La Ode, berselisih dengan Laras, menentang kebocoran Nadia | Ferdinand menemukan rekening penampung atas nama BPSN | Rekening |
-| Rafael | Berkasnya bocor, Pak Darto ditangkap | Tawaran Rizal, menyerahkan lokasi pesisir | Darsono gugur, datang sendiri ke musyawarah adat | Tawaran lewat Rizal, Seno tak pernah muncul |
+| Damar | Pengungsian ke Bekasi dan tongkang | Membangun simpul, tokoh 019 gugur, kasus Rafael diserahkan ke musyawarah adat | Melihat pola yang sama di tiap simpul | Wajah di televisi saat Gilang jatuh |
+| Sekar | Bekerja diam-diam bersama tokoh 028 dan tokoh 024 | Membangun kasus bersama La Ode, berselisih dengan Laras, menentang kebocoran Nadia | Tokoh 076 menemukan rekening penampung atas nama BPSN | Rekening |
+| Rafael | Berkasnya bocor, Pak Darto ditangkap | Tawaran Rizal, menyerahkan lokasi pesisir | Tokoh 019 gugur, datang sendiri ke musyawarah adat | Tawaran lewat Rizal, Seno tak pernah muncul |
 | Galih | Dimutasi ke Tolanggo | Operasi pembubaran blokade, La Ode Arman tewas | Benyamin mendatanginya, mediasi A dan D | Perintah "tindakan terukur" dari Satgas |
-| La Ode | Ridwan diam-diam menunda izin smelter | Bersekutu dengan Sekar, blokade, adiknya tewas | Menerima mediasi hanya sebagai taktik | Insentif yang terus mengalir |
+| La Ode | Tokoh 062 diam-diam menunda izin smelter | Bersekutu dengan Sekar, blokade, adiknya tewas | Menerima mediasi hanya sebagai taktik | Insentif yang terus mengalir |
 | Bima | Gilang jadi beban keluarga | Sastrawidjaja dan Hartadi menyingkirkan Adiwangsa dari proyek IKN, Hartini meminjamkan gudang | Gilang jatuh, Seno tampil | Telepon kedua yang lebih dingin |
 
 ### Babak 4
 
 | PoV | Buka | Gerak | Tutup | Serpihan Seno |
 |---|---|---|---|---|
-| Damar | Tiba di Mentaya, bertemu Bue Ilai | Blokade, Rangga gugur, melindungi Galih, menyetujui Bimo sebagai agen ganda | Sekar gugur, melepas Bram, rumor tentang Jeki | Represi nasional atas nama BPSN |
+| Damar | Tiba di Mentaya, bertemu Bue Ilai | Blokade, Rangga gugur, melindungi Galih, menyetujui Bimo sebagai agen ganda | Sekar gugur, melepas tokoh 092, rumor tentang Jeki | Represi nasional atas nama BPSN |
 | Sekar | Merancang blokade | Blokade berhasil sebagian, menyadari pola BPSN, menulis catatan | Gugur di tongkang | Untuk pertama kali, nama dan wajah menyatu |
-| Rafael | Ditempatkan sebagai teknokrat Otorita | Bekerja dengan Annisa, membuka akses ke Gubernur Yusuf, bertemu Dodi | Kabar Sekar gugur, berhenti setengah setia | Seno menawarinya jabatan |
-| Galih | Diperintah mengamankan blokade | Menolak menembak, membelot bersama Made | Benyamin dan Yoseph bertemu, C menjadi tameng | Perintah tembak langsung dari Satgas |
-| La Ode | Ridwan berkhianat, aparat masuk desa | B bergerak ke Kalimantan, Kilat dan Mardiana bergabung | B mengucilkan Ridwan, Ridwan dipakai mencap B separatis | Pernyataan BPSN soal "gangguan separatis" |
-| Bima | Perusahaannya dijadikan kambing hitam | Stefanus dan Usman bergabung, Rizal membocorkan jadwal upacara | Menawarkan jalur logistik ke Wayan dengan harga imunitas | Dikorbankan dengan sopan |
+| Rafael | Ditempatkan sebagai teknokrat Otorita | Bekerja dengan tokoh 033, membuka akses ke Gubernur Yusuf, bertemu tokoh 029 | Kabar Sekar gugur, berhenti setengah setia | Seno menawarinya jabatan |
+| Galih | Diperintah mengamankan blokade | Menolak menembak, membelot bersama tokoh 008 | Benyamin dan Yoseph bertemu, C menjadi tameng | Perintah tembak langsung dari Satgas |
+| La Ode | Tokoh 062 berkhianat, aparat masuk desa | B bergerak ke Kalimantan, tokoh 006 dan tokoh 015 bergabung | B mengucilkan tokoh 062, tokoh 062 dipakai mencap B separatis | Pernyataan BPSN soal "gangguan separatis" |
+| Bima | Perusahaannya dijadikan kambing hitam | Tokoh 027 dan tokoh 030 bergabung, Rizal membocorkan jadwal upacara | Menawarkan jalur logistik ke Wayan dengan harga imunitas | Dikorbankan dengan sopan |
 
 ### Babak 5
 
@@ -108,16 +108,16 @@ Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetap
 |---|---|---|---|
 | Damar | Kabar ayah disandera | Menahan diri, menyusun 17 Agustus bersama Wayan dan Intan, nama Jeki dibersihkan | Memilih keadilan, Baskoro bersaksi, Ambun bebas |
 | Intan | Membaca catatan Sekar | Menyusun strategi "kerusuhan mustahil", Rizal berbalik, menemukan celah administratif | Menyaksikan Seno mundur |
-| Rafael | Diminta ayahnya memaraf keputusan status tanah | Menunda keputusan bersama Agung dan Annisa | Bersaksi, ayahnya jatuh |
-| Galih | Memimpin C sebagai tameng | Hasanuddin menolak menembak | Gugur melindungi massa |
+| Rafael | Diminta ayahnya memaraf keputusan status tanah | Menunda keputusan bersama tokoh 072 dan tokoh 033 | Bersaksi, ayahnya jatuh |
+| Galih | Memimpin C sebagai tameng | Tokoh 022 menolak menembak | Gugur melindungi massa |
 | La Ode | Datang ke IKN | Menjaga barisan B | Menyaksikan Galih gugur |
 | Bima | Mengatur jalur logistik | Ditekan keluarganya untuk mundur | Imunitas, B tidak memaafkannya |
 
 ## 4. Narasi per segmen
 
-**A, Utama: rumah yang terus hilang.** Dari bertahan hidup bersama menuju tanggung jawab atas orang lain. B1 dapur umum lahir. B2 rumah hancur, Mak Inah gugur, Damar merasa bersalah karena membuka pintu bagi Bimo. B3 menjadi pengungsi, kebocoran Nadia mengajarkan bahwa niat baik bisa melukai. B4 Rangga gugur, Yoseph sendirian, Damar melindungi Galih, kasus Bram menjadi kegagalan. B5 Damar menolak pembalasan, Jeki tetap di sisinya.
+**A, Utama: rumah yang terus hilang.** Dari bertahan hidup bersama menuju tanggung jawab atas orang lain. B1 dapur umum lahir. B2 rumah hancur, Mak Inah gugur, Damar merasa bersalah karena membuka pintu bagi Bimo. B3 menjadi pengungsi, kebocoran Nadia mengajarkan bahwa niat baik bisa melukai. B4 Rangga gugur, Yoseph sendirian, Damar melindungi Galih, kasus tokoh 092 menjadi kegagalan. B5 Damar menolak pembalasan, Jeki tetap di sisinya.
 
-**B, Adat: sumpah dan tanah.** Dari menolak pusat menuju aliansi tanpa ilusi. B1 menolak santunan. B2 diteror, hadir di pemakaman Mak Inah. B3 Darsono dan La Ode Arman tewas, B hampir keluar dari aliansi. B4 Kalimantan menjadi medan B, Ridwan berkhianat, Bue Ilai bersaksi. B5 menjaga tanah, menerima C dan F hanya sebagai sekutu taktis.
+**B, Adat: sumpah dan tanah.** Dari menolak pusat menuju aliansi tanpa ilusi. B1 menolak santunan. B2 diteror, hadir di pemakaman Mak Inah. B3 tokoh 019 dan La Ode Arman tewas, B hampir keluar dari aliansi. B4 Kalimantan menjadi medan B, tokoh 062 berkhianat, Bue Ilai bersaksi. B5 menjaga tanah, menerima C dan F hanya sebagai sekutu taktis.
 
 **C, Militer: retak dari dalam.** Dari menjalankan perintah menuju menanggung akibatnya. B1 laporan dibingkai ulang. B2 menjalankan penggerebekan. B3 darah di Tolanggo, Benyamin bergerak dari Ambon. B4 Galih membelot, Bimo menjadi agen ganda, Benyamin dan Yoseph bertemu. B5 C menjadi tameng, Galih gugur, Benyamin menjadi penengah transisi.
 
@@ -125,7 +125,7 @@ Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetap
 
 **E, Akademisi: pola dan rasa bersalah.** Dari membaca angka menuju melihat manusia. B1 aliran dana janggal. B2 memo dipakai untuk penggerebekan, bertemu B. B3 kasus dibangun dari Jakarta, Padang, dan Palembang, berselisih soal etika. B4 rencana gagal, Sekar melihat Seno lalu gugur. B5 Intan mewarisi catatan, Wayan menjalankan operasi, Haris keluar dari jalur aman.
 
-**F, Bisnis: persekutuan yang tidak nyaman.** Dari pragmatisme menuju pilihan yang tetap bertarif. B1 bayangan. B2 sadar asetnya digerebek. B3 disingkirkan sekutu, Hartini (jalur kapal Surabaya dan Makassar) dan Rusmadi sudah lebih dulu membantu. B4 dikambinghitamkan, berbalik. B5 memasok jalur dengan harga imunitas.
+**F, Bisnis: persekutuan yang tidak nyaman.** Dari pragmatisme menuju pilihan yang tetap bertarif. B1 bayangan. B2 sadar asetnya digerebek. B3 disingkirkan sekutu, Hartini (jalur kapal Surabaya dan Makassar) dan tokoh 026 sudah lebih dulu membantu. B4 dikambinghitamkan, berbalik. B5 memasok jalur dengan harga imunitas.
 
 ## 5. Urutan bersatu antar segmen
 
@@ -152,15 +152,15 @@ Di IKN, Galih gugur melindungi massa dari tembakan yang ditolak Hasanuddin tetap
 
 | Babak | Pengkhianat | Yang menuntut | Keputusan | Harga |
 |---|---|---|---|---|
-| 3 | Rafael | Keluarga Darsono dan B | Damar menolak menghakimi sendiri, menyerahkan ke musyawarah adat. Putusannya utang: mengembalikan apa yang bisa dikembalikan | Rafael membayar di B5. A menganggap Damar terlalu lunak |
+| 3 | Rafael | Keluarga tokoh 019 dan B | Damar menolak menghakimi sendiri, menyerahkan ke musyawarah adat. Putusannya utang: mengembalikan apa yang bisa dikembalikan | Rafael membayar di B5. A menganggap Damar terlalu lunak |
 | 4 | Bimo | Jeki | Atas saran Sekar, dipakai sebagai agen ganda | Retak pertama Damar dan Jeki. Informasi Bimo menjadi kunci B5 |
-| 4 | Ridwan | La Ode | Damar tidak ikut campur, B mengucilkan dan membongkarnya lewat Laras | Ridwan dipakai rezim mencap B separatis |
-| 4 | Bram | A dan E, setelah Sekar gugur | Ada suara untuk membunuhnya. Damar menolak, Bram dilepas | Bram dibunuh pemerasnya. Rumor menuduh Jeki. Kasus yang gagal |
-| 4 | Ferry Gunadi | B | Diterima dengan syarat bersaksi terbuka | B makin curiga pada Damar |
+| 4 | Tokoh 062 | La Ode | Damar tidak ikut campur, B mengucilkan dan membongkarnya lewat Laras | Tokoh 062 dipakai rezim mencap B separatis |
+| 4 | Tokoh 092 | A dan E, setelah Sekar gugur | Ada suara untuk membunuhnya. Damar menolak, tokoh 092 dilepas | Tokoh 092 dibunuh pemerasnya. Rumor menuduh Jeki. Kasus yang gagal |
+| 4 | Tokoh 098 | B | Diterima dengan syarat bersaksi terbuka | B makin curiga pada Damar |
 | 5 | Rizal Hakim | Wayan | Tidak dibalas, dibiarkan Seno yang mengurus | Seno memaafkannya karena berguna |
 | 5 | Baskoro | Damar dan massa | Diserahkan lewat BPSK agar bisa bersaksi dan tetap hidup | Puncak busur Damar |
 
-Rumor tentang Jeki terbantah di B5 lewat berkas yang dibocorkan Rizal sebelum ia berbalik: pembunuh Bram adalah orang suruhan BPSN.
+Rumor tentang Jeki terbantah di B5 lewat berkas yang dibocorkan Rizal sebelum ia berbalik: pembunuh tokoh 092 adalah orang suruhan BPSN.
 
 **Cara tiap segmen ingin menghukum**
 
@@ -179,8 +179,8 @@ Rumor tentang Jeki terbantah di B5 lewat berkas yang dibocorkan Rizal sebelum ia
 
 **Epilog (September):**
 - Dewan transisi dibentuk. Benyamin menjadi penengah, Gubernur Yusuf ikut di dalamnya.
-- Audit independen Danusa dipimpin BAN, Boni di dalam tim.
-- Moratorium alih fungsi lahan sengketa. Tahanan politik dibebaskan, termasuk Ambun dan Dodi.
+- Audit independen Danusa dipimpin BAN, tokoh 028 di dalam tim.
+- Moratorium alih fungsi lahan sengketa. Tahanan politik dibebaskan, termasuk Ambun dan tokoh 029.
 - Keluarga Wirasena runtuh. Sastrawidjaja dan Hartadi berunding. Adiwangsa selamat lewat imunitas Bima.
 - Seno Prawiradirja mundur "demi stabilitas". Tidak diadili.
 - Gerakan tidak mendapat kursi. Tanah tidak kembali.

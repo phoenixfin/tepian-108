@@ -28,12 +28,12 @@
 | Danusa | Dana investasi negara |
 | Otorita (Otorita Ibu Kota) | Pengelola IKN |
 | Kementerian Perencanaan Pembangunan | Tempat kerja Sekar |
-| Kementerian Keuangan | Tempat kerja Lukman Harahap |
-| Kementerian Agraria dan Pertanahan | Tempat kerja Agung Wibowo, kunci status tanah |
-| Badan Audit Negara (BAN) | Tempat kerja Boni Tukan |
-| Pusat Analisis Arus Dana (PAAD) | Tempat kerja Ferdinand Tan |
-| Komisi Perlindungan Hak Warga (KPHW) | Dipimpin antara lain oleh Rosalina Wuisan |
-| Badan Perlindungan Saksi dan Korban (BPSK) | Tempat kerja Theresia Manurung, kunci kesaksian Baskoro |
+| Kementerian Keuangan | Tempat kerja tokoh 068 |
+| Kementerian Agraria dan Pertanahan | Tempat kerja tokoh 072, kunci status tanah |
+| Badan Audit Negara (BAN) | Tempat kerja tokoh 028 |
+| Pusat Analisis Arus Dana (PAAD) | Tempat kerja tokoh 076 |
+| Komisi Perlindungan Hak Warga (KPHW) | Dipimpin antara lain oleh tokoh 045 |
+| Badan Perlindungan Saksi dan Korban (BPSK) | Tempat kerja tokoh 099, kunci kesaksian Baskoro |
 | Lembaga Riset Nasional (LRN) | Tempat kerja orang tua Nadia |
 | Front Penjaga Kedaulatan (FPK) | Ormas pimpinan Gilang Surya Atmaja |
 | Cakra Media | Grup media keluarga Hartadi |
@@ -43,7 +43,7 @@
 | Keluarga | Bidang | Kepala atau wakil | Hubungan dengan cerita | Nasib |
 |---|---|---|---|---|
 | **Wirasena** | Dana investasi (Danusa) | Haryo Wirasena | Keluarga Rafael (Tenfu). Pemegang berkas Daftar 108 | Runtuh di B5 lewat kesaksian Rafael dan audit |
-| **Sastrawidjaja** | Sawit dan nikel, Grup Bumi Lestari Raya | Hendro Sastrawidjaja | Konsesi di tanah keluarga Damar, smelter Tolanggo, penekan bupati Ridwan | Berunding, kehilangan sebagian konsesi lewat moratorium |
+| **Sastrawidjaja** | Sawit dan nikel, Grup Bumi tokoh 057 Raya | Hendro Sastrawidjaja | Konsesi di tanah keluarga Damar, smelter Tolanggo, penekan bupati tokoh 062 | Berunding, kehilangan sebagian konsesi lewat moratorium |
 | **Adiwangsa** | Properti dan logistik | Rudolf Adiwangsa (ayah Bima) | Pemilik pabrik Cakung, sponsor FPK, mendanai "pengamanan" | Dikorbankan Seno di B4. Bima berbalik, memperoleh imunitas |
 | **Hartadi** | Media dan data, Cakra Media | Liliana Hartadi | Mengendalikan narasi, membocorkan skandal Gilang atas dorongan tak kasat mata | Berunding, berpindah haluan demi selamat |
 
@@ -83,15 +83,15 @@ Aparat bukan pusat kekuasaan. Mereka alat tiap keluarga, dan pada akhirnya alat 
 
 | Tokoh | Jabatan | Sikap |
 |---|---|---|
-| Hendra Kusuma | Wali kota Bekasi | Setia. Menunda penyegelan simpul lewat celah administratif. Dicopot lewat kasus rekayasa di B4, tetap membantu dari luar |
-| Ridwan Lakawa | Bupati Tolanggo, Sultra | Membantu serikat di B3, berkhianat di B4 karena ditekan Sastrawidjaja |
+| Tokoh 090 | Wali kota Bekasi | Setia. Menunda penyegelan simpul lewat celah administratif. Dicopot lewat kasus rekayasa di B4, tetap membantu dari luar |
+| Tokoh 062 | Bupati Tolanggo, Sultra | Membantu serikat di B3, berkhianat di B4 karena ditekan Sastrawidjaja |
 | Yusuf Mahdan | Gubernur Kalteng | Dulu ikut meneken konsesi. Membantu diam-diam sejak B4, ikut menegosiasikan posisinya di transisi |
-| Agung Wibowo | Kementerian Agraria dan Pertanahan | Kunci administratif status tanah adat |
-| Lukman Harahap | Kementerian Keuangan | Mengurus penyertaan modal ke Danusa |
-| Ferdinand Tan | PAAD | Pelacak rekening penampung BPSN |
-| Rosalina Wuisan | Komisioner KPHW | Menyelidiki penggerebekan pabrik |
-| Theresia Manurung | BPSK | Menjamin Baskoro bisa bersaksi dan tetap hidup |
-| Boni Tukan | BAN | Auditor, kelak memimpin audit Danusa |
+| Tokoh 072 | Kementerian Agraria dan Pertanahan | Kunci administratif status tanah adat |
+| Tokoh 068 | Kementerian Keuangan | Mengurus penyertaan modal ke Danusa |
+| Tokoh 076 | PAAD | Pelacak rekening penampung BPSN |
+| Tokoh 045 | Komisioner KPHW | Menyelidiki penggerebekan pabrik |
+| Tokoh 099 | BPSK | Menjamin Baskoro bisa bersaksi dan tetap hidup |
+| Tokoh 028 | BAN | Auditor, kelak memimpin audit Danusa |
 
 ## 8. Wilayah dan simpul
 
@@ -112,7 +112,7 @@ Aparat bukan pusat kekuasaan. Mereka alat tiap keluarga, dan pada akhirnya alat 
 | Simpul Ambon, Maluku | Pelabuhan kecil dan perahu rakyat, pengungsian lewat laut. Rumah Benyamin | 3 sampai 5 | B dan C |
 | Food estate Merauke, Papua Selatan | Tanah adat yang dibuka jadi lumbung negara, bersuara bersama Pulang Pisau | 4 sampai 5 | B |
 | Pelabuhan Paotere, Makassar, Sulawesi Selatan | Jalur kapal antarpulau milik F, gudang dan kurir | 3 sampai 5 | F |
-| Fasilitas penahanan dekat IKN | Tempat Ambun dan Dodi ditahan | 4 sampai 5 | C dan D |
+| Fasilitas penahanan dekat IKN | Tempat Ambun dan tokoh 029 ditahan | 4 sampai 5 | C dan D |
 | IKN dan Teluk Balikpapan | Upacara, Otorita, titik akhir | 5 | Semua |
 
 Rute markas bergerak: Sungai Barito, keluar ke laut, menyusuri pesisir menuju Teluk Balikpapan.
@@ -129,7 +129,7 @@ Rute markas bergerak: Sungai Barito, keluar ke laut, menyusuri pesisir menuju Te
 - A: pabrik, lalu kos, simpul Bekasi, tongkang.
 - B: rumah serikat di Tolanggo, balai adat di Mentaya, koperasi nelayan Indramayu, kapal rakyat Kupang dan Ambon, tanah adat Merauke.
 - C: barak di Magelang, rumah Benyamin di Ambon, lalu fasilitas penahanan.
-- D: rumah keluarga Wirasena, kantor Otorita, rumah notaris Hartono.
+- D: rumah keluarga Wirasena, kantor Otorita, rumah notaris (tokoh 059).
 - E: rumah kerja di tepi Sungai Musi, kampus di Padang, kamar kos Intan. Kantor kementerian dan ruang arsip di Jakarta hanya tempat kerja.
 - F: pelabuhan dan dermaga di Surabaya, Makassar, dan Belawan, gudang Priok, kapal kargo. Kantor Adiwangsa Logistik tetap di Jakarta.
 

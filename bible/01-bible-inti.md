@@ -73,10 +73,10 @@ Pertanyaan yang terus diuji: siapa yang berhak menghukum?
 Prinsip yang tumbuh pelan-pelan dalam diri Damar:
 1. Pengkhianat diadili oleh pihak yang paling dirugikan, bukan oleh yang paling marah.
 2. Gerakan tidak membunuh.
-3. Belas kasihan tanpa perlindungan bisa sama dengan vonis mati (pelajaran dari kasus Bram).
+3. Belas kasihan tanpa perlindungan bisa sama dengan vonis mati (pelajaran dari kasus tokoh 092).
 4. Keadilan membutuhkan saksi yang tetap hidup dan lembaga yang melindunginya.
 
-Prinsip ini diuji (Tenfu, Bimo), dilimpahkan (bupati Sultra), gagal (Bram), lalu dikukuhkan (Baskoro). Rinciannya ada di Bible Alur.
+Prinsip ini diuji (Tenfu, Bimo), dilimpahkan (bupati Sultra), gagal (tokoh 092), lalu dikukuhkan (Baskoro). Rinciannya ada di Bible Alur.
 
 **Kontras dengan Seno:** ia tidak pernah menghukum karena moral, hanya karena kegunaan. Pengkhianat yang berguna dimaafkan, yang tidak berguna disingkirkan diam-diam. Gerakan berbeda bukan karena lebih lunak, tetapi karena hukuman di dalamnya punya alasan selain kegunaan.
 
@@ -109,4 +109,4 @@ Prinsip ini diuji (Tenfu, Bimo), dilimpahkan (bupati Sultra), gagal (Bram), lalu
 - Tiap luka dan keputusan saling menyambung, bukan daftar penderitaan terpisah.
 - Tiap PoV hanya melihat satu potongan Seno sampai Babak 5.
 - Bantuan pihak bisnis selalu punya harga, agar cerita tidak terlalu optimistis.
-- Gerakan juga berdosa (kebocoran Nadia, kasus Bram).
+- Gerakan juga berdosa (kebocoran Nadia, kasus tokoh 092).

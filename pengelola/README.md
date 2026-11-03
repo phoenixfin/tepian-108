@@ -13,7 +13,7 @@ Urutan dari yang paling berdampak:
 - [ ] **Daftar analitik tanpa cookie** (misalnya GoatCounter), lalu isi `analitik` di `docs/config.js` dengan kode situsmu.
 - [ ] **Buka kanal dana** bila siap (Saweria, Trakteer, Ko-fi, GitHub Sponsors), lalu isi `dukungan` di `docs/config.js` dan buka [`.github/FUNDING.yml`](../.github/FUNDING.yml). Lihat prinsip di halaman Dukung.
 - [ ] **Tunjuk penjaga segmen.** Pakai [`rekrut-penjaga-segmen.md`](rekrut-penjaga-segmen.md) sebagai bahan ajakan.
-- [ ] **Periksa bible/.** Folder itu masih memuat nama kerja untuk tokoh yang di situs sengaja dikosongkan. Putuskan: biarkan, samarkan, atau pindahkan.
+- [x] **Bible dibersihkan.** Nama 85 tokoh terbuka di `bible/` sudah diganti "tokoh NNN". Nama kerja awal masih tersimpan di `nama_awal` pada `data/bintang.json` (publik) dan di riwayat git. Hapus field itu bila kamu tidak ingin namanya terlihat, dan simpan salinannya di tempat pribadi.
 - [ ] **Tinjau cerita dan tema contoh** di `cerita/non-kanon/` dan `audio/tema-segmen/`. Keduanya draf dari asisten penulisan, belum kanon.
 - [ ] **Uji prototipe Godot** di `game/godot/`. Kerangka itu belum pernah dijalankan.
 - [ ] **Periksa aturan hak cipta dan merek** bersama ahli hukum sebelum ada dana atau perilisan.

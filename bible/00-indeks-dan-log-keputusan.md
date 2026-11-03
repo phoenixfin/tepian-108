@@ -39,7 +39,7 @@ File ini mencatat status setiap keputusan kanon, sehingga bible lain cukup beris
 | Prinsip keadilan gerakan dan tangga keputusan terhadap pengkhianat | FINAL |
 | Persebaran daerah: asal 19 tokoh dipindah dari Jakarta, Jawa, dan Kalimantan ke daerah lain, dan 6 simpul baru (Belawan, Palembang, Kupang, Ambon, Makassar, Merauke). Plot inti tidak berubah | USULAN |
 | Model kontribusi bersama: pilih segmen, simpul, atau tokoh. Satu tokoh boleh digarap beberapa orang. Terkunci hanya plot utama dan peta simpul besar | USULAN |
-| Nama 85 tokoh terbuka dikosongkan di situs dan file tokoh pada tahap awal. Nama di bible (dan di `nama_awal` pada `data/bintang.json`) adalah nama kerja penulis inti, bukan keputusan | USULAN |
+| Nama 85 tokoh terbuka dikosongkan di situs, file tokoh, dan bible. Di bible mereka ditulis "tokoh NNN". Nama kerja awal disimpan di `nama_awal` pada `data/bintang.json` | USULAN |
 | Ruang kontribusi diperluas: ilustrasi, aset visual, musik, suara, game, riset, penerjemahan, dengan folder `seni/` dan `audio/` | USULAN |
 | Pusat daerah tiap segmen berbeda: A Jakarta, B Kalimantan Tengah, C Maluku dan Jawa Tengah, D IKN dan Jakarta, E Sumatera, F pelabuhan antarpulau | USULAN |
 
@@ -64,16 +64,16 @@ File ini mencatat status setiap keputusan kanon, sehingga bible lain cukup beris
 | Pengganti Tenki: gabungan Chikai (operasi) dan Chifuku (strategi) | FINAL |
 | Tenki (Sekar) gugur akhir B4 | FINAL |
 | Tenmou (Galih) gugur di B5 sebagai tameng | FINAL |
-| Tenman (Mak Inah) gugur di B2, Tenku (Darsono) gugur di B3 | FINAL |
+| Tenman (Mak Inah) gugur di B2, Tenku (tokoh 019) gugur di B3 | FINAL |
 | Pengkhianatan pertama: Tenfu di B3, dipicu kebocoran Chizen | FINAL |
 | Teni (Bimo) menjadi agen ganda di B4 | FINAL |
-| Pengkhianat B4: bupati Sultra dan Chisyu (Bram), Bram terbunuh | FINAL |
+| Pengkhianat B4: bupati Sultra dan Chisyu (tokoh 092), tokoh 092 terbunuh | FINAL |
 | Ayah Damar: hidup, dipenjara, sandera di B5, bintang Tenrou | FINAL |
 | Nasib Tenfu: penebusan parsial | FINAL |
 | Pejabat lokal dan orang lembaga sebagai bintang (wali kota Bekasi, bupati Sultra, gubernur Kalteng, lima pejabat lembaga) | FINAL |
 | Nama seluruh 108 tokoh | USULAN |
 | Nasib Bimo setelah B5 | TERBUKA |
-| Nasib Ridwan (bupati) setelah dikucilkan | TERBUKA |
+| Nasib tokoh 062 (bupati) setelah dikucilkan | TERBUKA |
 
 ### Dunia dan alur
 
@@ -91,7 +91,7 @@ File ini mencatat status setiap keputusan kanon, sehingga bible lain cukup beris
 
 ## Hal yang masih terbuka
 
-1. Nasib Bimo dan Ridwan sesudah Babak 5.
+1. Nasib Bimo dan tokoh 062 sesudah Babak 5.
 2. Rincian operasional 17 Agustus (titik aksi tiap simpul, jam, jalur logistik).
 3. Pembagian bab: jumlah bab per babak dan urutan PoV per bab.
 4. Adegan pembuka Babak 1 per PoV dalam bentuk outline bab.
